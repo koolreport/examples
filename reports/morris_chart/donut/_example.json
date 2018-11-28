@@ -1,0 +1,12 @@
+{
+    "title":"DonutChart",
+    "description":"This example shows how to draw beautiful DonutChart",
+    "keywords":[["charts"],["morris_chart"],"php donut chart"],
+    "breadcrumb":{"Morris Chart":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

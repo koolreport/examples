@@ -1,0 +1,1 @@
+The above example shows you how to create `Bar` chart using Morris Chart package.

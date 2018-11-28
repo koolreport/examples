@@ -1,0 +1,3 @@
+The example demonstrates usage of `Custom` process. The Custom process take a function as argument. In this custom function, you can do anything with the data row before return it to data stream.
+
+__Note:__ If you don't return row in custom function, the process will dismiss that row from data stream. You can use this feature as a filtering process if you want to allow some rows and remove others base on your conditions.

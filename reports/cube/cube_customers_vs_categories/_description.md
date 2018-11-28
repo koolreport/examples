@@ -1,0 +1,5 @@
+The report demonstrate the use of `Cube` package to analyze data. The raw data is pulled from CSV file containing customer name, product category and the sale amount. Those data after is piped through `Cube` process will be turn to 2 dimension table in which row will be group by customer name, column is grouped by product category and data cell is the amount that customer purchased a specific product category.
+
+Cube can be considered a simple version of Pivot Tables that you see in Excel or any Speadsheet application. The different between Cube and Pivot is the number of dimension they handle. While Pivot can handle more than 2 dimension and support hierachial demension, `Cube` support only 2 dimensions and single level of dimension. Although it sounds simple but according to our observation, 70% cases `Cube` is enough. 
+
+Because of the simplicity, the power of `Cube` process lie on its speed to handle data compared to Pivot.

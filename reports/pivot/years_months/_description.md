@@ -1,0 +1,1 @@
+The report use Pivot process and widget to contruct a sale report summarizing sale report by years and months.

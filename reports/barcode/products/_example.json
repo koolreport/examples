@@ -1,0 +1,13 @@
+{
+    "title":"Products With Barcode",
+    "description":"Product With Barcode",
+    "keywords":[["barcode"]],
+    "breadcrumb":{"BarCode":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "Products.php":["php","Products.php"],
+        "Products.view.php":["html","Products.view.php"],
+        "products.csv":["csv","../../../databases/products.csv","|"]
+    }
+}

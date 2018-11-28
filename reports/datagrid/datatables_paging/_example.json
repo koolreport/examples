@@ -1,0 +1,12 @@
+{
+    "title":"DataTables Paging",
+    "description":"How to turn on paging feature of DataTables",
+    "keywords":[["datagrid"],"datatables paging"],
+    "breadcrumb":{"DataGrid":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

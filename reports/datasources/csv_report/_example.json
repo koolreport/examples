@@ -1,0 +1,13 @@
+{
+    "title":"CSV Report",
+    "description":"This report show how to build report from CSV data",
+    "keywords":[["general"],"csv charts","csv graphs"],
+    "breadcrumb":{"DataSources":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "SakilaRental.php":["php","SakilaRental.php"],
+        "SakilaRental.view.php":["html","SakilaRental.view.php"],
+        "sakila_rental.csv":["csv","sakila_rental.csv"]
+    }
+}

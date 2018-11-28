@@ -1,0 +1,13 @@
+{
+    "title":"Oracle Report",
+    "description":"This report show how to build report from Oracle data",
+    "keywords":[["general"],"oracle charts","oracle graphs","oracle report"],
+    "breadcrumb":{"DataSources":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "SakilaRental.php":["php","_SakilaRental.php.txt"],
+        "SakilaRental.view.php":["html","SakilaRental.view.php"],
+        "Sample data":["db","sakila","SELECT payment_date,amount FROM payment limit 20"]
+    }
+}

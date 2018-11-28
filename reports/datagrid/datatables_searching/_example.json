@@ -1,0 +1,12 @@
+{
+    "title":"DataTables Searching",
+    "description":"The example show how to turn on searching feature of DataTables",
+    "keywords":[["datagrid"],"datatables searching"],
+    "breadcrumb":{"DataGrid":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

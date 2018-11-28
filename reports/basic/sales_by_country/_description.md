@@ -1,0 +1,1 @@
+The report show total sales on each country. All sale data pulled from databases will be grouped by country and sum the sale for each. Later, the report use `GeoChart` to better visualize total sales on each country as you can see above. Detail sale amount is put under `Table` below. The table supports paging which is very suitable when we have a long list of data.

@@ -1,0 +1,13 @@
+{
+    "title":"Pivot By Years &amp; Months",
+    "description":"The report shows how to build pivot table by years and months",
+    "keywords":[["pivot"]],
+    "breadcrumb":{"Pivot":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "YearsMonths.php":["php","YearsMonths.php"],
+        "YearsMonths.view.php":["html","YearsMonths.view.php"],
+        "Sample Data":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

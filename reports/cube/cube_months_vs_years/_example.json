@@ -1,0 +1,13 @@
+{
+    "title":"Sample",
+    "description":"Sample report",
+    "keywords":[["cube"],["googlecharts"]],
+    "breadcrumb":{"Cube":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "SalesMonthsYears.php":["php","SalesMonthsYears.php"],
+        "SalesMonthsYears.view.php":["html","SalesMonthsYears.view.php"],
+        "data.csv":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

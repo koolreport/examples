@@ -1,0 +1,38 @@
+<?php
+
+class CitySale extends \koolreport\KoolReport
+{
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "automaker"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            )
+        );
+    }
+    function setup()
+    {
+        $this->src("automaker")->query("
+            SELECT city, sum(amount) as sale_amount
+            FROM
+                payments
+            JOIN
+                customers
+            ON
+                customers.customerNumber = payments.customerNumber
+                AND
+                country=:country
+            GROUP BY 
+                city
+        ")
+        ->params(array(
+            ":country"=>$this->params["country"]
+        ))
+        ->pipe($this->dataStore("city_sale"));
+    }
+}

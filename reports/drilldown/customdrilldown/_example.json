@@ -1,0 +1,16 @@
+{
+    "title":"Custom Drill Down",
+    "description":"The example shows how to construct custom drill down for your report",
+    "keywords":[["drilldown"]],
+    "breadcrumb":{"DrillDown":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "CountrySale.php":["php","_CountrySale.php.txt"],
+        "CountrySale.view.php":["html","CountrySale.view.php"],
+        "CitySale.php":["php","_CitySale.php.txt"],
+        "CitySale.view.php":["html","CitySale.view.php"]
+    }
+}

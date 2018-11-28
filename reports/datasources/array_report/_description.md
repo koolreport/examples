@@ -1,0 +1,1 @@
+KoolReport has built in array datasource which is able to get data from array to produce report. In above example we create an report which will take array as parameter. The data from array will be sent to report to process and produce result.

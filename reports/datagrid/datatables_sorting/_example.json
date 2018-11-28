@@ -1,0 +1,12 @@
+{
+    "title":"DataTables Sorting",
+    "description":"How to turn on sorting feature of DataTables",
+    "keywords":[["datagrid"],"datatables sorting","datatables order"],
+    "breadcrumb":{"DataGrid":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

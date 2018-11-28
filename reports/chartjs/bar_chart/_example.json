@@ -1,0 +1,12 @@
+{
+    "title":"BarChart",
+    "description":"The example show how to use BarChart of ChartJs",
+    "keywords":[["charts"],["chartjs"],"php line chart"],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

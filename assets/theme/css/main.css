@@ -1,0 +1,51 @@
+body {
+    padding-top: 6rem;
+}
+.section-header
+{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+footer {
+    margin-top:5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+    color:#aaa;
+}
+
+footer a,
+footer a:hover
+{
+    color:#fff;
+}
+
+
+a.btn-get-koolreort-pro
+{
+    color:#28a745 !important;
+}
+
+a.btn-get-koolreort-pro:hover
+{
+    color:#fff !important;
+}
+
+.example-group ul
+{
+    margin-left:25px;
+}
+
+.report-content
+{
+    background-color:#fff;
+}
+
+h5 i
+{
+    margin-right:5px;
+}

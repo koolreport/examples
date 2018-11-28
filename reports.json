@@ -1,0 +1,158 @@
+{
+    "CORE":{
+        "Introduction":{
+            "Sales By Country":"/reports/basic/sales_by_country/",
+            "Sales By Customer":"/reports/basic/sales_by_customer/" 
+        },
+        "<i class='fa fa-database'></i>DataSources":{
+            "MySQL":"/reports/datasources/mysql_report/",
+            "CSV":"/reports/datasources/csv_report/",
+            "Excel":"/reports/datasources/excel_report/",
+            "SQLServer":"/reports/datasources/sqlserver_report/",
+            "PostgreSQL":"/reports/datasources/postgresql_report/",
+            "Oracle":"/reports/datasources/oracle_report/",
+            "Array":"/reports/datasources/array_report/"
+        },
+        "<i class='fa fa-gears'></i>Processes":{
+            "Filter":"/reports/processes/filter/",
+            "Group":"/reports/processes/group/",
+            "Sort":"/reports/processes/sort/",
+            "Limit":"/reports/processes/limit/",
+            "Join":"/reports/processes/join/",
+            "CopyColumn":"/reports/processes/copycolumn/",
+            "Custom":"/reports/processes/custom/",
+            "TimeBucket":"/reports/processes/timebucket/",
+            "NumberBucket":"/reports/processes/numberbucket/",
+            "NumberRange":"/reports/processes/numberrange/",
+            "DateTimeFormat":"/reports/processes/datetimeformat/",
+            "CalculatedColumn":"/reports/processes/calculatedcolumn/",
+            "AccumulativeColumn":"/reports/processes/accumulativecolumn/",
+            "AggregatedColumn":"/reports/processes/aggregatedcolumn/",
+            "Transpose": "/reports/processes/transpose/",
+            "Advanced": {
+                "Columns Tranpose":"/reports/advanced_processes/columns_transpose/",
+                "Map":"/reports/advanced_processes/map/",
+                "Stateful Map":"/reports/advanced_processes/stateful_map/" 
+            }
+        },
+        "<i class='fa fa-archive'></i>DataStores":{
+            "Aggregated Methods":"/reports/datastores/aggregated_methods/",
+            "Filter Methods":"/reports/datastores/filter_methods/",
+            "Join Method":"/reports/datastores/join/" 
+        },
+        "<i class='fa fa-table'></i>Table":{
+            "Minimum Settings":"/reports/koolphp_table/minimum_settings/",
+            "Column Align":"/reports/koolphp_table/column_align/",
+            "Footer":"/reports/koolphp_table/footer/",
+            "Header":"/reports/koolphp_table/header/",
+            "Format Value":"/reports/koolphp_table/format_value/",
+            "CSS Class":"/reports/koolphp_table/css_class/",
+            "Paging":"/reports/koolphp_table/paging/",
+            "Remove Duplicate":"/reports/koolphp_table/remove_duplicate/",
+            "Row Group":"/reports/koolphp_table/row_group/"
+        },
+        "<i class='fa fa-pie-chart'></i>Google Charts":{
+            "Column Chart":"/reports/google_charts/column_chart/",
+            "Bar Chart":"/reports/google_charts/bar_chart/",
+            "Pie Chart":"/reports/google_charts/pie_chart/",
+            "Donut Chart":"/reports/google_charts/donut_chart/",
+            "Area Chart":"/reports/google_charts/area_chart/",
+            "Stepped Area Chart":"/reports/google_charts/stepped_area_chart/",
+            "Line Chart":"/reports/google_charts/line_chart/",
+            "Geo Chart":"/reports/google_charts/geo_chart/",
+            "Gauge Chart":"/reports/google_charts/gauge_chart/",
+            "Histogram Chart":"/reports/google_charts/histogram_chart/",
+            "Timeline Chart":"/reports/google_charts/timeline_chart/",
+            "Combo Chart":"/reports/google_charts/combo_chart/",
+            "Pareto Chart":"/reports/google_charts/pareto_chart/",
+            "Sankey":"/reports/google_charts/sankey/",
+            "Color Scheme":"/reports/google_charts/color_scheme/"
+        }
+    },
+    "EXTENDED PACKAGES":{
+        "<i class='fa fa-cube'></i>Cube":{
+            "Customers vs Categories":"/reports/cube/cube_customers_vs_categories/",
+            "Products vs Quarters":"/reports/cube/cube_products_vs_quarters/",
+            "Years vs Months":"/reports/cube/cube_months_vs_years/",
+            "SuperCube Sales":"/reports/cube/supercube_sales/"
+        },
+        "<i class='fa fa-barcode'></i>Barcode":{
+            "Products with Barcode":"/reports/barcode/products/",
+            "Type of Barcodes":"/reports/barcode/barcode_types/",
+            "QRCode":"/reports/barcode/qrcode/"
+        },
+        "<i class='icon-clock'></i>Cache":{
+            "File Cache":"/reports/cache/filecache/",
+            "Apc Cache":"/reports/cache/apccache/",
+            "Mem Cache":"/reports/cache/memcache/"
+        },
+        "<i class='fa fa-line-chart'></i>ChartJs":{
+            "Column Chart":"/reports/chartjs/column_chart/",
+            "Bar Chart":"/reports/chartjs/bar_chart/",
+            "Area Chart":"/reports/chartjs/area_chart/",
+            "Line Chart":"/reports/chartjs/line_chart/",
+            "Pie Chart":"/reports/chartjs/pie_chart/",
+            "Donut Chart":"/reports/chartjs/donut_chart/",
+            "Polar Chart":"/reports/chartjs/polar_chart/",
+            "Radar Chart":"/reports/chartjs/radar_chart/",
+            "Scatter Chart":"/reports/chartjs/scatter_chart/",
+            "Bubble Chart":"/reports/chartjs/bubble_chart/",
+            "Combo Chart":"/reports/chartjs/combo_chart/",
+            "Color Scheme":"/reports/chartjs/color_scheme/"
+        },
+        "<i class='fa fa-th'></i>DataGrid":{
+            "DataTables":"/reports/datagrid/datatables/",
+            "Table Paging":"/reports/datagrid/datatables_paging/",
+            "Table Searching":"/reports/datagrid/datatables_searching/",
+            "Table Sorting":"/reports/datagrid/datatables_sorting/",
+            "Table Column Reorder":"/reports/datagrid/datatables_colreorder/",
+            "Server Processing":"/reports/datagrid/server_processing/"
+        },
+        "<i class='fa fa-file-pdf-o'></i>Export":{
+            "PDF Exporting":"/reports/export/sakila_rental/"
+        },
+        "<i class='fa fa-sign-in'></i>Inputs":{
+            "Controls":"/reports/inputs/intro/",
+            "Order List":"/reports/inputs/order_list/"
+        },
+        "<i class='icon-arrow-down-circle'></i>DrillDown":{
+            "DrillDown":"/reports/drilldown/drilldown/",
+            "LegacyDrillDown":"/reports/drilldown/legacydrilldown/",
+            "CustomDrillDown":"/reports/drilldown/customdrilldown/",
+            "MultiView":"/reports/drilldown/multiview/"
+        },
+        "<i class='fa fa-bar-chart'></i>Morris Chart":{
+            "Area Chart":"/reports/morris_chart/area/",
+            "Bar Chart":"/reports/morris_chart/bar/",
+            "Line Chart":"/reports/morris_chart/line/",
+            "Donut Chart":"/reports/morris_chart/donut/"
+        },
+        "<i class='fa fa-bar-chart'></i>QueryBuilder":{
+            "Get Started":"/reports/querybuilder/basic/",
+            "Join Query":"/reports/querybuilder/join_query/"
+        },        
+        "<i class='fa fa-cubes'></i>Pivot":{
+            "Customers vs Products":"/reports/pivot/customers_categories_products/",
+            "Years vs Months":"/reports/pivot/years_months/",
+            "Customers vs Times":"/reports/pivot/years_months_customers_categories/",
+            "Pivot Extract":"/reports/pivot/pivot_extract/",
+            "PivotMaxtrix":"/reports/pivot/pivotmatrix/",
+            "Bun Template":"/reports/pivot/bun_template/",
+            "Widget Options":"/reports/pivot/widget_options/",
+            "Widget Map":"/reports/pivot/widget_map/",
+            "Widget Field Order":"/reports/pivot/widget_field_order/"
+        },
+        "<i class='fa fa-area-chart'></i>Sparklines":{
+            "Introduction":"/reports/sparklines/introduction/",
+            "Sparklines in DataTables":"/reports/sparklines/datatables_sparklines/"
+        }
+    },
+    "ADVANCED EXAMPLES":{
+        "Advanced":{
+            "Input &amp; Export":"/reports/advanced/input_and_export/"
+        },
+        "SubReport":{
+            "Ajax Loading":"/reports/others/subreport_demo/"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<?php
+
+use \koolreport\processes\TimeBucket;
+use \koolreport\processes\Group;
+
+class MyReport extends \koolreport\KoolReport
+{
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "automaker"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            )
+        );
+    }
+    function setup()
+    {
+        $this->src("automaker")->query("
+            select paymentDate, amount from payments
+        ")
+        ->pipe(new TimeBucket(array(
+            "paymentDate"=>"month",
+        )))
+        ->pipe(new Group(array(
+            "by"=>"paymentDate",
+            "sum"=>"amount",
+        )))
+        ->pipe($this->dataStore("sale"));
+
+    }
+}

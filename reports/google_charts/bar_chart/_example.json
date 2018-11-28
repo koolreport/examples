@@ -1,0 +1,12 @@
+{
+    "title":"BarChart",
+    "description":"The example shows how to use BarChart",
+    "keywords":[["charts"],["googlecharts"],"google bar chart"],
+    "breadcrumb":{"Google Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

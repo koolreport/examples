@@ -1,0 +1,13 @@
+{
+    "title":"DrillDown",
+    "description":"The example shows how to use DrillDown widget to create a drill-down report",
+    "keywords":[["drilldown"]],
+    "breadcrumb":{"DrillDown":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "Sample data":["db","automaker","SELECT amount, paymentDate FROM payments"]
+    }
+}

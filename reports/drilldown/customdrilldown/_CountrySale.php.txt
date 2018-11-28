@@ -1,0 +1,32 @@
+<?php
+
+class CountrySale extends \koolreport\KoolReport
+{
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "automaker"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            )
+        );
+    }
+    function setup()
+    {
+        $this->src("automaker")->query("
+            SELECT country, sum(amount) as sale_amount
+            FROM
+                payments
+            JOIN
+                customers
+            ON
+                customers.customerNumber = payments.customerNumber
+            GROUP BY country
+        ")
+        ->pipe($this->dataStore("country_sale"));
+    }
+}

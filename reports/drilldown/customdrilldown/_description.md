@@ -1,0 +1,5 @@
+Drill down is another most used type of report in which data is summarized in a overall level and only going to detail when needed. For example in above example, we summarize data by country then click into country, we will get detail sale information on states in that country.
+
+The example uses `CustomDrillDown` widget. Compared to `DrillDown` widget, the `CustomDrillDown` is more complexed and more difficulty to use. However, it is very powerful which allows you to customize everything. If in the DrillDown, we have to stick with a common SQL statement then in the CustomDrillDown we can have custom SQL statement per level. This also make drill-down report run faster in CustomDrillDown. Furthermore, in DrillDown widget there is only one visualization widget per levels. Not happened in `CustomDrillDown` since we can define different view with more than one widgets in each level. Basically, each level of `CustomDrillDown` is a full functional report defned as a subreport within a main one.
+
+More informaiton of DrillDown package you may find [here](https://www.koolreport.com/packages/drilldown).

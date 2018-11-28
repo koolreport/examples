@@ -1,0 +1,12 @@
+{
+    "title":"Getting started with QueryBuilder",
+    "description":"Start using querybuilder to generate precise SQL for your report",
+    "keywords":[["querybuilder"]],
+    "breadcrumb":{"QueryBuilder":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

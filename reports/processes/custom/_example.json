@@ -1,0 +1,12 @@
+{
+    "title":"Custom Process",
+    "description":"The example show you how to use the Custom process",
+    "keywords":[["general"],"custom column"],
+    "breadcrumb":{"Processes":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

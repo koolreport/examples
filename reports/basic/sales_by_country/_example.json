@@ -1,0 +1,11 @@
+{
+    "title":"Sale By Country",
+    "description":"The report show total sales on each countries",
+    "keywords":[],
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "SalesByCountry.php":["php","_SalesByCountry.php.txt"],
+        "SalesByCountry.view.php":["html","SalesByCountry.view.php"]
+    }
+}

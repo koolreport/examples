@@ -1,0 +1,45 @@
+<?php
+//Step 1: Load KoolReport
+require_once "../../../../koolreport/autoload.php";
+
+use \koolreport\querybuilder\DB;
+
+//Step 2: Creating Report class
+class MyReport extends \koolreport\KoolReport
+{
+
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "automaker"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            )
+        ); 
+    }    
+    protected function setup()
+    {
+        $this->src('automaker')
+        ->query(
+            DB::table("orders")
+            ->join("orderdetails",'orders.orderNumber','=','orderdetails.orderNumber')
+            ->join("products",'orderdetails.productCode','=','products.productCode')
+            ->join("customers",'orders.customerNumber','=','customers.customerNumber')
+            ->select(
+                'orders.orderNumber',
+                'customers.customerName',
+                'products.productName',
+                'orderdetails.quantityOrdered',
+                'orderdetails.priceEach',
+                'orders.orderDate'
+            )
+            ->take(100)
+        )
+        ->pipe($this->dataStore("orders"));
+    } 
+
+}

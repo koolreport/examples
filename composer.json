@@ -1,0 +1,22 @@
+{
+    "name": "koolphp/koolreport-examples",
+    "version":"1.0.0",
+    "description": "Examples for KoolReport Framework.",
+    "keywords": ["KoolReport php example", "php reporting framework","php reporting tools","data processing","data visualization","charts and graphs"],
+    "homepage": "https://www.koolreport.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KoolPHP Inc",
+            "homepage": "https://www.koolphp.net"
+        }
+    ], 
+    "require":
+    {
+        "php":">=5.4"
+    },
+    "require-dev": {
+        "koolphp/koolreport": "^3"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title":"Histogram",
+    "description":"The example shows how to use Histogram",
+    "keywords":[["charts"],["googlecharts"],"google histogram"],
+    "breadcrumb":{"Google Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

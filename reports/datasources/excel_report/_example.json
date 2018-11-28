@@ -1,0 +1,13 @@
+{
+    "title":"Microsoft Excel As Datasource",
+    "description":"The example shows how to load data from Excel",
+    "keywords":[["general"],"excel charts","excel graphs"],
+    "breadcrumb":{"Datasources":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "Sample data":["xls","../../../databases/customer_product_dollarsales2.xlsx"]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title":"Table Row Group",
+    "description":"The example shows how to setup table row grouping with Table widgets",
+    "keywords":[["general"],["datagrid"]],
+    "breadcrumb":{"Table":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "Sample data":["csv","../../../databases/payments.csv"]
+    }
+}

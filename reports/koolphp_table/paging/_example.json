@@ -1,0 +1,12 @@
+{
+    "title":"Paging Of KoolPHP Table",
+    "description":"How to set paging in KoolPHP Table",
+    "keywords":[["general"],"table paging"],
+    "breadcrumb":{"Table":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

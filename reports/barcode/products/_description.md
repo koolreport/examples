@@ -1,0 +1,3 @@
+KoolReport is not only used for data report, it can be used to create beautiful product catalog as you see above. With the help from BarCode package, each product has its own barcode attached. It is very useful when you want to integrate products catelog with checkout machine supported barcode reader. BarCode package supports all most all types of barcodes available.
+
+Beside,This package also support QRCode generation. You may see the QRCode appeared on the top right of the product catelogs. You may try to use your smart phone to read what it shows.

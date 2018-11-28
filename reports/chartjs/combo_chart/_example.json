@@ -1,0 +1,12 @@
+{
+    "title":"ComboChart",
+    "description":"This example show how to build beautiful ComboChart",
+    "keywords":[["charts"],["chartjs"],"php area chart"],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

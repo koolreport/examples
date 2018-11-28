@@ -1,0 +1,35 @@
+<?php
+
+class ListOrders extends \koolreport\KoolReport
+{
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "automaker"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            ),
+        );
+    }
+
+    function setup()
+    {
+        if(isset($this->params["customerNumber"]))
+        {
+            $this->src("automaker")
+            ->query("
+                SELECT orderNumber,orderDate,status FROM orders
+                WHERE
+                customerNumber = :customerNumber
+            ")
+            ->params(array(
+                ":customerNumber"=>$this->params["customerNumber"],
+            ))
+            ->pipe($this->dataStore("orders"));
+        }
+    }
+}

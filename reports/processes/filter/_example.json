@@ -1,0 +1,12 @@
+{
+    "title":"Filter Process",
+    "description":"The example show you how to use the Filter process",
+    "keywords":[["general"],"data filter"],
+    "breadcrumb":{"Processes":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

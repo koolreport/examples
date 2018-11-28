@@ -1,0 +1,13 @@
+{
+    "title":"Pivot Table By Customers, Categories and Products",
+    "description":"The examples show how to construct pivot table using three dimensions customers, categories and products",
+    "keywords":[["pivot"]],
+    "breadcrumb":{"Pivot":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "CustomersCategoriesProducts.php":["php","CustomersCategoriesProducts.php"],
+        "CustomersCategoriesProducts.view.php":["html","CustomersCategoriesProducts.view.php"],
+        "Sample Data":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

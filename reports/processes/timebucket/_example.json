@@ -1,0 +1,12 @@
+{
+    "title":"TimeBucket Process",
+    "description":"The example show you how to use the TimeBucket process",
+    "keywords":[["general"],"time bucket"],
+    "breadcrumb":{"Processes":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

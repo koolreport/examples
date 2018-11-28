@@ -1,0 +1,12 @@
+{
+    "title":"Column Align Of KoolPHP Table",
+    "description":"How to make column align in KoolPHP Table",
+    "keywords":[["general"],"table column align"],
+    "breadcrumb":{"Table":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

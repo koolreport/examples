@@ -1,0 +1,13 @@
+{
+    "title":"Sales By Customers and Products",
+    "description":"The report use Cube process to create crosstab data table",
+    "keywords":[["cube"],["googlecharts"]],
+    "breadcrumb":{"Cube":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "SalesCustomersProducts.php":["php","SalesCustomersProducts.php"],
+        "SalesCustomersProducts.view.php":["html","SalesCustomersProducts.view.php"],
+        "data.csv":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

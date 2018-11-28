@@ -1,0 +1,12 @@
+{
+    "title":"Accelerate Your Report With ApcCache",
+    "description":"ApcCache can help your report more responsive to user request",
+    "keywords":[["general"],"php cache"],
+    "breadcrumb":{"Cache":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

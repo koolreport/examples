@@ -1,0 +1,13 @@
+{
+    "title":"Sparklines Charts",
+    "description":"How to use Sparkines Charts",
+    "keywords":[["charts"],["sparklines"]],
+    "breadcrumb":{"Sparklines":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "data.csv":["csv","stock.csv"]
+    }
+}

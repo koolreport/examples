@@ -1,0 +1,1 @@
+The example demonstrates usage of `AccumulativeColumn` process. The AccumulativeColumn creates new column from existed column and generate running total for that existed column. You can see in above example, `spent` is what we spent on a day and new `running_total` is the toal money we have spent until that day.

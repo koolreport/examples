@@ -1,0 +1,13 @@
+{
+    "title":"Sample",
+    "description":"Sample report",
+    "keywords":[["inputs"],["export"]],
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "export.php":["php","export.php"],
+        "Order.php":["php","_Order.php.txt"],
+        "Order.view.php":["html","Order.view.php"],
+        "OrderPdf.view.php":["html","OrderPdf.view.php"]
+    }
+}

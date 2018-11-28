@@ -1,0 +1,12 @@
+{
+    "title":"List of all input controls",
+    "description":"The example show you all available inputs control",
+    "keywords":[["general"],["inputs"]],
+    "breadcrumb":{"Inputs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "Report.php":["php","Report.php"],
+        "Report.view.php":["html","Report.view.php"]
+    }
+}

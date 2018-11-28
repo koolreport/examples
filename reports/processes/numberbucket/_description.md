@@ -1,0 +1,3 @@
+The example demonstrates usage of `NumberBucket` process. The NumberBucket will create a number of buckets with same size to put number into. A bucket is defined as `"{from} - {to}"` format, for example: `"0-20"`, `"20-40"`.
+
+The NumberBucket takes the `"step"` a must-have property. This is actually the size of a bucket. Beside the `"step"`, there are several optional settings such as `"prefix"`, `"suffix"`, `"thousandSeparator"`, `"decimals"` and `"decimalPoint"`. Those are actually the settings to format number.

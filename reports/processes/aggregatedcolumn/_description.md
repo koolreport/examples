@@ -1,0 +1,1 @@
+The example demonstrates usage of `AggregatedColumn` process. This process creates new column and fill in the aggregated value of an existed column. In above example, we generated 4 new columns __total_cost__, __avg_cost__, __min_cost__, __max_cost__.

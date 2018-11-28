@@ -1,0 +1,12 @@
+{
+    "title":"PieChart",
+    "description":"This example shows how to draw beautiful PieChart",
+    "keywords":[["charts"],["googlecharts"],"google pie chart"],
+    "breadcrumb":{"Google Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title":"Header Settings Of KoolPHP Table",
+    "description":"How to configure header of KoolPHP Table",
+    "keywords":[["general"],"table header"],
+    "breadcrumb":{"Table":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

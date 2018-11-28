@@ -1,0 +1,12 @@
+{
+    "title":"Color Scheme",
+    "description":"The example shows how to change color scheme for charts",
+    "keywords":[["charts"]],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

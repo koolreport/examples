@@ -1,0 +1,13 @@
+{
+    "title":"Order List",
+    "description":"The exmple shows how to use inputs controls to insert parameters into report",
+    "keywords":[["general"],["inputs"]],
+    "breadcrumb":{"Inputs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "OrderList.php":["php","OrderList.php"],
+        "OrderList.view.php":["html","OrderList.view.php"],
+        "Sample data":["db","automaker","select * from employees"]
+    }
+}

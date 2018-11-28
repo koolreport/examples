@@ -1,0 +1,12 @@
+{
+    "title":"DataStore joining",
+    "description":"Learn about join method of DataStore",
+    "keywords":[["general"],"join table","join array"],
+    "breadcrumb":{"DataStores":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

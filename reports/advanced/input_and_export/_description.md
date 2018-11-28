@@ -1,0 +1,1 @@
+This report shows you how to use Inputs package and Export package in combination. On the report load, it will show list of customers in select box for you to select. After an customer is selected and List Orders button is clicked, the report will return list of orders from that customer. This list of customer can be exported to PDF to download.

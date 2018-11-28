@@ -1,0 +1,13 @@
+{
+    "title":"Pivot Table By Yeas Months vs Customers Categories",
+    "description":"The example show how to construct advanced pivot tables with hierachical structures.",
+    "keywords":[["pivot"]],
+    "breadcrumb":{"Pivot":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "YearsMonthsCustomersCategories.php":["php","YearsMonthsCustomersCategories.php"],
+        "YearsMonthsCustomersCategories.view.php":["html","YearsMonthsCustomersCategories.view.php"],
+        "Sample Data":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

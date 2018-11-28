@@ -1,0 +1,37 @@
+<?php
+//Step 1: Load KoolReport
+require_once "../../../../koolreport/autoload.php";
+
+//Step 2: Creating Report class
+class MyReport extends \koolreport\KoolReport
+{
+    use \koolreport\cache\ApcCache;
+
+    function cacheSettings()
+    {
+        return array(
+            "ttl"=>60,
+        );
+    }    
+
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "sakila_rental"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            )
+        ); 
+    }    
+    protected function setup()
+    {
+        $this->src('automaker')
+        ->query("SELECT employeeNumber, firstName,lastName,jobTitle, extension from employees")
+        ->pipe($this->dataStore("employees"));
+    } 
+
+}

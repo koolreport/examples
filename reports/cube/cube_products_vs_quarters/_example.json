@@ -1,0 +1,13 @@
+{
+    "title":"Sales By Quarters",
+    "description":"Sales By Quarters",
+    "keywords":[["cube"],["googlecharts"]],
+    "breadcrumb":{"Cube":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["html","run.php"],
+        "SalesQuarters.php":["php","SalesQuarters.php"],
+        "SalesQuarters.view.php":["html","SalesQuarters.view.php"],
+        "data.csv":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

@@ -1,0 +1,1 @@
+This report shows how to build report from MySQL data. In the `settings()` we define MySQL data source connection. In the `setup()` function of report, we input query to query data from MySQL then continue piping data to various processes until it reach the datastore. Data in datastore will be later used to draw chart and table.

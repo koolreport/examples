@@ -1,0 +1,23 @@
+<?php
+require_once "../../../../koolreport/autoload.php";
+
+class MyReport extends \koolreport\KoolReport
+{
+    function settings()
+    {
+        return array(
+            "dataSources"=>array(
+                "automaker"=>array(
+                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
+                    "username"=>"root",
+                    "password"=>"",
+                    "charset"=>"utf8"
+                ),
+            )
+        );
+    }
+    function setup()
+    {
+
+    }
+}

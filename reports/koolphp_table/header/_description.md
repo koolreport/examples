@@ -1,0 +1,1 @@
+`Table` widget allows you to customize the header, by default header will show but you can turn it off if you want by setting `"showHeader"=>false`. Secondly, you can settup multi-level header grouping for your table.

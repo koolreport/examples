@@ -1,0 +1,12 @@
+{
+    "title":"Sales By Customers",
+    "description":"The report summarize sales by customers",
+    "keywords":[],
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "SalesByCustomer.php":["php","SalesByCustomer.php"],
+        "SalesByCustomer.view.php":["html","SalesByCustomer.view.php"],
+        "customer_product_dollarsales2.csv":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}
