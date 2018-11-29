@@ -22,7 +22,7 @@ Please make the folder structure like this:
 └── koolreport-examples/
 ```
 
-The examples inside `koolreport-examples` will make reference to `koolreport` library.
+The examples inside `koolreport-examples` folder will make reference to [koolreport](https://github.com/koolphp/koolreport) folder.
 
 ### Simplest way to get example running
 
