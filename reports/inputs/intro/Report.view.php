@@ -184,7 +184,7 @@
                             "name"=>"rangeSliderOne",
                             "handles"=>1,
                             "step"=>10,
-                            "ranges"=>array(
+                            "range"=>array(
                                 "min"=>0,
                                 "max"=>100,
                             )
@@ -197,7 +197,7 @@
                         RangeSlider::create(array(
                             "name"=>"rangeSliderTwo",
                             "handles"=>2,
-                            "ranges"=>array(
+                            "range"=>array(
                                 "min"=>0,
                                 "max"=>100,
                             ),

@@ -12,7 +12,10 @@
     <?php
     DataTables::create(array(
         "dataSource"=>$this->dataStore("employees"),
-        "themeBase"=>"bs4" // Optional option to work with Bootsrap 4
+        "themeBase"=>"bs4", // Optional option to work with Bootsrap 4
+        "cssClass"=>array(
+            "table"=>"table table-striped table-bordered"
+        )
     ));
     ?>
 </div>

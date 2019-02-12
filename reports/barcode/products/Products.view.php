@@ -59,18 +59,6 @@ use \koolreport\barcode\QRCode;
     }
   </style>
 
-<pre style="font-weight:bold"><code>\koolreport\barcode\QRCode::create(array(
-    "format" => "svg",
-    "value"=>"http://koolreport.com",
-));</code></pre>
-<pre style="font-weight:bold"><code>\koolreport\barcode\BarCode::create(array(
-    "format" => "svg",
-    "value"=>"183029",
-    "type"=>"TYPE_EAN_8"
-));</code></pre> 
-   
-    <i class="fa fa-arrow-down" style="font-size:24px;"></i> 
-
   <div class='kreport-title'>
     <table style="width:100%;">
       <tr>

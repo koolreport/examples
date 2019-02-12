@@ -1,0 +1,12 @@
+{
+    "title":"Multiple Data Filters",
+    "description":"The example demonstrate how to build dynamic report with multiple data filters",
+    "keywords":[["inputs"],["general"],"dynamic reports","multiple filters"],
+    "breadcrumb":{"Advanced":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

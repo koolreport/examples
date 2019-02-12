@@ -66,6 +66,7 @@
             "Combo Chart":"/reports/google_charts/combo_chart/",
             "Pareto Chart":"/reports/google_charts/pareto_chart/",
             "Sankey":"/reports/google_charts/sankey/",
+            "TreeMap":"/reports/google_charts/treemap/",
             "Color Scheme":"/reports/google_charts/color_scheme/"
         }
     },
@@ -108,6 +109,9 @@
             "Table Column Reorder":"/reports/datagrid/datatables_colreorder/",
             "Server Processing":"/reports/datagrid/server_processing/"
         },
+		"<i class='fa fa-file-excel-o'></i>Excel":{
+            "Excel export template":"/reports/excel/excel_template/"
+        },
         "<i class='fa fa-file-pdf-o'></i>Export":{
             "PDF Exporting":"/reports/export/sakila_rental/"
         },
@@ -149,7 +153,8 @@
     },
     "ADVANCED EXAMPLES":{
         "Advanced":{
-            "Input &amp; Export":"/reports/advanced/input_and_export/"
+            "Input &amp; Export":"/reports/advanced/input_and_export/",
+            "Multiple Data Filters":"/reports/advanced/multiple_data_filters/"
         },
         "SubReport":{
             "Ajax Loading":"/reports/others/subreport_demo/"
