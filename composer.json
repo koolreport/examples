@@ -1,5 +1,5 @@
 {
-    "name": "koolphp/koolreport-examples",
+    "name": "koolreport/examples",
     "version":"1.1.0",
     "description": "Examples for KoolReport Framework.",
     "keywords": ["KoolReport php example", "php reporting framework","php reporting tools","data processing","data visualization","charts and graphs"],
@@ -17,6 +17,6 @@
         "php":">=5.4"
     },
     "require-dev": {
-        "koolphp/koolreport": "^3"
+        "koolreport/core": "^3"
     }
 }
