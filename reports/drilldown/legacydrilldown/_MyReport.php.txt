@@ -1,5 +1,5 @@
 <?php
-require_once "../../../../koolreport/autoload.php";
+require_once "../../../koolreport.inc.php";
 
 class MyReport extends \koolreport\KoolReport
 {

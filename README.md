@@ -19,10 +19,10 @@ Please make the folder structure like this:
 ```
 /
 ├── koolreport/
-└── koolreport-examples/
+└── examples/
 ```
 
-The examples inside `koolreport-examples` folder will make reference to [koolreport](https://github.com/koolphp/koolreport) folder.
+The examples inside `examples` folder will make reference to [koolreport](https://github.com/koolreport/core) folder.
 
 ### Simplest way to get example running
 

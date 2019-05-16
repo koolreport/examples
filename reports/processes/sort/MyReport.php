@@ -1,6 +1,6 @@
 <?php
 //Step 1: Load KoolReport
-require_once "../../../../koolreport/autoload.php";
+require_once "../../../koolreport.inc.php";
 
 use \koolreport\processes\ColumnMeta;
 use \koolreport\processes\Sort;

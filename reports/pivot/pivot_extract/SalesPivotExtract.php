@@ -1,6 +1,6 @@
 <?php
 // error_reporting(E_ALL);
-require_once "../../../../koolreport/autoload.php";
+require_once "../../../koolreport.inc.php";
 use \koolreport\processes\Filter;
 use \koolreport\processes\ColumnMeta;
 use \koolreport\processes\ValueMap;

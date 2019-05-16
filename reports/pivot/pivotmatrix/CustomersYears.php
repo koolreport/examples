@@ -1,5 +1,5 @@
 <?php
-require_once "../../../../koolreport/autoload.php";
+require_once "../../../koolreport.inc.php";
 use \koolreport\processes\Filter;
 use \koolreport\processes\ColumnMeta;
 use \koolreport\pivot\processes\Pivot;
