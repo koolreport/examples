@@ -1,6 +1,6 @@
 <?php
 
-require_once "../../../koolreport.inc.php";
+//require_once "../../../../koolreport/core/autoload.php";
 
 use \koolreport\excel\ExcelDataSource;
 use \koolreport\processes\Group;

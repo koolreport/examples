@@ -24,6 +24,9 @@ Please make the folder structure like this:
 
 The examples inside `examples` folder will make reference to [koolreport](https://github.com/koolreport/core) folder.
 
+__Note__: _If your `koolreport` folder is located at different location than above, you can change the library inclusion path inside `examples/load.koolreport.php`._
+
+
 ### Simplest way to get example running
 
 The simplest way to get example running is to download the [KoolReport & Examples](https://www.koolreport.com/getting-started/#download) package from our site. The package contains both KoolReport and the examples so you only to unzip and copy to web folder to run.

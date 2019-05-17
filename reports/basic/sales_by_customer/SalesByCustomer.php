@@ -1,6 +1,6 @@
 <?php
 
-require_once "../../../koolreport.inc.php";
+//require_once "../../../../koolreport/core/autoload.php";
 
 use \koolreport\processes\Group;
 use \koolreport\processes\Sort;
