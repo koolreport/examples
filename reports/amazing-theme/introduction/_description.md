@@ -14,5 +14,5 @@ class MyReport extends \koolreport\KoolReport
 
 The theme will:
 
-1. Change the css applied to report such as layouts, buttons
+1. Change the CSS applied to report such as layouts, buttons
 2. Apply new color scheme to charts
