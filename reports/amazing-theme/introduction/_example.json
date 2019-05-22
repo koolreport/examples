@@ -1,0 +1,12 @@
+{
+    "title":"Amazing Theme Introduction",
+    "description":"Amazing Theme For Your Report",
+    "keywords":["koolreport theme"],
+    "breadcrumb":{"Amazing Theme":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}
