@@ -71,6 +71,10 @@
         }
     },
     "EXTENDED PACKAGES":{
+        "<i class='fa fa-css3'></i>Amazing Theme":{
+            "Introduction":"/reports/amazing-theme/introduction/",
+            "Simple Card":"/reports/amazing-theme/simplecard/"
+        },
         "<i class='fa fa-cube'></i>Cube":{
             "Customers vs Categories":"/reports/cube/cube_customers_vs_categories/",
             "Products vs Quarters":"/reports/cube/cube_products_vs_quarters/",
