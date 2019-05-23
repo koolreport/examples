@@ -1,0 +1,12 @@
+{
+    "title":"ProgressCard",
+    "description":"How to use ProgressCard to show important KPI and its progress",
+    "keywords":[],
+    "breadcrumb":{"Amazing Theme":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

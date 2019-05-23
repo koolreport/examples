@@ -76,7 +76,8 @@
             "Simple Card":"/reports/amazing-theme/simplecard/",
             "Gauge Card":"/reports/amazing-theme/gaugecard/",
             "Chart Card":"/reports/amazing-theme/chartcard/",
-            "DualChart Card":"/reports/amazing-theme/dualchartcard/"
+            "DualChart Card":"/reports/amazing-theme/dualchartcard/",
+            "Progress Card":"/reports/amazing-theme/progresscard/"
         },
         "<i class='fa fa-cube'></i>Cube":{
             "Customers vs Categories":"/reports/cube/cube_customers_vs_categories/",
