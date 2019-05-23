@@ -1,0 +1,12 @@
+{
+    "title":"GaugeCard",
+    "description":"How to use gauge card to show progress",
+    "keywords":[],
+    "breadcrumb":{"Amazing Theme":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

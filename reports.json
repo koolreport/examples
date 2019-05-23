@@ -73,7 +73,10 @@
     "EXTENDED PACKAGES":{
         "<i class='fa fa-css3'></i>Amazing Theme":{
             "Introduction":"/reports/amazing-theme/introduction/",
-            "Simple Card":"/reports/amazing-theme/simplecard/"
+            "Simple Card":"/reports/amazing-theme/simplecard/",
+            "Gauge Card":"/reports/amazing-theme/gaugecard/",
+            "Chart Card":"/reports/amazing-theme/chartcard/",
+            "DualChart Card":"/reports/amazing-theme/dualchartcard/"
         },
         "<i class='fa fa-cube'></i>Cube":{
             "Customers vs Categories":"/reports/cube/cube_customers_vs_categories/",
