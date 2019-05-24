@@ -40,6 +40,9 @@
             "Filter Methods":"/reports/datastores/filter_methods/",
             "Join Method":"/reports/datastores/join/" 
         },
+        "<i class='icon-grid'></i>Card":{
+            "Card":"/reports/koolphp_card/card/"
+        },
         "<i class='fa fa-table'></i>Table":{
             "Minimum Settings":"/reports/koolphp_table/minimum_settings/",
             "Column Align":"/reports/koolphp_table/column_align/",
