@@ -77,7 +77,7 @@
     <div class="text-center" style="margin-top:30px;">
         <h3>Showing indicator</h3>
         <p class="lead">
-            Card is able to show the percentage increase/decrease
+            Card is able to show the percentage increased or decreased
         </p>
     </div>
 
