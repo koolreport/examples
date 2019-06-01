@@ -84,6 +84,7 @@
             
         ),
         "showFooter" => true,
+        "themeBase"=>"bs4", // Optional option to work with Bootsrap 4
         // "paging" => array(
         //   "pageSize" => 2
         // )
