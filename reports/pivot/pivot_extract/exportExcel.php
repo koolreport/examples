@@ -1,4 +1,6 @@
 <?php
+require_once "../../../load.koolreport.php";
+
 require_once "SalesPivotExtract.php";
 $report = new SalesPivotExtract();
 

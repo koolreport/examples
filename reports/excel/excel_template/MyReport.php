@@ -7,7 +7,7 @@ use \koolreport\processes\Filter;
 use \koolreport\cube\processes\Cube;
 use \koolreport\pivot\processes\Pivot;
 
-class MyReport extends koolreport\KoolReport
+class MyReport extends \koolreport\KoolReport
 {
     use \koolreport\export\Exportable;
     use \koolreport\excel\ExcelExportable;
