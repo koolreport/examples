@@ -121,7 +121,11 @@
             "Server Processing":"/reports/datagrid/server_processing/"
         },
 		"<i class='fa fa-file-excel-o'></i>Excel":{
-            "Excel export template":"/reports/excel/excel_template/"
+            "Excel export template":"/reports/excel/excel_template/",
+            "Excel Chart":"/reports/excel/chart/",
+            "Excel Pivot Table":"/reports/excel/pivottable/",
+            "Excel Table":"/reports/excel/table/",
+            "Excel Text":"/reports/excel/text/"
         },
         "<i class='fa fa-file-pdf-o'></i>Export":{
             "PDF Exporting":"/reports/export/sakila_rental/"
