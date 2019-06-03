@@ -1,5 +1,5 @@
 <?php
-//require_once "../../../../koolreport/core/autoload.php";
+require_once "../../../load.koolreport.php";
 use \koolreport\processes\ColumnMeta;
 use \koolreport\processes\Limit;
 use \koolreport\processes\Sort;

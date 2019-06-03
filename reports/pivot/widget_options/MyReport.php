@@ -1,6 +1,6 @@
 <?php
 //Step 1: Load KoolReport
-//require_once "../../../../koolreport/core/autoload.php";
+require_once "../../../load.koolreport.php";
 use \koolreport\pivot\processes\Pivot;
 use \koolreport\pivot\processes\PivotExtract;
 use \koolreport\processes\ColumnMeta;

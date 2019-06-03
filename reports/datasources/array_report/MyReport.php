@@ -1,6 +1,6 @@
 <?php
 
-//require_once "../../../../koolreport/core/autoload.php";
+require_once "../../../load.koolreport.php";
 
 use \koolreport\KoolReport;
 use \koolreport\processes\Group;

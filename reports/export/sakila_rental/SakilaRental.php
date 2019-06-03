@@ -1,7 +1,5 @@
 <?php
 
-//require_once "../../../../koolreport/core/autoload.php";
-
 use \koolreport\KoolReport;
 use \koolreport\processes\Filter;
 use \koolreport\processes\TimeBucket;

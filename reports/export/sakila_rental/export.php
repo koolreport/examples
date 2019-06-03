@@ -1,5 +1,4 @@
 <?php
-require_once "../../../load.koolreport.php";
 
 require_once "SakilaRental.php";
 $report = new SakilaRental;

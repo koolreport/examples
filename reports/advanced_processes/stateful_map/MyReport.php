@@ -1,6 +1,6 @@
 <?php
 //Step 1: Load KoolReport
-//require_once "../../../../koolreport/core/autoload.php";
+require_once "../../../load.koolreport.php";
 use \koolreport\processes\Limit;
 use \koolreport\processes\Sort;
 use \koolreport\processes\Map;

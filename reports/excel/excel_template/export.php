@@ -1,5 +1,4 @@
 <?php
-require_once "../../../load.koolreport.php";
 
 include "MyReport.php";
 $report = new MyReport;
