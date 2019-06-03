@@ -25,6 +25,15 @@ PivotTable::create(array(
                 $v = 'Sales Average';
             return $v;
         },
+        'rowHeader' => function($rowHeader, $headerInfo) {
+            return $rowHeader;
+        },
+        'columnHeader' => function($colHeader, $headerInfo) {
+            return $colHeader;
+        },
+        'dataCell' => function($value, $cellInfo) {
+            return $value;
+        },
     ),
     ...
 ));</code></pre>
@@ -56,14 +65,16 @@ PivotTable::create(array(
             'width' => '100%',
             'map' => array(
                 'dataField' => function($dataField, $fieldInfo) {
-                    $v = $dataField;
-                    if ($v === 'dollar_sales - sum')
-                        $v = 'Sales (in USD)';
-                    else if ($v === 'dollar_sales - count')
-                        $v = 'Number of Sales';
-                    else if ($v === 'dollar_sales - avg')
-                        $v = 'Sales Average';
                     return $v;
+                },
+                'rowHeader' => function($rowHeader, $headerInfo) {
+                    return $rowHeader;
+                },
+                'columnHeader' => function($colHeader, $headerInfo) {
+                    return $colHeader;
+                },
+                'dataCell' => function($value, $cellInfo) {
+                    return $value;
                 },
             ),
             // 'showDataHeaders' => true,
@@ -92,6 +103,15 @@ PivotMatrix::create(array(
             else if ($v === 'orderMonth')
                 $v = 'Month';
             return $v;
+        },
+        'rowHeader' => function($rowHeader, $headerInfo) {
+            return $rowHeader;
+        },
+        'columnHeader' => function($colHeader, $headerInfo) {
+            return $colHeader;
+        },
+        'dataCell' => function($value, $cellInfo) {
+            return $value;
         },
     ),
     ...
@@ -139,6 +159,15 @@ PivotMatrix::create(array(
                     else if ($v === 'orderMonth')
                         $v = 'Month';
                     return $v;
+                },
+                'rowHeader' => function($rowHeader, $headerInfo) {
+                    return $rowHeader;
+                },
+                'columnHeader' => function($colHeader, $headerInfo) {
+                    return $colHeader;
+                },
+                'dataCell' => function($value, $cellInfo) {
+                    return $value;
                 },
             ),
             // 'showDataHeaders' => true,

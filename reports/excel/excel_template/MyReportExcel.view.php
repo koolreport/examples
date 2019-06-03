@@ -78,28 +78,6 @@
         <?php
         Table::create(array(
             "dataSource" => $this->dataStore('orders'),
-            // "dataSource" => 'orders',
-            "headersExcelStyle" => [
-                'customerName' => [
-                    'font' => [
-                        'italic' => true,
-                        'color' => [
-                            'rgb' => '808080',
-                        ]
-                    ],
-                ]
-            ],
-            "columnsExcelStyle" => [
-                'customerName' => [
-                    'font' => [
-                        'italic' => true,
-                        'color' => [
-                            'rgb' => '808080',
-                        ]
-                    ],
-                ]
-            ],
-
         ));
         ?>
     </div>
