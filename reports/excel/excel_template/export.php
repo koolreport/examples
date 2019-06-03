@@ -3,4 +3,4 @@
 include "MyReport.php";
 $report = new MyReport;
 $report->run();
-$report->exportToExcel('MyReport')->toBrowser("MyReport.xlsx");
+$report->exportToExcel('MyReportExcel')->toBrowser("MyReport.xlsx");

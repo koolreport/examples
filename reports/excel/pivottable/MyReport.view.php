@@ -5,7 +5,7 @@ use \koolreport\widgets\koolphp\Table;
 <div class="report-content">
 	<div style='text-align: center;margin-bottom:30px;'>
         <h1>Excel Exporting Template</h1>
-        <p class="lead">Using template to create excel report</p>
+        <p class="lead">Exporting pivot table with template</p>
 		<form>
 			<button type="submit" class="btn btn-primary" formaction="export.php">Download Excel</button>
 		</form>

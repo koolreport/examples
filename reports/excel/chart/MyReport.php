@@ -4,6 +4,7 @@ require_once "../../../load.koolreport.php";
 use \koolreport\processes\Map;
 use \koolreport\processes\Limit;
 use \koolreport\processes\Filter;
+use \koolreport\processes\ColumnMeta;
 use \koolreport\cube\processes\Cube;
 use \koolreport\pivot\processes\Pivot;
 
@@ -54,6 +55,12 @@ class MyReport extends koolreport\KoolReport
         ->pipe(new Limit(array(
             5, 0
         )))
+        ->pipe(new ColumnMeta([
+            'Q1' => ['type' => 'number'], 
+            'Q2' => ['type' => 'number'], 
+            'Q3' => ['type' => 'number'], 
+            'Q4' => ['type' => 'number'], 
+        ]))
         ->pipe($this->dataStore('salesQuarterCustomer'));
 
         $node->pipe(new Cube(array(
@@ -64,6 +71,12 @@ class MyReport extends koolreport\KoolReport
         ->pipe(new Limit(array(
             5, 0
         )))
+        ->pipe(new ColumnMeta([
+            'Q1' => ['type' => 'number'], 
+            'Q2' => ['type' => 'number'], 
+            'Q3' => ['type' => 'number'], 
+            'Q4' => ['type' => 'number'], 
+        ]))
         ->pipe($this->dataStore('salesQuarterProduct'));
 
         $node

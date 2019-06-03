@@ -1,3 +1,16 @@
-Excel package of KoolReport is able to export data from database or any other kinds of datasoure to excel file. Only that, it is able to create charts and graphs in excel files.
+This example demonstrates how to export text to an excel file.
 
-This example demonstrates how to use PHP template file to dynamically customize  exported excel files. The template using familiar html and widgets that allows you to create excel file easily.
+```
+    <div cell="A1" range="A1:H1" excelStyle='<?php echo json_encode($styleArray); ?>' >
+        Sales Report
+    </div>
+
+    <div range="A2:H2">
+        <?php
+        \koolreport\Excel\Text::create(array(
+            "text" => 'Sales Report',
+            "excelStyle" => $styleArray
+        ));
+        ?>
+    </div>
+```
