@@ -7,4 +7,5 @@
  * require_once dirname(__FILE__)."/vendor/autoload.php";
  */
 
-require_once dirname(__FILE__)."/../koolreport/core/autoload.php";
+// require_once dirname(__FILE__)."/../koolreport/core/autoload.php";
+require_once dirname(__FILE__)."/../github-koolreport/core/autoload.php";
