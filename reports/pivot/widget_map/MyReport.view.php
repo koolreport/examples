@@ -65,7 +65,7 @@ PivotTable::create(array(
             'width' => '100%',
             'map' => array(
                 'dataField' => function($dataField, $fieldInfo) {
-                    return $v;
+                    return $dataField;
                 },
                 'rowHeader' => function($rowHeader, $headerInfo) {
                     return $rowHeader;
