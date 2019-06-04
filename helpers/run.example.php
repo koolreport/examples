@@ -1,5 +1,4 @@
 <?php
-require_once dirname(__FILE__)."/../load.koolreport.php";
 include "common.php";
 $example = json_decode(file_get_contents("_example.json"),true);
 ?>
