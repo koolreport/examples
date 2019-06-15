@@ -1,8 +1,4 @@
 <div class="report-content">
-    <script async defer 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj8ahVQXoy8wHCAwoRWsUjPVmR5N3Qgko" 
-        type="text/javascript">
-    </script>
     <div class="text-center">
         <h1>Sale By Location</h1>
         <p class="lead">
