@@ -1,0 +1,12 @@
+{
+    "title":"How to draw D3 SplineChart",
+    "description":"The example shows how to use D3 SplineChart",
+    "keywords":[["charts"],["d3"]],
+    "breadcrumb":{"D3 Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

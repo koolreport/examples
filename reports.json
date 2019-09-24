@@ -120,6 +120,17 @@
             "Table Column Reorder":"/reports/datagrid/datatables_colreorder/",
             "Server Processing":"/reports/datagrid/server_processing/"
         },
+        "<i class='fa fa-pie-chart'></i>D3":{
+            "Column Chart":"/reports/d3/column_chart/",
+            "Bar Chart":"/reports/d3/bar_chart/",
+            "Line Chart":"/reports/d3/line_chart/",
+            "Spline Chart":"/reports/d3/spline_chart/",
+            "Area Chart":"/reports/d3/area_chart/",
+            "Pie Chart":"/reports/d3/pie_chart/",
+            "Donut Chart":"/reports/d3/donut_chart/",
+            "Waterfall":"/reports/d3/waterfall/",
+            "Funnel Chart":"/reports/d3/funnel_chart/"
+        },
 		"<i class='fa fa-file-excel-o'></i>Excel":{
             "Excel export template":"/reports/excel/excel_template/",
             "Excel Chart":"/reports/excel/chart/",
