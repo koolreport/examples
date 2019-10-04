@@ -1,14 +1,14 @@
 {
-    "title":"Excel Template",
-    "description":"Use Excel Template to export data",
-    "keywords":[["excel"]],
+    "title":"Big Spreadsheet",
+    "description":"Exporting big spreadsheet",
+    "keywords":[["spreadsheet"]],
     "breadcrumb":{"Excel":"javascript:void 0"},
     "meta":{
         "Description":["md","_description.md"],
         "index.php":["php","run.php"],
         "MyReport.php":["php","MyReport.php"],
         "MyReport.view.php":["html","MyReport.view.php"],
-        "MyReportExcel.view.php":["html","MyReportExcel.view.php"],
+        "MyReportSpreadsheet.view.php":["html","MyReportSpreadsheet.view.php"],
         "export.php":["html","export.php"]
     }
 }

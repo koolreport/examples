@@ -112,6 +112,10 @@
             "Combo Chart":"/reports/chartjs/combo_chart/",
             "Color Scheme":"/reports/chartjs/color_scheme/"
         },
+		"<i class='fa fa-file-pdf-o'></i>Cloud Export":{
+            "Header Footer":"/reports/cloudexport/footer_header/",
+			"Page Break":"/reports/cloudexport/page_break/"
+        },
         "<i class='fa fa-th'></i>DataGrid":{
             "DataTables":"/reports/datagrid/datatables/",
             "Table Paging":"/reports/datagrid/datatables_paging/",
@@ -131,10 +135,11 @@
             "Waterfall":"/reports/d3/waterfall/",
             "Funnel Chart":"/reports/d3/funnel_chart/"
         },
-		"<i class='fa fa-file-excel-o'></i>Excel":{
-            "Excel export template":"/reports/excel/excel_template/",
+		"<i class='fa fa-file-excel-o'></i>Excel    ":{
+            "Excel Template":"/reports/excel/excel_template/",
+            "Big Spreadsheet":"/reports/excel/big_spreadsheet/",
             "Excel Chart":"/reports/excel/chart/",
-            "Excel Pivot Table":"/reports/excel/pivottable/",
+            "Excel PivotTable":"/reports/excel/pivottable/",
             "Excel Table":"/reports/excel/table/",
             "Excel Text":"/reports/excel/text/"
         },

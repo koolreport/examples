@@ -1,0 +1,14 @@
+{
+    "title":"Cloud Export",
+    "description":"How to use cloud export to PDF",
+    "keywords":[["cloud export", "pdf"]],
+    "breadcrumb":{"cloudexport":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "export.php":["php","_export.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "MyReportPDF.view.php":["html","MyReportPDF.view.php"]
+    }
+}
