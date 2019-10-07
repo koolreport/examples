@@ -11,7 +11,6 @@ class MyReport extends \koolreport\KoolReport
             "dataSources" => array(
                 "dollarsales"=>array(
                     'filePath' => '../../../databases/customer_product_dollarsales2.xlsx',
-                    'fieldSeparator' => ';',
                     'class' => '\koolreport\excel\BigSpreadsheetDataSource'      
                 ), 
             )

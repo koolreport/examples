@@ -23,5 +23,10 @@ return array(
         "username"=>"root",
         "password"=>"",
         "charset"=>"utf8"
+    ),  
+    "salesCSV"=>array(
+        'filePath' => '../../../databases/customer_product_dollarsales2.csv',
+        'class' => "\koolreport\datasources\CSVDataSource",      
+        'fieldSeparator' => ';',
     )       
 );

@@ -23,16 +23,12 @@ class MyReport extends \koolreport\KoolReport
         $config = include "../../../config.php";
 
         return array(
-            "dataSources"=>array(
-                "automaker"=>$config["automaker"]
-            )
+            "dataSources"=>$config
         );
     }   
     protected function setup()
     {
-        $node = $this->src('automaker')
-
-        ->query('select *, dollar_sales as dollar_sales2 from customer_product_dollarsales2')
+        $node = $this->src('salesCSV')
         
         ->pipe(new Map(array(
             '{value}' => function($row, $metaData) {

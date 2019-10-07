@@ -3,7 +3,7 @@
 require_once "MyReport.php";
 $report = new MyReport;
 $report->run();
-$secretToken = '6e27e9f5b6749f6a981c56c9bb70e0b94a0b9f3edf6d13facea9bbda6c9281a4';
+$secretToken = 'my_cloud_export_secret_token';
 $type=isset($_GET['type']) ? $_GET['type'] : 'PDF';
 if ($type === 'cloudJPG') {
     $report->cloudExport("MyReportPDF")
