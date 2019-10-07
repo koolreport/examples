@@ -1,5 +1,4 @@
 <?php
-// include "c:/Users/Dong/Documents/GitHub/php-client/src/Service.php";
 require_once "MyReport.php";
 $report = new MyReport;
 $report->run();
