@@ -13,7 +13,7 @@
       }
 
       #salesQuarterCustomer td	{
-        background-color: #b1dfbb !important;
+        // background-color: #b1dfbb !important;
       }
 
     }
@@ -78,7 +78,8 @@
 			"dataStore"=>$this->dataStore('salesQuarterCustomerNoAll'),
 			"options"=>array(
 			  'title' => 'Top 5 Customers\' Quarterly Sales',
-			  'isStacked' => true
+			  'isStacked' => true,
+			  'interpolateNulls' => true,
 			),
 			"width"=>'100%',
 			// 'height'=>'400px',
