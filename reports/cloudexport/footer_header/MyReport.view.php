@@ -9,9 +9,9 @@ use \koolreport\core\Utility as Util;
 <form method="post">
 	<div class="report-content">
 		<div class="text-center">
-			<h1>Sales By Quarters</h1>
+			<h1>Headers &amp; Footers</h1>
 			<p class="lead">
-				This examples show how to use cloud export to PDF
+				This examples show how to set headers and footers for exported PDF
 			</p>
 			<button type="submit" class="btn btn-primary" formaction="export.php?type=cloudPDF">
 				Cloud PDF</button>
