@@ -2,7 +2,11 @@
 require_once "MyReport.php";
 $report = new MyReport;
 $report->run();
-$secretToken = 'my_cloud_export_secret_token'; //go to https://www.koolreport.com/packages/cloudexport for instruction
+/**
+ * Follow the instruction here to get token key
+ * https://www.koolreport.com/docs/cloudexport/chromeheadlessio/#get-token-key 
+ */
+$secretToken = 'my_cloud_export_secret_token';
 $type=isset($_GET['type']) ? $_GET['type'] : 'PDF';
 if ($type === 'cloudJPG') {
     $report->cloudExport("MyReportPDF")
