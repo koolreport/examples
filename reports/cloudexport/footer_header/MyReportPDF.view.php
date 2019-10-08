@@ -19,22 +19,36 @@
     }
 </style>
 <html>
+	<head>
+		<title>Customer Sales</title>
+	</head>
   <body style='margin: 1in'>
     <header>
-        <div style="font-size:10px !important; color:#808080; padding-left:10px">
-            <span>Header: </span>
-            <span class="pageNumber"></span>
-            <img src='http://www.chromium.org/_/rsrc/1438879449147/config/customLogo.gif?revision=3' />
+        <div style="font-size:10px !important; color:#808080; padding-left:10px; width:575px;">
+			<span style='position: relative; top: 10px;'>
+				Title: <span class="title"></span> || 
+				Page: <span class="pageNumber"></span> || 
+				Total pages: <span class="totalPages"></span> || 
+				Date: <span class="date"></span>
+			</span>
+            <span style='float: right'>
+				KoolReport 
+				<img src='bar.png' height='20px' style='position:relative; top:5px'/>
+			</span>
         </div>
     </header>
     <footer>
-        <div style="font-size:10px !important; color:#808080; padding-left:10px">
-            <span>Footer: </span>
-            {date}
-            {title}
-            {pageNumber}
-            {totalPages}
-            <img src='http://www.chromium.org/_/rsrc/1438879449147/config/customLogo.gif?revision=3' />
+		<div style="font-size:10px !important; color:#808080; padding-left:10px; width:575px;">
+			<span style='position: relative; top: 10px;'>
+				Title: {title} || 
+				Page: {pageNumber} || 
+				Total pages: {totalPages} || 
+				Date: {date}
+			</span>
+            <span style='float: right'>
+				KoolReport 
+				<img src='bar.png' height='20px' style='position:relative; top:5px'/>
+			</span>
         </div>
     </footer> 
 	<?php 
@@ -74,7 +88,7 @@
 			"searchOnEnter" => true,
 			"searchMode" => "OR",
 		));
-		google\BarChart::create(array(
+		google\LineChart::create(array(
 			"dataStore"=>$this->dataStore('salesQuarterCustomerNoAll'),
 			"options"=>array(
 			  'title' => 'Top 5 Customers\' Quarterly Sales',
