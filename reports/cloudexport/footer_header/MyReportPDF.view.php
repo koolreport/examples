@@ -25,29 +25,29 @@
   <body style='margin: 1in'>
     <header>
         <div style="font-size:10px !important; color:#808080; padding-left:10px; width:575px;">
-			<span style='position: relative; top: 10px;'>
+			<span style='position: relative; top: 10px; float: right'>
 				Title: <span class="title"></span> || 
 				Page: <span class="pageNumber"></span> || 
 				Total pages: <span class="totalPages"></span> || 
 				Date: <span class="date"></span>
 			</span>
-            <span style='float: right'>
-				KoolReport 
+            <span style=''>
 				<img src='bar.png' height='20px' style='position:relative; top:5px'/>
+				KoolReport 
 			</span>
         </div>
     </header>
     <footer>
 		<div style="font-size:10px !important; color:#808080; padding-left:10px; width:575px;">
-			<span style='position: relative; top: 10px;'>
+			<span style='position: relative; top: 10px; float: right'>
 				Title: {title} || 
 				Page: {pageNumber} || 
 				Total pages: {totalPages} || 
 				Date: {date}
 			</span>
-            <span style='float: right'>
-				KoolReport 
+            <span style=''>
 				<img src='bar.png' height='20px' style='position:relative; top:5px'/>
+				KoolReport 
 			</span>
         </div>
     </footer> 
