@@ -42,7 +42,7 @@
                             from orders
                             join orderdetails on orders.orderNumber = orderdetails.orderNumber
                             join products on products.productCode = orderdetails.productCode
-                            ".(($this->params["years"]!=array())?"":"where YEAR(orderDate) in (:years")."
+                            ".(  $this->params["years"]!=array() ?"where YEAR(orderDate) in (:years)":"")."
                             group by productLine
                         ")->params(
                             $this->params["years"]!=array()?
@@ -65,7 +65,7 @@
                             select customerName
                             from orders
                             join customers on customers.customerNumber = orders.customerNumber                            
-                            ".(($this->params["years"]!=array())?"":"where YEAR(orderDate) in (:years")."
+                            ".( $this->params["years"]!=array()?"where YEAR(orderDate) in (:years)":"")."
                             group by customerName
                         ")->params(
                             $this->params["years"]!=array()?
