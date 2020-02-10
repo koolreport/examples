@@ -1,5 +1,9 @@
 # ChangeLog
 
+## Version 1.2.0
+
+1. Fix the composer file to indicate the version 4 of KoolReport
+
 ## Version 1.1.1
 
 1. Fix the Export example with wrong path

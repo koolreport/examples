@@ -17,6 +17,6 @@
         "php":">=5.4"
     },
     "require-dev": {
-        "koolreport/core": "^3"
+        "koolreport/core": "^4"
     }
 }
