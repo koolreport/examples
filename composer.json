@@ -14,9 +14,7 @@
     ], 
     "require":
     {
-        "php":">=5.4"
-    },
-    "require-dev": {
+        "php":">=5.4",
         "koolreport/core": "^4"
     }
 }
