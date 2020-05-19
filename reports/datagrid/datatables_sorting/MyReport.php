@@ -5,7 +5,7 @@ require_once "../../../load.koolreport.php";
 //Step 2: Creating Report class
 class MyReport extends \koolreport\KoolReport
 {
-    use \koolreport\amazing\Theme;
+    use \koolreport\bootstrap4\Theme;
     public function settings()
     {
         //Get default connection from config.php

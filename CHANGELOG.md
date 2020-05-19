@@ -1,5 +1,9 @@
 # ChangeLog
 
+## Version 1.3.0
+
+1. Fix datagrid examples
+
 ## Version 1.2.0
 
 1. Fix the composer file to indicate the version 4 of KoolReport

@@ -6,7 +6,6 @@ use \koolreport\KoolReport;
 
 class OrderList extends KoolReport
 {
-    use \koolreport\amazing\Theme;
     use \koolreport\inputs\Bindable;
     use \koolreport\inputs\POSTBinding;
 
