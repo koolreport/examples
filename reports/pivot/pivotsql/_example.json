@@ -1,0 +1,13 @@
+{
+    "title":"How to use PivotSQL process",
+    "description":"PivotSQL` is a process to prroduce pivot data from large datasets",
+    "keywords":[["pivot"]],
+    "breadcrumb":{"Pivot":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "CustomersYears.php":["php","CustomersYears.php"],
+        "CustomersYears.view.php":["html","CustomersYears.view.php"],
+        "Sample Data":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

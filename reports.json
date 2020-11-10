@@ -112,6 +112,9 @@
             "Combo Chart":"/reports/chartjs/combo_chart/",
             "Color Scheme":"/reports/chartjs/color_scheme/"
         },
+        "<i class='fa fa-object-ungroup'></i>ChartTable<span class='badge badge-danger'>NEW</span>":{
+            "ChartTable":"/reports/charttable/charttable/"
+        },
 		"<i class='fa fa-file-pdf-o'></i>Cloud Export":{
             "Header Footer":"/reports/cloudexport/footer_header/",
 			"Page Break":"/reports/cloudexport/page_break/"
@@ -121,8 +124,13 @@
             "Table Paging":"/reports/datagrid/datatables_paging/",
             "Table Searching":"/reports/datagrid/datatables_searching/",
             "Table Sorting":"/reports/datagrid/datatables_sorting/",
-            "Table Column Reorder":"/reports/datagrid/datatables_colreorder/",
-            "Server Processing":"/reports/datagrid/server_processing/"
+            "Column Reorder":"/reports/datagrid/datatables_colreorder/",
+            "Server Processing":"/reports/datagrid/server_processing/",
+            "Plugins":"/reports/datagrid/plugins/",
+            "Complex Headers":"/reports/datagrid/complex_headers/",
+            "Rowgroup":"/reports/datagrid/client_rowgroup/",
+            "Fast Render":"/reports/datagrid/fast_render/",
+            "Row Detail":"/reports/datagrid/row_detail/"
         },
         "<i class='fa fa-pie-chart'></i>D3":{
             "Column Chart":"/reports/d3/column_chart/",
@@ -135,16 +143,18 @@
             "Waterfall":"/reports/d3/waterfall/",
             "Funnel Chart":"/reports/d3/funnel_chart/"
         },
-		"<i class='fa fa-file-excel-o'></i>Excel    ":{
+		"<i class='fa fa-file-excel-o'></i>Excel":{
             "Excel Template":"/reports/excel/excel_template/",
             "Big Spreadsheet":"/reports/excel/big_spreadsheet/",
             "Excel Chart":"/reports/excel/chart/",
             "Excel PivotTable":"/reports/excel/pivottable/",
             "Excel Table":"/reports/excel/table/",
+            "Table Row Group":"/reports/excel/table_rowgroup/",
             "Excel Text":"/reports/excel/text/"
         },
         "<i class='fa fa-file-pdf-o'></i>Export":{
-            "PDF Exporting":"/reports/export/sakila_rental/"
+            "PDF Exporting":"/reports/export/sakila_rental/",
+            "Custom Header / Footer":"/reports/export/custom_header_footer/"
         },
         "<i class='fa fa-sign-in'></i>Inputs":{
             "Controls":"/reports/inputs/intro/",
@@ -175,11 +185,15 @@
             "Bun Template":"/reports/pivot/bun_template/",
             "Widget Options":"/reports/pivot/widget_options/",
             "Widget Map":"/reports/pivot/widget_map/",
-            "Widget Field Order":"/reports/pivot/widget_field_order/"
+            "Widget Field Order":"/reports/pivot/widget_field_order/",
+            "PivotSQL":"/reports/pivot/pivotsql/"
         },
         "<i class='fa fa-area-chart'></i>Sparklines":{
             "Introduction":"/reports/sparklines/introduction/",
             "Sparklines in DataTables":"/reports/sparklines/datatables_sparklines/"
+        },
+        "<i class='fa fa-database'></i>VisualQuery<span class='badge badge-danger'>NEW</span>":{
+            "VisualQuery":"/reports/visualquery/visualquery/"
         }
     },
     "ADVANCED EXAMPLES":{

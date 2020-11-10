@@ -1,0 +1,14 @@
+{
+    "title":"How to customize header/footer when exporting PDF",
+    "description":"The report show how to customize header/footer of pdf files",
+    "keywords":[["export"]],
+    "breadcrumb":{"Export":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "export.php":["php","export.php"],
+        "SakilaRental.php":["php","SakilaRental.php"],
+        "SakilaRental.view.php":["html","SakilaRental.view.php"],
+        "SakilaRentalPdf.view.php":["html","SakilaRentalPdf.view.php"]
+    }
+}

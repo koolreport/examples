@@ -19,3 +19,4 @@ function getRootUrl()
 
 $menu = json_decode(file_get_contents(realpath(dirname(__FILE__))."/../reports.json"),true);
 $root_url = getRootUrl();
+// $root_url = "/htdocs/KoolReport/GitHub-examples";

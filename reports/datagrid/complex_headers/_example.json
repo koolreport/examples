@@ -1,0 +1,12 @@
+{
+    "title":"How to use complex headers in DataTables",
+    "description":"How to complex headers in DataTables",
+    "keywords":[["datagrid"]],
+    "breadcrumb":{"DataGrid":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

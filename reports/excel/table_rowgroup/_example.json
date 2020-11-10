@@ -1,0 +1,15 @@
+{
+    "title":"Excel Table's row group",
+    "description":"Table widget's row group in Excel",
+    "keywords":[["excel"]],
+    "breadcrumb":{"Excel":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "MyReportExcel.view.php":["html","MyReportExcel.view.php"],
+        "export.php":["html","export.php"],
+        "customer_product_dollarsales2.csv":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}
