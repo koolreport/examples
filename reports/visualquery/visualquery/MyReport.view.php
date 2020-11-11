@@ -105,7 +105,7 @@
                     ["products.productName", "<>", "a", "", "or"],
                     ["products.productName", "nin", "a", "", "or"],
                     // ["products.productName", "null", "a", "", "or"],
-                    ["products.productName", "nnull", "a", "", "or"],
+                    // ["products.productName", "nnull", "a", "", "or"],
                     ["products.productName", "ctn", "a", "", "or"],
                     // ["products.productName", "nctn", "a", "", "or"],
                 ],
