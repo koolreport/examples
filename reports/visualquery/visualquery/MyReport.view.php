@@ -14,6 +14,7 @@
         <?php
         \koolreport\visualquery\VisualQuery::create(array(
             "name" => "visualquery1",
+            "themeBase" => "bs4",
             "schema" => array(
                 "tables" => [
                     "customers"=>array(

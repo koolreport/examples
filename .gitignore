@@ -1,5 +1,7 @@
 # Build and Release Folders
 vendor
+tmp
+temp
 koolreport_assets
 
 # Other files and folders
