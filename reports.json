@@ -112,7 +112,7 @@
             "Combo Chart":"/reports/chartjs/combo_chart/",
             "Color Scheme":"/reports/chartjs/color_scheme/"
         },
-        "<i class='fa fa-object-ungroup'></i>ChartTable<span class='badge badge-danger'>NEW</span>":{
+        "<i class='fa fa-object-ungroup'></i>ChartTable <span class='badge badge-danger'>NEW</span>":{
             "ChartTable":"/reports/charttable/charttable/"
         },
 		"<i class='fa fa-file-pdf-o'></i>Cloud Export":{
@@ -192,7 +192,7 @@
             "Introduction":"/reports/sparklines/introduction/",
             "Sparklines in DataTables":"/reports/sparklines/datatables_sparklines/"
         },
-        "<i class='fa fa-database'></i>VisualQuery<span class='badge badge-danger'>NEW</span>":{
+        "<i class='fa fa-database'></i>VisualQuery <span class='badge badge-danger'>NEW</span>":{
             "VisualQuery":"/reports/visualquery/visualquery/"
         }
     },
@@ -202,7 +202,8 @@
             "Multiple Data Filters":"/reports/advanced/multiple_data_filters/"
         },
         "SubReport":{
-            "Ajax Loading":"/reports/others/subreport_demo/"
+            "Ajax Loading":"/reports/others/subreport_demo/",
+            "Async Loading":"/reports/others/async_loading/"
         }
     }
 }
