@@ -6,14 +6,11 @@ class CustomersYears extends koolreport\KoolReport
 {
     function settings()
     {
+        $config = include "../../../config.php";
+
         return array(
-            "dataSources" => array(
-                "automaker"=>array(
-                    "connectionString"=>"mysql:host=localhost;dbname=automaker",
-                    "username"=>"root",
-                    'password' => '',
-                    "charset"=>"utf8"
-                ),
+            "dataSources"=>array(
+                "automaker"=>$config["automaker"]
             )
         );
     }
