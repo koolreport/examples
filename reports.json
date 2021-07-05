@@ -154,6 +154,7 @@
         },
         "<i class='fa fa-file-pdf-o'></i>Export":{
             "PDF Exporting":"/reports/export/sakila_rental/",
+            "Header / Footer":"/reports/export/header_footer/",
             "Custom Header / Footer":"/reports/export/custom_header_footer/"
         },
         "<i class='fa fa-sign-in'></i>Inputs":{

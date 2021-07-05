@@ -16,16 +16,16 @@ class SakilaRental extends KoolReport
     {
         return array(
             "dataSources"=>array(
-                "export1"=>array(
+                "sakila_rental"=>array(
                     "class"=>'\koolreport\datasources\CSVDataSource',
-                    'filePath'=>dirname(__FILE__)."/dataSakila.csv",
+                    'filePath'=>dirname(__FILE__)."/sakila_rental.csv",
                 )
             )
         );
     }   
     protected function setup()
     {
-        $this->src('export1')
+        $this->src('sakila_rental')
         ->pipe(new TimeBucket(array(
             "payment_date"=>"month"
         )))
