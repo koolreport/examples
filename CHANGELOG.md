@@ -1,5 +1,10 @@
 # ChangeLog
 
+## Version 1.5.0
+
+1. Export header and footer
+2. Custom Header and Footer example
+
 ## Version 1.3.0
 
 1. Fix datagrid examples
