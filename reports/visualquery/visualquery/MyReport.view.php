@@ -12,85 +12,13 @@
         </div>
         
         <?php
+        
         \koolreport\visualquery\VisualQuery::create(array(
             "name" => "visualquery1",
             "themeBase" => "bs4",
-            "schema" => array(
-                "tables" => [
-                    "customers"=>array(
-                        "{meta}" => [
-                            "alias" => "Customers"
-                        ],
-                        "customerNumber"=>array(
-                            "alias"=>"Customer Number",
-                        ),
-                        "customerName"=>array(
-                            "alias"=>"Customer Name",
-                        ),
-                    ),
-                    "orders"=>array(
-                        "{meta}" => [
-                            "alias" => "Orders"
-                        ],
-                        "orderNumber"=>array(
-                            "alias"=>"Order Number"
-                        ),
-                        "orderDate"=>array(
-                            "alias"=>"Order Date"
-                        ),
-                        "orderMonth" => [
-                            "expression" => "month(orderDate)",
-                        ]
-                        // "customerNumber"=>array(
-                        //    "alias"=>"Customer Number"
-                        // )
-                    ),
-                    "orderdetails"=>array(
-                        "{meta}" => [
-                            "alias" => "Order Details"
-                        ],
-                        // "orderNumber"=>array(
-                        //     "alias"=>"Order Number"
-                        // ),
-                        "quantityOrdered"=>array(
-                            "alias"=>"Quantity",
-                            "type"=>"number",
-                        ),
-                        "priceEach"=>array(
-                            "alias"=>"Price Each",
-                            "type"=>"number",
-                            "decimal"=>2,
-                            "prefix"=>"$",
-                        ),
-                        // "productCode"=>array(
-                        //     "alias"=>"Product Code"
-                        // ),
-                        "cost" => [
-                            // "expression" => "orderdetails.quantityOrdered * orderdetails.priceEach",
-                            "expression" => "quantityOrdered * priceEach",
-                            "alias"=>"Cost",
-                            "type"=>"number",
-                            "decimal"=>2,
-                            "prefix"=>"$",
-                        ]
-                    ),
-                    "products"=>array(
-                        "{meta}" => [
-                            "alias" => "Products"
-                        ],
-                        "productCode"=>array(
-                            "alias"=>"Product Code"),
-                        "productName"=>array(
-                            "alias"=>"Product Name"),
-                    )
-                ],
-                "relations" => [
-                    ["orders.customerNumber", "leftjoin", "customers.customerNumber"],
-                    ["orders.orderNumber", "join", "orderdetails.orderNumber"],
-                    ["orderdetails.productCode", "leftjoin", "products.productCode"],
-                ]
-            ),
+            "schema" => "salesSchema",
             "defaultValue" => [
+                "selectDistinct" => false,
                 "selectTables" => [
                     "orders",
                     "orderdetails",
@@ -100,24 +28,63 @@
                     "products.productName",
                 ],
                 "filters" => [
-                    ["products.productCode", "btw", "2", "998", "or"],
-                    // ["products.productName", "nbtw", "1", "", "and"],
-                    ["products.productName", "<>", "a", "", "or"],
-                    ["products.productName", "nin", "a", "", "or"],
-                    // ["products.productName", "null", "a", "", "or"],
-                    // ["products.productName", "nnull", "a", "", "or"],
+                    "(",
+                    [
+                        "field" => "orders.orderDay", 
+                        "operator" => ">", 
+                        "value1" => "2001-01-01", 
+                        "value2" => "", 
+                        "logic" => "and",
+                        "toggle" => true,
+                    ],
+                    [
+                        "field" => "products.productCode", 
+                        "operator" => "nbtw", 
+                        "value1" => "2", 
+                        "value2" => "998", 
+                        "logic" => "or",
+                        "toggle" => true,
+                    ],
+                    ["products.productName", "<>", "a", "", "or", "toggle" => false],
+                    ["products.productName", "nin", "a,b,c", "", "or"],
                     ["products.productName", "ctn", "a", "", "or"],
-                    // ["products.productName", "nctn", "a", "", "or"],
+                    ")",
                 ],
                 "groups" => [
-                    ["orderdetails.cost", "sum"]
+                    [
+                        "field" => "orderdetails.cost", 
+                        "aggregate" => "sum", 
+                        "toggle" => true
+                    ]
+                ],
+                "havings" => [
+                    "(",
+                    [
+                        "field" => "sum(orderdetails.cost)", 
+                        "operator" => ">", 
+                        "value1" => "10000", 
+                        "value2" => "", 
+                        "logic" => "and",
+                        "toggle" => true,
+                    ],
+                    ["products.productName", "<>", "a", "", "or", "toggle" => false],
+                    ")",
                 ],
                 "sorts" => [
-                    ["products.productName", "desc"]
+                    [
+                        "field" => "sum(orderdetails.cost)", 
+                        "direction" => "desc", 
+                        "toggle" => true
+                    ],
+                    ["products.productName", "desc", "toggle" => false]
                 ],
-                "offset" => 5,
-                "limit" => 10,
+                "limit" => [
+                    "offset" => 5,
+                    "limit" => 10,
+                    "toggle" => false,
+                ]
             ],
+            "activeTab" => "filters",
         ));
         ?>
 
@@ -134,7 +101,12 @@
             }
         </style>
         <div style="margin: 30px; width:800px">
+            <b>Select query:</b>
             <pre style="width:800px"><?php echo $this->queryStr; ?></pre>
+            <b>Query with parameters:</b>
+            <pre style="width:800px"><?php echo $this->paramQuery; ?></pre>
+            <b>Parameters:</b>
+            <?php \koolreport\core\Utility::prettyPrint($this->sqlParams); ?>
         </div>
 
         <?php

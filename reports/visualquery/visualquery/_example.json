@@ -6,7 +6,7 @@
     "meta":{
         "Description":["md","_description.md"],
         "index.php":["php","run.php"],
-        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.php":["php","MyReport.php"],
         "MyReport.view.php":["html","MyReport.view.php"]
     }
 }
