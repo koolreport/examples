@@ -1,7 +1,7 @@
 {
-    "title":"Excel PivotTable",
-    "description":"How to export PivotTable to Excel file",
-    "keywords":[["excel"],"excel pivot table"],
+    "title":"Excel PivotMatrix",
+    "description":"How to export PivotMatrix to Excel file",
+    "keywords":[["excel"],"excel pivot matrix"],
     "breadcrumb":{"Excel":"javascript:void 0"},
     "meta":{
         "Description":["md","_description.md"],

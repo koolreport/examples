@@ -1,0 +1,12 @@
+{
+    "title":"Multple annotations for data series",
+    "description":"The example shows how to add mutiple annotations for each data series",
+    "keywords":[["charts"],["googlecharts"],"google column chart"],
+    "breadcrumb":{"Google Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

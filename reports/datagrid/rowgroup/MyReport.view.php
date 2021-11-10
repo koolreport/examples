@@ -59,9 +59,9 @@
             ],
         ],
         "options" => [
-            "paging" => true,
-            "searching" => true,
+            "paging" => false,
             "pageLength" => 25,
+            "searching" => true,
         ],
     ));
     ?>

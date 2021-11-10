@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(E_ALL);
 require_once "../../../load.koolreport.php";
 
 use \koolreport\processes\Group;

@@ -69,8 +69,10 @@
             "Combo Chart":"/reports/google_charts/combo_chart/",
             "Pareto Chart":"/reports/google_charts/pareto_chart/",
             "Sankey":"/reports/google_charts/sankey/",
+            "Scatter Chart":"/reports/google_charts/scatter_chart/",
             "TreeMap":"/reports/google_charts/treemap/",
-            "Color Scheme":"/reports/google_charts/color_scheme/"
+            "Color Scheme":"/reports/google_charts/color_scheme/",
+            "Multi Annotation":"/reports/google_charts/multi_annotation/"
         }
     },
     "EXTENDED PACKAGES":{
@@ -110,6 +112,9 @@
             "Scatter Chart":"/reports/chartjs/scatter_chart/",
             "Bubble Chart":"/reports/chartjs/bubble_chart/",
             "Combo Chart":"/reports/chartjs/combo_chart/",
+            "Multi-axis":"/reports/chartjs/multi_axes/",
+            "Timeline":"/reports/chartjs/timeline/",
+            "Overlap BarChart":"/reports/chartjs/overlap_barchart/",
             "Color Scheme":"/reports/chartjs/color_scheme/"
         },
         "<i class='fa fa-object-ungroup'></i>ChartTable <span class='badge badge-danger'>NEW</span>":{
@@ -125,12 +130,19 @@
             "Table Searching":"/reports/datagrid/datatables_searching/",
             "Table Sorting":"/reports/datagrid/datatables_sorting/",
             "Column Reorder":"/reports/datagrid/datatables_colreorder/",
+            "Fixed Order Column":"/reports/datagrid/datatables_ordered_column/",
+            "Custom Type Sorting":"/reports/datagrid/custom_type_sorting/",
             "Server Processing":"/reports/datagrid/server_processing/",
             "Plugins":"/reports/datagrid/plugins/",
             "Complex Headers":"/reports/datagrid/complex_headers/",
-            "Rowgroup":"/reports/datagrid/client_rowgroup/",
+            "Rowgroup":"/reports/datagrid/rowgroup/",
+            "Rowgroup Collapse":"/reports/datagrid/rowgroup_collapse/",
+            "Rowgroup Count Distinct":"/reports/datagrid/rowgroup_count_distinct/",
+            "Rowgroup Sort Aggregate":"/reports/datagrid/rowgroup_sort_aggregate/",
+            "Row Span":"/reports/datagrid/rowspan/",
             "Fast Render":"/reports/datagrid/fast_render/",
-            "Row Detail":"/reports/datagrid/row_detail/"
+            "Row Detail":"/reports/datagrid/row_detail/",
+            "Row Detail Expand":"/reports/datagrid/row_detail_expand/"
         },
         "<i class='fa fa-pie-chart'></i>D3":{
             "Column Chart":"/reports/d3/column_chart/",
@@ -148,6 +160,7 @@
             "Big Spreadsheet":"/reports/excel/big_spreadsheet/",
             "Excel Chart":"/reports/excel/chart/",
             "Excel PivotTable":"/reports/excel/pivottable/",
+            "Excel PivotTMatrix":"/reports/excel/pivotmatrix/",
             "Excel Table":"/reports/excel/table/",
             "Table Row Group":"/reports/excel/table_rowgroup/",
             "Excel Text":"/reports/excel/text/"
@@ -171,7 +184,8 @@
             "Area Chart":"/reports/morris_chart/area/",
             "Bar Chart":"/reports/morris_chart/bar/",
             "Line Chart":"/reports/morris_chart/line/",
-            "Donut Chart":"/reports/morris_chart/donut/"
+            "Donut Chart":"/reports/morris_chart/donut/",
+            "Hover Template":"/reports/morris_chart/hover_template/"
         },
         "<i class='fa fa-bar-chart'></i>QueryBuilder":{
             "Get Started":"/reports/querybuilder/basic/",

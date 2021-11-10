@@ -23,7 +23,8 @@
         "cssClass"=>array(
             "table"=>"table-bordered table-striped table-hover"
         ),
-        "removeDuplicate"=>array("productLine")
+        "removeDuplicate"=>array("productLine"),
+        // "removeDuplicate"=>array(0),
     ));
     ?>
 </div>
