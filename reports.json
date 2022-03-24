@@ -133,6 +133,8 @@
             "Fixed Order Column":"/reports/datagrid/datatables_ordered_column/",
             "Custom Type Sorting":"/reports/datagrid/custom_type_sorting/",
             "Server Processing":"/reports/datagrid/server_processing/",
+            "Server Side Footer":"/reports/datagrid/server_side_footer/",
+            "Client Side Footer":"/reports/datagrid/client_side_footer/",
             "Plugins":"/reports/datagrid/plugins/",
             "Complex Headers":"/reports/datagrid/complex_headers/",
             "Rowgroup":"/reports/datagrid/rowgroup/",
@@ -156,6 +158,7 @@
             "Funnel Chart":"/reports/d3/funnel_chart/"
         },
 		"<i class='fa fa-file-excel-o'></i>Excel":{
+            "CSV Exportable":"/reports/excel/csv_exportable/",
             "Excel Template":"/reports/excel/excel_template/",
             "Big Spreadsheet":"/reports/excel/big_spreadsheet/",
             "Excel Chart":"/reports/excel/chart/",

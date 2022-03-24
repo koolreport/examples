@@ -1,0 +1,13 @@
+{
+    "title":"Server-side Footers",
+    "description":"How to calculate DataTables footers server-side",
+    "keywords":[["datagrid"]],
+    "breadcrumb":{"DataGrid":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","_MyReport.php.txt"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "Sample data":["db","automaker","select * from customer_product_dollarsales2 limit 10"]
+    }
+}
