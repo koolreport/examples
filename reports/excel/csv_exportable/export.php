@@ -48,10 +48,11 @@ $report->exportToCSV(
             ],
         ),
 
+        // General options for all datastores
         "useLocalTempFolder" => true,
+        "autoDeleteTempFile" => true,
         "BOM" => true, // default bom = false
         "buffer" => 1000, // unit: KB ~ 1000 bytes. Default buffer = 1000 KB
-        // "buffer" => 2000,
         // "buffer" => PHP_INT_MAX,        
     ),
 )

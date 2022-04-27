@@ -25,6 +25,7 @@
         "options" => [
             "paging" => true,
             "pageLength" => 10,
+            "pagingType" => "input",
             "order" => []
         ],
     ));

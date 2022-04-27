@@ -1,0 +1,13 @@
+{
+    "title":"How to use PivotMatrix with server paging",
+    "description":"PivotMatrix allows server paging to reduce rendering time with a lot of rows",
+    "keywords":[["pivot"]],
+    "breadcrumb":{"Pivot":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "CustomersYears.php":["php","CustomersYears.php"],
+        "CustomersYears.view.php":["html","CustomersYears.view.php"],
+        "Sample Data":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

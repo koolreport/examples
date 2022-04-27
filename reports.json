@@ -200,6 +200,7 @@
             "Customers vs Times":"/reports/pivot/years_months_customers_categories/",
             "Pivot Extract":"/reports/pivot/pivot_extract/",
             "PivotMaxtrix":"/reports/pivot/pivotmatrix/",
+            "Server Paging":"/reports/pivot/pivotmatrix_server_paging/",
             "Bun Template":"/reports/pivot/bun_template/",
             "Widget Options":"/reports/pivot/widget_options/",
             "Widget Map":"/reports/pivot/widget_map/",
