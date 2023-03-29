@@ -6,6 +6,8 @@ koolreport_assets
 
 # Other files and folders
 
+.DS_Store
+
 # Executables
 *.exe
 *.zip
