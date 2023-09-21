@@ -318,6 +318,7 @@
         },
 		"<i class='fa fa-file-excel-o'></i>Excel":{
             "CSV Exportable":"/reports/excel/csv_exportable/",
+            "CSV Footer":"/reports/excel/csv_footer/",
             "Excel Template":"/reports/excel/excel_template/",
             "Big Spreadsheet":"/reports/excel/big_spreadsheet/",
             "Excel Chart":"/reports/excel/chart/",
