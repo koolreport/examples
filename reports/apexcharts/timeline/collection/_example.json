@@ -1,0 +1,12 @@
+{
+    "title":"How to draw ApexCharts",
+    "description":"The example show how to use multipe ApexCharts types",
+    "keywords":[["charts"],["apexcharts"],"php chart"],
+    "breadcrumb":{"ApexCharts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","_MyReport.view.php"]
+    }
+}

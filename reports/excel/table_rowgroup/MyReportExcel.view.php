@@ -1,6 +1,4 @@
 <?php
-    use \koolreport\excel\Table;
-
     $sheet1 = "Sales by Customer";
 ?>
 <meta charset="UTF-8">
@@ -16,26 +14,53 @@
 
     <div>
         <?php
-        Table::create(array(
+        \koolreport\excel\Table::create(array(
             "dataSource" => $this->dataStore('sales'),
             "columns" => ["productName", "dollar_sales"],
             "rowGroup" => [
                 "customerName" => [
-                    'direction' => 'desc',
+                    'direction' => 'asc',
                     'calculate' => [
-                        'totalSales' => ['sum', 'dollar_sales']
+                        'totalSales' => [
+                            'sum', 
+                            'dollar_sales',
+                            'format' => [
+                                "type" => "number",
+                                "decimals" => 0,
+                                "decimalPoint" => ".",
+                                "thousandSeparator" => ",",
+                            ]
+                        ]
                     ],
                     "top" => "Customers: {customerName}",
                     "columnTops" => [
-                        "dollar_sales" => "Total sales: {totalSales}"
+                        // "productName" => "Customers: {customerName}",
+                        // "dollar_sales" => "Total sales: {totalSales}"
                     ],
-                    "bottom" => "Customers: {customerName}",
-                    "columnBottoms" => [
-                        "dollar_sales" => "Total sales: {totalSales}"
-                    ],
+                    // "bottom" => "Customers: {customerName}",
+                    // "columnBottoms" => [
+                        // "dollar_sales" => "Total sales: {totalSales}"
+                    // ],
                 ],
                 "productLine" => [
+                    'direction' => 'asc',
+                    'calculate' => [
+                        'totalLineSales' => [
+                            'sum', 
+                            'dollar_sales',
+                            'format' => [
+                                "type" => "number",
+                                "decimals" => 0,
+                                "decimalPoint" => ".",
+                                "thousandSeparator" => ",",
+                            ]
+                        ]
+                    ],
                     "top" => "Product line: {productLine}",
+                    "columnTops" => [
+                        // "productName" => "Product line: {productLine}",
+                        "dollar_sales" => "Total sales: {totalLineSales}"
+                    ],
                 ]
             ]
         ));

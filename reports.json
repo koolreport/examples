@@ -84,6 +84,164 @@
             "DualChart Card":"/reports/amazing-theme/dualchartcard/",
             "Progress Card":"/reports/amazing-theme/progresscard/"
         },
+        "<i class='fa fa-gears'></i>ApexCharts":{
+            "Chart Types":"/reports/apexcharts/chart_types/",
+            "Line": {
+                "Collection":"/reports/apexcharts/line/collection/",
+                "Basic":"/reports/apexcharts/line/basic/",
+                "Data Labels":"/reports/apexcharts/line/data_labels/",
+                "Time Series":"/reports/apexcharts/line/time_series/",
+                "Annotations":"/reports/apexcharts/line/annotations/",
+                "Synchronized Charts":"/reports/apexcharts/line/synchronized_charts/",
+                "Brush Charts":"/reports/apexcharts/line/brush_charts/",
+                "Step Line":"/reports/apexcharts/line/step_line/",
+                "Gradient Line":"/reports/apexcharts/line/gradient_line/",
+                "Dashed Line":"/reports/apexcharts/line/dashed_line/",
+                "Missing/Null Values":"/reports/apexcharts/line/missing_null_values/"
+            },
+            "Area": {
+                "Collection":"/reports/apexcharts/area/collection/",
+                "Basic":"/reports/apexcharts/area/basic/",
+                "Spline Area":"/reports/apexcharts/area/spline/",
+                "Datetime X-Axis":"/reports/apexcharts/area/datetime/",
+                "Negative":"/reports/apexcharts/area/negative/",
+                "Github Style":"/reports/apexcharts/area/github_style/",
+                "Stacked Area":"/reports/apexcharts/area/stacked/",
+                "Irregular Timeseries":"/reports/apexcharts/area/irregular_timeseries/",
+                "Missing/Null Values":"/reports/apexcharts/area/missing_null_values/"
+            },
+            "Column": {
+                "Collection":"/reports/apexcharts/column/collection/",
+                "Basic":"/reports/apexcharts/column/basic/",
+                "Data Labels":"/reports/apexcharts/column/data_labels/",
+                "Stacked Column":"/reports/apexcharts/column/stacked/",
+                "Stacked Column 100%":"/reports/apexcharts/column/stacked_100/",
+                "Grouped Stacked":"/reports/apexcharts/column/stacked_group/",
+                "Dumbbell Chart":"/reports/apexcharts/column/dumbbell/",
+                "Markers":"/reports/apexcharts/column/markers/",
+                "Group Label":"/reports/apexcharts/column/group_label/",
+                "Rotated Axis labels":"/reports/apexcharts/column/rotated_axis_labels/",
+                "Rotated Data Labels":"/reports/apexcharts/column/rotated_data_labels/",
+                "Negative Values":"/reports/apexcharts/column/negative/",
+                "Dynamic Loaded":"/reports/apexcharts/column/dynamic_loaded/",
+                "Distributed Columns":"/reports/apexcharts/column/distributed_columns/"
+            },
+            "Bar": {
+                "Collection":"/reports/apexcharts/bar/collection/",
+                "Basic":"/reports/apexcharts/bar/basic/",
+                "Grouped":"/reports/apexcharts/bar/grouped/",
+                "Stacked":"/reports/apexcharts/bar/stacked/",
+                "Stacked Bars 100%":"/reports/apexcharts/bar/stacked_100/",
+                "Grouped Stacked Bars":"/reports/apexcharts/bar/grouped_stacked/",
+                "Negative Values":"/reports/apexcharts/bar/negative/",
+                "Markers":"/reports/apexcharts/bar/markers/",
+                "Reversed Bars":"/reports/apexcharts/bar/reversed_bars/",
+                "Custom Datalabels":"/reports/apexcharts/bar/custom_data_labels/",
+                "Patterned":"/reports/apexcharts/bar/patterned/",
+                "Bar With Images":"/reports/apexcharts/bar/bar_images/"
+            },
+            "Mixed/Combo": {
+                "Collection":"/reports/apexcharts/mixed_combo/collection/",
+                "Line - Column":"/reports/apexcharts/mixed_combo/line_column/",
+                "Multiple Y-Axis":"/reports/apexcharts/mixed_combo/multiple_axis/",
+                "Line - Area":"/reports/apexcharts/mixed_combo/line_area/",
+                "Line - Column - Area":"/reports/apexcharts/mixed_combo/line_column_area/",
+                "Line - Scatter":"/reports/apexcharts/mixed_combo/line_scatter/"
+            },
+            "Range Area": {
+                "Collection":"/reports/apexcharts/range_area/collection/",
+                "Basic":"/reports/apexcharts/range_area/basic/",
+                "Combo":"/reports/apexcharts/range_area/combo/"
+            },
+            "Timeline": {
+                "Collection":"/reports/apexcharts/timeline/collection/",
+                "Basic":"/reports/apexcharts/timeline/basic/",
+                "Custom Colors":"/reports/apexcharts/timeline/custom_colors/",
+                "Multi Series":"/reports/apexcharts/timeline/multi_series/",
+                "Multiple Ranges":"/reports/apexcharts/timeline/multi_ranges/",
+                "Group Rows":"/reports/apexcharts/timeline/group_rows/",
+                "Dumbbel Horizontal":"/reports/apexcharts/timeline/dumbbel_horizontal/"
+            },
+            "Funnel": {
+                "Collection":"/reports/apexcharts/funnel/collection/",
+                "Funnel":"/reports/apexcharts/funnel/basic/",
+                "Pyramid":"/reports/apexcharts/funnel/pyramid/"
+            },
+            "CandleStick": {
+                "Collection":"/reports/apexcharts/candlestick/collection/",
+                "Basic":"/reports/apexcharts/candlestick/basic/",
+                "Combo":"/reports/apexcharts/candlestick/combo/",
+                "Category X-Axis":"/reports/apexcharts/candlestick/category_xaxis/",
+                "Candlestick with Line":"/reports/apexcharts/candlestick/candlestick_line/"
+            },
+            "Box & Whisker": {
+                "Collection":"/reports/apexcharts/box_whisker/collection/",
+                "Basic":"/reports/apexcharts/box_whisker/basic/",
+                "Boxplot - Scatter":"/reports/apexcharts/box_whisker/boxplot_scatter/",
+                "Horizontal Boxplot":"/reports/apexcharts/box_whisker/horizontal/"
+            },
+            "Pie/Donut": {
+                "Collection":"/reports/apexcharts/pie_donut/collection/",
+                "Simple Pie":"/reports/apexcharts/pie_donut/pie_basic/",
+                "Simple Donut":"/reports/apexcharts/pie_donut/donut_basic/",
+                "Donut Update":"/reports/apexcharts/pie_donut/donut_update/",
+                "Monochrome Pie":"/reports/apexcharts/pie_donut/pie_monochrome/",
+                "Gradient Donut":"/reports/apexcharts/pie_donut/donut_gradient/",
+                "Semi Donut":"/reports/apexcharts/pie_donut/donut_semi/",
+                "Donut with Pattern":"/reports/apexcharts/pie_donut/donut_pattern/",
+                "Pie with Image":"/reports/apexcharts/pie_donut/pie_image/"
+            },
+            "Radar": {
+                "Collection":"/reports/apexcharts/radar/collection/",
+                "Basic":"/reports/apexcharts/radar/basic/",
+                "Multiple Series":"/reports/apexcharts/radar/multiple_series/",
+                "Polygon-filled":"/reports/apexcharts/radar/polygon_filled/"
+            },
+            "Polar Area": {
+                "Collection":"/reports/apexcharts/polar_area/collection/",
+                "Basic":"/reports/apexcharts/polar_area/basic/",
+                "Monochrome":"/reports/apexcharts/polar_area/monochrome/"
+            },
+            "RadialBars/Cirle/Gauge": {
+                "Collection":"/reports/apexcharts/radialbar_circle/collection/",
+                "Basic":"/reports/apexcharts/radialbar_circle/basic/",
+                "Multiple":"/reports/apexcharts/radialbar_circle/multiple/",
+                "Custom Angle":"/reports/apexcharts/radialbar_circle/custom_angle/",
+                "Gradient":"/reports/apexcharts/radialbar_circle/gradient/",
+                "RadialBars with Image":"/reports/apexcharts/radialbar_circle/with_image/",
+                "Stroked Gauge":"/reports/apexcharts/radialbar_circle/stroked_gauge/",
+                "Semi Cirle Gauge":"/reports/apexcharts/radialbar_circle/semi_cirle_gauge/"
+            },
+            "Bubble": {
+                "Collection":"/reports/apexcharts/bubble/collection/",
+                "Simple":"/reports/apexcharts/bubble/basic/",
+                "3D Bubble":"/reports/apexcharts/bubble/3d/"
+            },
+            "Scatter": {
+                "Collection":"/reports/apexcharts/scatter/collection/",
+                "Basic":"/reports/apexcharts/scatter/basic/",
+                "Datetime":"/reports/apexcharts/scatter/datetime/",
+                "Images":"/reports/apexcharts/scatter/images/"
+            },
+            "HeatMap": {
+                "Collection":"/reports/apexcharts/heatmap/collection/",
+                "Basic":"/reports/apexcharts/heatmap/basic/",
+                "Multi-Color":"/reports/apexcharts/heatmap/multi_color/",
+                "Multi-Color Flipped":"/reports/apexcharts/heatmap/multi_color_flipped/",
+                "Color Range":"/reports/apexcharts/heatmap/color_range/",
+                "Range without Shades":"/reports/apexcharts/heatmap/without_shades/"
+            },
+            "TreeMap": {
+                "Collection":"/reports/apexcharts/treemap/collection/",
+                "Basic":"/reports/apexcharts/treemap/basic/",
+                "Multiple Series":"/reports/apexcharts/treemap/multiple_series/",
+                "Color Range":"/reports/apexcharts/treemap/color_range/",
+                "Distributed":"/reports/apexcharts/treemap/distributed/"
+            },
+            "SparkLine": {
+                "Basic":"/reports/apexcharts/sparkline/basic/"
+            }
+        },
         "<i class='fa fa-cube'></i>Cube":{
             "Customers vs Categories":"/reports/cube/cube_customers_vs_categories/",
             "Products vs Quarters":"/reports/cube/cube_products_vs_quarters/",
@@ -142,6 +300,7 @@
             "Rowgroup Count Distinct":"/reports/datagrid/rowgroup_count_distinct/",
             "Rowgroup Sort Aggregate":"/reports/datagrid/rowgroup_sort_aggregate/",
             "Row Span":"/reports/datagrid/rowspan/",
+            "Row Group with Span":"/reports/datagrid/rowgroup_rowspan/",
             "Fast Render":"/reports/datagrid/fast_render/",
             "Row Detail":"/reports/datagrid/row_detail/",
             "Row Detail Expand":"/reports/datagrid/row_detail_expand/"
@@ -166,6 +325,8 @@
             "Excel PivotTMatrix":"/reports/excel/pivotmatrix/",
             "Excel Table":"/reports/excel/table/",
             "Table Row Group":"/reports/excel/table_rowgroup/",
+            "Table Rowspan":"/reports/excel/table_rowspan/",
+            "Table Complex Header":"/reports/excel/table_complex_header/",
             "Excel Text":"/reports/excel/text/"
         },
         "<i class='fa fa-file-pdf-o'></i>Export":{
