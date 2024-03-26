@@ -1,0 +1,12 @@
+{
+    "title":"TypeAssure process",
+    "description":"Convert 'number' type column's string values into numeric ones",
+    "keywords":[["general"],"data column meta"],
+    "breadcrumb":{"Processes":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

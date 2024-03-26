@@ -1,4 +1,4 @@
-Inputs package is very important if you want to build a dynamic reports or dashboards. The dynamic reports or dashboards can recieve parameters and generate outcome base on the parameters. For example, we can select a date range and the sale report will show status of sale within that timeframe.
+Inputs package is very important if you want to build a dynamic reports or dashboards. The dynamic reports or dashboards can receive parameters and generate outcome base on the parameters. For example, we can select a date range and the sale report will show status of sale within that timeframe.
 
 By default, report created by KoolRepot can receive parameters however you may need to build your own form to get those parameters from users and put into report. The `Inputs` package can ease your tasks by connecting directly to the report to provided parameters for report.
 

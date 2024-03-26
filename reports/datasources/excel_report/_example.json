@@ -1,5 +1,5 @@
 {
-    "title":"Microsoft Excel As Datasource",
+    "title":"How to build report from Excel",
     "description":"The example shows how to load data from Excel",
     "keywords":[["general"],"excel charts","excel graphs"],
     "breadcrumb":{"Datasources":"javascript:void 0"},

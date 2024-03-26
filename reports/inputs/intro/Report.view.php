@@ -6,12 +6,18 @@
     use \koolreport\inputs\CheckBoxList;
     use \koolreport\inputs\TextBox;
     use \koolreport\inputs\DateTimePicker;
+    use \koolreport\inputs\DateTimePicker2;
     use \koolreport\inputs\Select2;
     use \koolreport\inputs\RangeSlider;
     use \koolreport\inputs\BSelect;
     
 ?>
-
+<style>
+    .calendar.left .daterangepicker_input,
+    .calendar.right .daterangepicker_input {
+        display: none;
+    }
+</style>
 <div class="report-content">
     <div class="text-center">
         <h1>Input Controls</h1>
@@ -114,6 +120,52 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12 form-group">
+                <strong>DateTimePicker 2</strong>
+                <div class="row">
+                    <div class="col-md-6">
+                        From Date 2:
+                        <?php
+                        DateTimePicker2::create(array(
+                            "name" => "startDatePicker2",
+                            "options" => [
+                                // "allowInputToggle" => true,
+                                "display" => [
+                                    "theme" => "light", //"dark", "auto"
+                                ],
+                            ],
+                            "maxDate" => "@endDatePicker2",
+                            // "locale" => "en-GB",
+                            // "format" => "yyyy-MM-dd HH:mm:ss",
+                            // "disabledDates" => ['2023-12-10 00:00:00'],
+                            // "clientEvents" => [
+                            //     "change" => "function(e) {
+                            //         console.log('datetimepicker 2 event change', e);   
+                            //     }"
+                            // ],
+                            // "onReady" => "function() {
+                            //     console.log('DateTimePicker2 ready');
+                            // }"
+                        ));
+                        
+                        ?>
+                    </div>
+                    <div class="col-md-6">
+                        To Date 2:
+                        <?php
+                        DateTimePicker2::create(array(
+                            "name" => "endDatePicker2",
+                            "options" => [
+                                "display" => [
+                                    "theme" => "light", //"dark", "auto"
+                                ],
+                            ],
+                            "minDate" => "@startDatePicker2",
+                        ));
+                        ?>
+                    </div>
+                </div>
+            </div>            
             <div class="col-md-12 form-group">
                 
                 <div class="row">

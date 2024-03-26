@@ -1,0 +1,13 @@
+{
+    "title":"Stateful Map",
+    "description":"Sum, aggregate data rows' value with map's state.",
+    "keywords":[["general"],"map value and metadata with state"],
+    "breadcrumb":{"Processes":"javascript:void 0","Advanced":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"],
+        "data.csv":["csv","../../../databases/customer_product_dollarsales2.csv",";"]
+    }
+}

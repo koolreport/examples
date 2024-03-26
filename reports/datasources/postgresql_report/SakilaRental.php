@@ -10,16 +10,17 @@ use \koolreport\processes\Limit;
 
 class SakilaRental extends KoolReport
 {
-    function settings()
+    public function settings()
     {
+        //Get default connection from config.php
+        $config = include "../../../config.php";
+
         return array(
             "dataSources"=>array(
-                "sakila_rental"=>array(
-                    "connectionString"=>"pgsql:host=localhost;port=5432;dbname=sakila;user=username;password=password",
-                ),
+                "sakila_rental"=>$config["sakila"]
             )
-        ); 
-    }    
+        );
+    }   
     protected function setup()
     {
         $this->src('sakila_rental')

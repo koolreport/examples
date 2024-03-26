@@ -1,5 +1,5 @@
 {
-    "title":"CSV Report",
+    "title":"How to build CSV Report",
     "description":"This report show how to build report from CSV data",
     "keywords":[["general"],"csv charts","csv graphs"],
     "breadcrumb":{"DataSources":"javascript:void 0"},

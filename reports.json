@@ -1,390 +1,469 @@
 {
-    "CORE":{
+    "EXAMPLES": {
         "Introduction":{
             "Sales By Country":"/reports/basic/sales_by_country/",
             "Sales By Customer":"/reports/basic/sales_by_customer/" 
         },
-        "<i class='fa fa-database'></i>DataSources":{
-            "MySQL":"/reports/datasources/mysql_report/",
-            "CSV":"/reports/datasources/csv_report/",
-            "Excel":"/reports/datasources/excel_report/",
-            "SQLServer":"/reports/datasources/sqlserver_report/",
-            "PostgreSQL":"/reports/datasources/postgresql_report/",
-            "Oracle":"/reports/datasources/oracle_report/",
-            "Array":"/reports/datasources/array_report/"
-        },
-        "<i class='fa fa-gears'></i>Processes":{
-            "Filter":"/reports/processes/filter/",
-            "Group":"/reports/processes/group/",
-            "Sort":"/reports/processes/sort/",
-            "Limit":"/reports/processes/limit/",
-            "Join":"/reports/processes/join/",
-            "CopyColumn":"/reports/processes/copycolumn/",
-            "Custom":"/reports/processes/custom/",
-            "TimeBucket":"/reports/processes/timebucket/",
-            "NumberBucket":"/reports/processes/numberbucket/",
-            "NumberRange":"/reports/processes/numberrange/",
-            "DateTimeFormat":"/reports/processes/datetimeformat/",
-            "CalculatedColumn":"/reports/processes/calculatedcolumn/",
-            "AccumulativeColumn":"/reports/processes/accumulativecolumn/",
-            "AggregatedColumn":"/reports/processes/aggregatedcolumn/",
-            "Transpose": "/reports/processes/transpose/",
-            "Advanced": {
-                "Columns Tranpose":"/reports/advanced_processes/columns_transpose/",
-                "Map":"/reports/advanced_processes/map/",
-                "Stateful Map":"/reports/advanced_processes/stateful_map/" 
+        "<i class='fa fa-database'></i>DataSources": {
+            "Variables_based": {
+                "Array": "/reports/datasources/array_report/",
+                "Report": "/reports/datasources/report_datasource/"
+            },
+            "Files": {
+                "CSV": "/reports/datasources/csv_report/",
+                "Excel": "/reports/datasources/excel_report/",
+                "Big_CSV": "/reports/datasources/big_csv/",
+                "Big_Excel": "/reports/datasources/big_excel/"
+            },
+            "PDO": {
+                "MySQL": "/reports/datasources/pdo_mysql/",
+                "PostgreSQL": "/reports/datasources/pdo_postgresql/",
+                "SQLServer": "/reports/datasources/pdo_sqlserver/",
+                "Oracle": "/reports/datasources/pdo_oracle/"
+            },
+            "Native_databases": {
+                "MySQL": "/reports/datasources/mysql_report/",
+                "PostgreSQL": "/reports/datasources/postgresql_report/",
+                "SQLServer": "/reports/datasources/sqlserver_report/",
+                "Oracle": "/reports/datasources/oracle_report/",
+                "MongoDB": "/reports/datasources/mongodb_report/"
             }
         },
-        "<i class='fa fa-archive'></i>DataStores":{
-            "Aggregated Methods":"/reports/datastores/aggregated_methods/",
-            "Filter Methods":"/reports/datastores/filter_methods/",
-            "Join Method":"/reports/datastores/join/" 
+        "<i class='fa fa-gears'></i>Processes": {
+            "ColumnMeta": {
+                "String": "/reports/processes/columnmeta_string/",
+                "Number": "/reports/processes/columnmeta_number/",
+                "DateTime": "/reports/processes/columnmeta_datetime/"
+            },
+            "CalculatedColumn": {
+                "Basic_Function": "/reports/processes/calculatedcolumn_basic_function/",
+                "Meta": "/reports/processes/calculatedcolumn_meta/",
+                "RowNum": "/reports/processes/calculatedcolumn_rownum/"
+            },
+            "Filter": {
+                "Basic": "/reports/processes/filter_basic/",
+                "\"or\" operators": "/reports/processes/filter_or_operator/",
+                "Brackets": "/reports/processes/filter_brackets/",
+                "Function": "/reports/processes/filter_function/"
+            },
+            "Map": {
+                "Value": "/reports/processes/map_value/",
+                "Meta": "/reports/processes/map_meta/",
+                "Added rows": "/reports/processes/map_added_rows/",
+                "Stateful": "/reports/processes/map_stateful/"
+            },
+            "Transpose": {
+                "Basic": "/reports/processes/transpose/",
+                "Columns transpose": "/reports/processes/columns_transpose/"
+            },
+            "Columns related": {
+                "CopyColumn": "/reports/processes/copycolumn/",
+                "AccumulativeColumn": "/reports/processes/accumulativecolumn/",
+                "AggregatedColumn": "/reports/processes/aggregatedcolumn/",
+                "ColumnRename": "/reports/processes/column_rename/",
+                "ColumnsSort": "/reports/processes/columns_sort/",
+                "DifferenceColumn": "/reports/processes/difference_column/",
+                "OnlyColumn": "/reports/processes/only_column/",
+                "RemoveColumn": "/reports/processes/remove_column/",
+                "RowNumColumn": "/reports/processes/rownum_column/"
+            },
+            "Rows related": {
+                "Sort basic": "/reports/processes/sort_basic/",
+                "Sort function": "/reports/processes/sort_function/",
+                "AppendRow": "/reports/processes/append_row/",
+                "Limit": "/reports/processes/limit/",
+                "Shuffle": "/reports/processes/shuffle/"
+            },
+            "Bucket values": {
+                "TimeBucket": "/reports/processes/timebucket/",
+                "NumberBucket": "/reports/processes/numberbucket/",
+                "NumberRange": "/reports/processes/numberrange/"
+            },
+            "Values changes": {
+                "DateTimeFormat": "/reports/processes/datetimeformat/",
+                "JsonSpread": "/reports/processes/json_spread/",
+                "StringCase": "/reports/processes/string_case/",
+                "StringTrim": "/reports/processes/string_trim/",
+                "TypeAssure": "/reports/processes/type_assure/"
+            },
+            "Others": {
+                "Custom": "/reports/processes/custom/",
+                "Group": "/reports/processes/group/",
+                "Join": "/reports/processes/join/"
+            }
         },
-        "<i class='icon-grid'></i>Card":{
-            "Card":"/reports/koolphp_card/card/"
+        "<i class='fa fa-archive'></i>DataStores": {
+            "Aggregated Methods": "/reports/datastores/aggregated_methods/",
+            "Filter Methods": "/reports/datastores/filter_methods/",
+            "Join Method": "/reports/datastores/join/"
         },
-        "<i class='fa fa-table'></i>Table":{
-            "Minimum Settings":"/reports/koolphp_table/minimum_settings/",
-            "Column Align":"/reports/koolphp_table/column_align/",
-            "Footer":"/reports/koolphp_table/footer/",
-            "Header":"/reports/koolphp_table/header/",
-            "Format Value":"/reports/koolphp_table/format_value/",
-            "CSS Class":"/reports/koolphp_table/css_class/",
-            "Paging":"/reports/koolphp_table/paging/",
-            "Remove Duplicate":"/reports/koolphp_table/remove_duplicate/",
-            "Row Group":"/reports/koolphp_table/row_group/"
+        "<i class='icon-grid'></i>Card": {
+            "Card": "/reports/koolphp_card/card/"
         },
-        "<i class='fa fa-pie-chart'></i>Google Charts":{
-            "Column Chart":"/reports/google_charts/column_chart/",
-            "Bar Chart":"/reports/google_charts/bar_chart/",
-            "Pie Chart":"/reports/google_charts/pie_chart/",
-            "Donut Chart":"/reports/google_charts/donut_chart/",
-            "Area Chart":"/reports/google_charts/area_chart/",
-            "Stepped Area Chart":"/reports/google_charts/stepped_area_chart/",
-            "Line Chart":"/reports/google_charts/line_chart/",
-            "Geo Chart":"/reports/google_charts/geo_chart/",
-            "Gauge Chart":"/reports/google_charts/gauge_chart/",
-            "Histogram Chart":"/reports/google_charts/histogram_chart/",
-            "Timeline Chart":"/reports/google_charts/timeline_chart/",
-            "Combo Chart":"/reports/google_charts/combo_chart/",
-            "Pareto Chart":"/reports/google_charts/pareto_chart/",
-            "Sankey":"/reports/google_charts/sankey/",
-            "Scatter Chart":"/reports/google_charts/scatter_chart/",
-            "TreeMap":"/reports/google_charts/treemap/",
-            "Color Scheme":"/reports/google_charts/color_scheme/",
-            "Multi Annotation":"/reports/google_charts/multi_annotation/"
+        "<i class='fa fa-table'></i>Table": {
+            "Minimum Settings": "/reports/koolphp_table/minimum_settings/",
+            "Column Align": "/reports/koolphp_table/column_align/",
+            "Footer": "/reports/koolphp_table/footer/",
+            "Header": "/reports/koolphp_table/header/",
+            "Format Value": "/reports/koolphp_table/format_value/",
+            "CSS Class": "/reports/koolphp_table/css_class/",
+            "Paging": "/reports/koolphp_table/paging/",
+            "Remove Duplicate": "/reports/koolphp_table/remove_duplicate/",
+            "Row Group": "/reports/koolphp_table/row_group/"
+        },
+        "<i class='fa fa-pie-chart'></i>Google Charts": {
+            "Collection": "/reports/google_charts/collection/",
+            "Column Chart": "/reports/google_charts/column_chart/",
+            "Bar Chart": "/reports/google_charts/bar_chart/",
+            "Pie Chart": "/reports/google_charts/pie_chart/",
+            "Donut Chart": "/reports/google_charts/donut_chart/",
+            "Area Chart": "/reports/google_charts/area_chart/",
+            "Stepped Area Chart": "/reports/google_charts/stepped_area_chart/",
+            "Line Chart": "/reports/google_charts/line_chart/",
+            "Geo Chart": "/reports/google_charts/geo_chart/",
+            "Gauge Chart": "/reports/google_charts/gauge_chart/",
+            "Histogram Chart": "/reports/google_charts/histogram_chart/",
+            "Timeline Chart": "/reports/google_charts/timeline_chart/",
+            "Combo Chart": "/reports/google_charts/combo_chart/",
+            "Pareto Chart": "/reports/google_charts/pareto_chart/",
+            "Sankey": "/reports/google_charts/sankey/",
+            "Scatter Chart": "/reports/google_charts/scatter_chart/",
+            "TreeMap": "/reports/google_charts/treemap/",
+            "Color Scheme": "/reports/google_charts/color_scheme/",
+            "Multi Annotation": "/reports/google_charts/multi_annotation/"
         }
     },
-    "EXTENDED PACKAGES":{
-        "<i class='fa fa-css3'></i>Amazing Theme":{
-            "Introduction":"/reports/amazing-theme/introduction/",
-            "Simple Card":"/reports/amazing-theme/simplecard/",
-            "Gauge Card":"/reports/amazing-theme/gaugecard/",
-            "Chart Card":"/reports/amazing-theme/chartcard/",
-            "DualChart Card":"/reports/amazing-theme/dualchartcard/",
-            "Progress Card":"/reports/amazing-theme/progresscard/"
+    "EXTENDED PACKAGES": {
+        "<i class='fa fab fa-css3'></i>Amazing Theme": {
+            "Introduction": "/reports/amazing-theme/introduction/",
+            "Simple Card": "/reports/amazing-theme/simplecard/",
+            "Gauge Card": "/reports/amazing-theme/gaugecard/",
+            "Chart Card": "/reports/amazing-theme/chartcard/",
+            "DualChart Card": "/reports/amazing-theme/dualchartcard/",
+            "Progress Card": "/reports/amazing-theme/progresscard/"
         },
-        "<i class='fa fa-gears'></i>ApexCharts":{
-            "Chart Types":"/reports/apexcharts/chart_types/",
+        "<i class='fa fa-gears'></i>ApexCharts": {
+            "Chart Types": "/reports/apexcharts/chart_types/",
             "Line": {
-                "Collection":"/reports/apexcharts/line/collection/",
-                "Basic":"/reports/apexcharts/line/basic/",
-                "Data Labels":"/reports/apexcharts/line/data_labels/",
-                "Time Series":"/reports/apexcharts/line/time_series/",
-                "Annotations":"/reports/apexcharts/line/annotations/",
-                "Synchronized Charts":"/reports/apexcharts/line/synchronized_charts/",
-                "Brush Charts":"/reports/apexcharts/line/brush_charts/",
-                "Step Line":"/reports/apexcharts/line/step_line/",
-                "Gradient Line":"/reports/apexcharts/line/gradient_line/",
-                "Dashed Line":"/reports/apexcharts/line/dashed_line/",
-                "Missing/Null Values":"/reports/apexcharts/line/missing_null_values/"
+                "Collection": "/reports/apexcharts/line/collection/",
+                "Basic": "/reports/apexcharts/line/basic/",
+                "Data Labels": "/reports/apexcharts/line/data_labels/",
+                "Time Series": "/reports/apexcharts/line/time_series/",
+                "Annotations": "/reports/apexcharts/line/annotations/",
+                "Synchronized Charts": "/reports/apexcharts/line/synchronized_charts/",
+                "Brush Charts": "/reports/apexcharts/line/brush_charts/",
+                "Step Line": "/reports/apexcharts/line/step_line/",
+                "Gradient Line": "/reports/apexcharts/line/gradient_line/",
+                "Dashed Line": "/reports/apexcharts/line/dashed_line/",
+                "Missing/Null Values": "/reports/apexcharts/line/missing_null_values/"
             },
             "Area": {
-                "Collection":"/reports/apexcharts/area/collection/",
-                "Basic":"/reports/apexcharts/area/basic/",
-                "Spline Area":"/reports/apexcharts/area/spline/",
-                "Datetime X-Axis":"/reports/apexcharts/area/datetime/",
-                "Negative":"/reports/apexcharts/area/negative/",
-                "Github Style":"/reports/apexcharts/area/github_style/",
-                "Stacked Area":"/reports/apexcharts/area/stacked/",
-                "Irregular Timeseries":"/reports/apexcharts/area/irregular_timeseries/",
-                "Missing/Null Values":"/reports/apexcharts/area/missing_null_values/"
+                "Collection": "/reports/apexcharts/area/collection/",
+                "Basic": "/reports/apexcharts/area/basic/",
+                "Spline Area": "/reports/apexcharts/area/spline/",
+                "Datetime X-Axis": "/reports/apexcharts/area/datetime/",
+                "Negative": "/reports/apexcharts/area/negative/",
+                "Github Style": "/reports/apexcharts/area/github_style/",
+                "Stacked Area": "/reports/apexcharts/area/stacked/",
+                "Irregular Timeseries": "/reports/apexcharts/area/irregular_timeseries/",
+                "Missing/Null Values": "/reports/apexcharts/area/missing_null_values/"
             },
             "Column": {
-                "Collection":"/reports/apexcharts/column/collection/",
-                "Basic":"/reports/apexcharts/column/basic/",
-                "Data Labels":"/reports/apexcharts/column/data_labels/",
-                "Stacked Column":"/reports/apexcharts/column/stacked/",
-                "Stacked Column 100%":"/reports/apexcharts/column/stacked_100/",
-                "Grouped Stacked":"/reports/apexcharts/column/stacked_group/",
-                "Dumbbell Chart":"/reports/apexcharts/column/dumbbell/",
-                "Markers":"/reports/apexcharts/column/markers/",
-                "Group Label":"/reports/apexcharts/column/group_label/",
-                "Rotated Axis labels":"/reports/apexcharts/column/rotated_axis_labels/",
-                "Rotated Data Labels":"/reports/apexcharts/column/rotated_data_labels/",
-                "Negative Values":"/reports/apexcharts/column/negative/",
-                "Dynamic Loaded":"/reports/apexcharts/column/dynamic_loaded/",
-                "Distributed Columns":"/reports/apexcharts/column/distributed_columns/"
+                "Collection": "/reports/apexcharts/column/collection/",
+                "Basic": "/reports/apexcharts/column/basic/",
+                "Data Labels": "/reports/apexcharts/column/data_labels/",
+                "Stacked Column": "/reports/apexcharts/column/stacked/",
+                "Stacked Column 100%": "/reports/apexcharts/column/stacked_100/",
+                "Grouped Stacked": "/reports/apexcharts/column/stacked_group/",
+                "Dumbbell Chart": "/reports/apexcharts/column/dumbbell/",
+                "Markers": "/reports/apexcharts/column/markers/",
+                "Group Label": "/reports/apexcharts/column/group_label/",
+                "Rotated Axis labels": "/reports/apexcharts/column/rotated_axis_labels/",
+                "Rotated Data Labels": "/reports/apexcharts/column/rotated_data_labels/",
+                "Negative Values": "/reports/apexcharts/column/negative/",
+                "Dynamic Loaded": "/reports/apexcharts/column/dynamic_loaded/",
+                "Distributed Columns": "/reports/apexcharts/column/distributed_columns/"
             },
             "Bar": {
-                "Collection":"/reports/apexcharts/bar/collection/",
-                "Basic":"/reports/apexcharts/bar/basic/",
-                "Grouped":"/reports/apexcharts/bar/grouped/",
-                "Stacked":"/reports/apexcharts/bar/stacked/",
-                "Stacked Bars 100%":"/reports/apexcharts/bar/stacked_100/",
-                "Grouped Stacked Bars":"/reports/apexcharts/bar/grouped_stacked/",
-                "Negative Values":"/reports/apexcharts/bar/negative/",
-                "Markers":"/reports/apexcharts/bar/markers/",
-                "Reversed Bars":"/reports/apexcharts/bar/reversed_bars/",
-                "Custom Datalabels":"/reports/apexcharts/bar/custom_data_labels/",
-                "Patterned":"/reports/apexcharts/bar/patterned/",
-                "Bar With Images":"/reports/apexcharts/bar/bar_images/"
+                "Collection": "/reports/apexcharts/bar/collection/",
+                "Basic": "/reports/apexcharts/bar/basic/",
+                "Grouped": "/reports/apexcharts/bar/grouped/",
+                "Stacked": "/reports/apexcharts/bar/stacked/",
+                "Stacked Bars 100%": "/reports/apexcharts/bar/stacked_100/",
+                "Grouped Stacked Bars": "/reports/apexcharts/bar/grouped_stacked/",
+                "Negative Values": "/reports/apexcharts/bar/negative/",
+                "Markers": "/reports/apexcharts/bar/markers/",
+                "Reversed Bars": "/reports/apexcharts/bar/reversed_bars/",
+                "Custom Datalabels": "/reports/apexcharts/bar/custom_data_labels/",
+                "Patterned": "/reports/apexcharts/bar/patterned/",
+                "Bar With Images": "/reports/apexcharts/bar/bar_images/"
             },
             "Mixed/Combo": {
-                "Collection":"/reports/apexcharts/mixed_combo/collection/",
-                "Line - Column":"/reports/apexcharts/mixed_combo/line_column/",
-                "Multiple Y-Axis":"/reports/apexcharts/mixed_combo/multiple_axis/",
-                "Line - Area":"/reports/apexcharts/mixed_combo/line_area/",
-                "Line - Column - Area":"/reports/apexcharts/mixed_combo/line_column_area/",
-                "Line - Scatter":"/reports/apexcharts/mixed_combo/line_scatter/"
+                "Collection": "/reports/apexcharts/mixed_combo/collection/",
+                "Line - Column": "/reports/apexcharts/mixed_combo/line_column/",
+                "Multiple Y-Axis": "/reports/apexcharts/mixed_combo/multiple_axis/",
+                "Line - Area": "/reports/apexcharts/mixed_combo/line_area/",
+                "Line - Column - Area": "/reports/apexcharts/mixed_combo/line_column_area/",
+                "Line - Scatter": "/reports/apexcharts/mixed_combo/line_scatter/"
             },
             "Range Area": {
-                "Collection":"/reports/apexcharts/range_area/collection/",
-                "Basic":"/reports/apexcharts/range_area/basic/",
-                "Combo":"/reports/apexcharts/range_area/combo/"
+                "Collection": "/reports/apexcharts/range_area/collection/",
+                "Basic": "/reports/apexcharts/range_area/basic/",
+                "Combo": "/reports/apexcharts/range_area/combo/"
             },
             "Timeline": {
-                "Collection":"/reports/apexcharts/timeline/collection/",
-                "Basic":"/reports/apexcharts/timeline/basic/",
-                "Custom Colors":"/reports/apexcharts/timeline/custom_colors/",
-                "Multi Series":"/reports/apexcharts/timeline/multi_series/",
-                "Multiple Ranges":"/reports/apexcharts/timeline/multi_ranges/",
-                "Group Rows":"/reports/apexcharts/timeline/group_rows/",
-                "Dumbbel Horizontal":"/reports/apexcharts/timeline/dumbbel_horizontal/"
+                "Collection": "/reports/apexcharts/timeline/collection/",
+                "Basic": "/reports/apexcharts/timeline/basic/",
+                "Custom Colors": "/reports/apexcharts/timeline/custom_colors/",
+                "Multi Series": "/reports/apexcharts/timeline/multi_series/",
+                "Multiple Ranges": "/reports/apexcharts/timeline/multi_ranges/",
+                "Group Rows": "/reports/apexcharts/timeline/group_rows/",
+                "Dumbbel Horizontal": "/reports/apexcharts/timeline/dumbbel_horizontal/"
             },
             "Funnel": {
-                "Collection":"/reports/apexcharts/funnel/collection/",
-                "Funnel":"/reports/apexcharts/funnel/basic/",
-                "Pyramid":"/reports/apexcharts/funnel/pyramid/"
+                "Collection": "/reports/apexcharts/funnel/collection/",
+                "Funnel": "/reports/apexcharts/funnel/basic/",
+                "Pyramid": "/reports/apexcharts/funnel/pyramid/"
             },
             "CandleStick": {
-                "Collection":"/reports/apexcharts/candlestick/collection/",
-                "Basic":"/reports/apexcharts/candlestick/basic/",
-                "Combo":"/reports/apexcharts/candlestick/combo/",
-                "Category X-Axis":"/reports/apexcharts/candlestick/category_xaxis/",
-                "Candlestick with Line":"/reports/apexcharts/candlestick/candlestick_line/"
+                "Collection": "/reports/apexcharts/candlestick/collection/",
+                "Basic": "/reports/apexcharts/candlestick/basic/",
+                "Combo": "/reports/apexcharts/candlestick/combo/",
+                "Category X-Axis": "/reports/apexcharts/candlestick/category_xaxis/",
+                "Candlestick with Line": "/reports/apexcharts/candlestick/candlestick_line/"
             },
             "Box & Whisker": {
-                "Collection":"/reports/apexcharts/box_whisker/collection/",
-                "Basic":"/reports/apexcharts/box_whisker/basic/",
-                "Boxplot - Scatter":"/reports/apexcharts/box_whisker/boxplot_scatter/",
-                "Horizontal Boxplot":"/reports/apexcharts/box_whisker/horizontal/"
+                "Collection": "/reports/apexcharts/box_whisker/collection/",
+                "Basic": "/reports/apexcharts/box_whisker/basic/",
+                "Boxplot - Scatter": "/reports/apexcharts/box_whisker/boxplot_scatter/",
+                "Horizontal Boxplot": "/reports/apexcharts/box_whisker/horizontal/"
             },
             "Pie/Donut": {
-                "Collection":"/reports/apexcharts/pie_donut/collection/",
-                "Simple Pie":"/reports/apexcharts/pie_donut/pie_basic/",
-                "Simple Donut":"/reports/apexcharts/pie_donut/donut_basic/",
-                "Donut Update":"/reports/apexcharts/pie_donut/donut_update/",
-                "Monochrome Pie":"/reports/apexcharts/pie_donut/pie_monochrome/",
-                "Gradient Donut":"/reports/apexcharts/pie_donut/donut_gradient/",
-                "Semi Donut":"/reports/apexcharts/pie_donut/donut_semi/",
-                "Donut with Pattern":"/reports/apexcharts/pie_donut/donut_pattern/",
-                "Pie with Image":"/reports/apexcharts/pie_donut/pie_image/"
+                "Collection": "/reports/apexcharts/pie_donut/collection/",
+                "Simple Pie": "/reports/apexcharts/pie_donut/pie_basic/",
+                "Simple Donut": "/reports/apexcharts/pie_donut/donut_basic/",
+                "Donut Update": "/reports/apexcharts/pie_donut/donut_update/",
+                "Monochrome Pie": "/reports/apexcharts/pie_donut/pie_monochrome/",
+                "Gradient Donut": "/reports/apexcharts/pie_donut/donut_gradient/",
+                "Semi Donut": "/reports/apexcharts/pie_donut/donut_semi/",
+                "Donut with Pattern": "/reports/apexcharts/pie_donut/donut_pattern/",
+                "Pie with Image": "/reports/apexcharts/pie_donut/pie_image/"
             },
             "Radar": {
-                "Collection":"/reports/apexcharts/radar/collection/",
-                "Basic":"/reports/apexcharts/radar/basic/",
-                "Multiple Series":"/reports/apexcharts/radar/multiple_series/",
-                "Polygon-filled":"/reports/apexcharts/radar/polygon_filled/"
+                "Collection": "/reports/apexcharts/radar/collection/",
+                "Basic": "/reports/apexcharts/radar/basic/",
+                "Multiple Series": "/reports/apexcharts/radar/multiple_series/",
+                "Polygon-filled": "/reports/apexcharts/radar/polygon_filled/"
             },
             "Polar Area": {
-                "Collection":"/reports/apexcharts/polar_area/collection/",
-                "Basic":"/reports/apexcharts/polar_area/basic/",
-                "Monochrome":"/reports/apexcharts/polar_area/monochrome/"
+                "Collection": "/reports/apexcharts/polar_area/collection/",
+                "Basic": "/reports/apexcharts/polar_area/basic/",
+                "Monochrome": "/reports/apexcharts/polar_area/monochrome/"
             },
             "RadialBars/Cirle/Gauge": {
-                "Collection":"/reports/apexcharts/radialbar_circle/collection/",
-                "Basic":"/reports/apexcharts/radialbar_circle/basic/",
-                "Multiple":"/reports/apexcharts/radialbar_circle/multiple/",
-                "Custom Angle":"/reports/apexcharts/radialbar_circle/custom_angle/",
-                "Gradient":"/reports/apexcharts/radialbar_circle/gradient/",
-                "RadialBars with Image":"/reports/apexcharts/radialbar_circle/with_image/",
-                "Stroked Gauge":"/reports/apexcharts/radialbar_circle/stroked_gauge/",
-                "Semi Cirle Gauge":"/reports/apexcharts/radialbar_circle/semi_cirle_gauge/"
+                "Collection": "/reports/apexcharts/radialbar_circle/collection/",
+                "Basic": "/reports/apexcharts/radialbar_circle/basic/",
+                "Multiple": "/reports/apexcharts/radialbar_circle/multiple/",
+                "Custom Angle": "/reports/apexcharts/radialbar_circle/custom_angle/",
+                "Gradient": "/reports/apexcharts/radialbar_circle/gradient/",
+                "RadialBars with Image": "/reports/apexcharts/radialbar_circle/with_image/",
+                "Stroked Gauge": "/reports/apexcharts/radialbar_circle/stroked_gauge/",
+                "Semi Cirle Gauge": "/reports/apexcharts/radialbar_circle/semi_cirle_gauge/"
             },
             "Bubble": {
-                "Collection":"/reports/apexcharts/bubble/collection/",
-                "Simple":"/reports/apexcharts/bubble/basic/",
-                "3D Bubble":"/reports/apexcharts/bubble/3d/"
+                "Collection": "/reports/apexcharts/bubble/collection/",
+                "Simple": "/reports/apexcharts/bubble/basic/",
+                "3D Bubble": "/reports/apexcharts/bubble/3d/"
             },
             "Scatter": {
-                "Collection":"/reports/apexcharts/scatter/collection/",
-                "Basic":"/reports/apexcharts/scatter/basic/",
-                "Datetime":"/reports/apexcharts/scatter/datetime/",
-                "Images":"/reports/apexcharts/scatter/images/"
+                "Collection": "/reports/apexcharts/scatter/collection/",
+                "Basic": "/reports/apexcharts/scatter/basic/",
+                "Datetime": "/reports/apexcharts/scatter/datetime/",
+                "Images": "/reports/apexcharts/scatter/images/"
             },
             "HeatMap": {
-                "Collection":"/reports/apexcharts/heatmap/collection/",
-                "Basic":"/reports/apexcharts/heatmap/basic/",
-                "Multi-Color":"/reports/apexcharts/heatmap/multi_color/",
-                "Multi-Color Flipped":"/reports/apexcharts/heatmap/multi_color_flipped/",
-                "Color Range":"/reports/apexcharts/heatmap/color_range/",
-                "Range without Shades":"/reports/apexcharts/heatmap/without_shades/"
+                "Collection": "/reports/apexcharts/heatmap/collection/",
+                "Basic": "/reports/apexcharts/heatmap/basic/",
+                "Multi-Color": "/reports/apexcharts/heatmap/multi_color/",
+                "Multi-Color Flipped": "/reports/apexcharts/heatmap/multi_color_flipped/",
+                "Color Range": "/reports/apexcharts/heatmap/color_range/",
+                "Range without Shades": "/reports/apexcharts/heatmap/without_shades/"
             },
             "TreeMap": {
-                "Collection":"/reports/apexcharts/treemap/collection/",
-                "Basic":"/reports/apexcharts/treemap/basic/",
-                "Multiple Series":"/reports/apexcharts/treemap/multiple_series/",
-                "Color Range":"/reports/apexcharts/treemap/color_range/",
-                "Distributed":"/reports/apexcharts/treemap/distributed/"
+                "Collection": "/reports/apexcharts/treemap/collection/",
+                "Basic": "/reports/apexcharts/treemap/basic/",
+                "Multiple Series": "/reports/apexcharts/treemap/multiple_series/",
+                "Color Range": "/reports/apexcharts/treemap/color_range/",
+                "Distributed": "/reports/apexcharts/treemap/distributed/"
             },
             "SparkLine": {
-                "Basic":"/reports/apexcharts/sparkline/basic/"
+                "Basic": "/reports/apexcharts/sparkline/basic/"
             }
         },
-        "<i class='fa fa-cube'></i>Cube":{
-            "Customers vs Categories":"/reports/cube/cube_customers_vs_categories/",
-            "Products vs Quarters":"/reports/cube/cube_products_vs_quarters/",
-            "Years vs Months":"/reports/cube/cube_months_vs_years/",
-            "SuperCube Sales":"/reports/cube/supercube_sales/"
+        "<i class='fa fa-cube'></i>Cube": {
+            "Product row - Quarter column": "/reports/cube/cube_products_vs_quarters/",
+            "Product row": "/reports/cube/cube_products/",
+            "Quarter column": "/reports/cube/cube_quarters/",
+            "Simple": "/reports/cube/cube_simple/",
+            "Year parameter": "/reports/cube/year_parameter/",
+            "Customers - Categories": "/reports/cube/cube_customers_vs_categories/",
+            "Years - Months": "/reports/cube/cube_months_vs_years/"
         },
-        "<i class='fa fa-barcode'></i>Barcode":{
-            "Products with Barcode":"/reports/barcode/products/",
-            "Type of Barcodes":"/reports/barcode/barcode_types/",
-            "QRCode":"/reports/barcode/qrcode/"
+        "<i class='fa fa-cube'></i>SuperCube": {
+            "Multi fields rows columns": "/reports/supercube/multi_fields_rows_columns/",
+            "Multi fields rows": "/reports/supercube/multi_fields_rows/",
+            "Multi fields columns": "/reports/supercube/multi_fields_columns/",
+            "Multi aggregates": "/reports/supercube/multi_aggregates/"
         },
-        "<i class='icon-clock'></i>Cache":{
-            "File Cache":"/reports/cache/filecache/",
-            "Apc Cache":"/reports/cache/apccache/",
-            "Mem Cache":"/reports/cache/memcache/"
+        "<i class='fa fa-barcode'></i>Barcode": {
+            "Products with Barcode": "/reports/barcode/products/",
+            "Type of Barcodes": "/reports/barcode/barcode_types/",
+            "QRCode": "/reports/barcode/qrcode/"
         },
-        "<i class='fa fa-line-chart'></i>ChartJs":{
-            "Column Chart":"/reports/chartjs/column_chart/",
-            "Bar Chart":"/reports/chartjs/bar_chart/",
-            "Area Chart":"/reports/chartjs/area_chart/",
-            "Line Chart":"/reports/chartjs/line_chart/",
-            "Pie Chart":"/reports/chartjs/pie_chart/",
-            "Donut Chart":"/reports/chartjs/donut_chart/",
-            "Polar Chart":"/reports/chartjs/polar_chart/",
-            "Radar Chart":"/reports/chartjs/radar_chart/",
-            "Scatter Chart":"/reports/chartjs/scatter_chart/",
-            "Bubble Chart":"/reports/chartjs/bubble_chart/",
-            "Combo Chart":"/reports/chartjs/combo_chart/",
-            "Multi-axis":"/reports/chartjs/multi_axes/",
-            "Timeline":"/reports/chartjs/timeline/",
-            "Overlap BarChart":"/reports/chartjs/overlap_barchart/",
-            "Color Scheme":"/reports/chartjs/color_scheme/"
+        "<i class='icon-clock'></i>Cache": {
+            "File Cache": "/reports/cache/filecache/",
+            "Apc Cache": "/reports/cache/apccache/",
+            "Mem Cache": "/reports/cache/memcache/"
         },
-        "<i class='fa fa-object-ungroup'></i>ChartTable <span class='badge badge-danger'>NEW</span>":{
-            "ChartTable":"/reports/charttable/charttable/"
+        "<i class='fa fa-line-chart'></i>ChartJs": {
+            "Collection": "/reports/chartjs/collection/",
+            "Column": "/reports/chartjs/column_chart/",
+            "Bar": "/reports/chartjs/bar_chart/",
+            "Area": "/reports/chartjs/area_chart/",
+            "Line": "/reports/chartjs/line_chart/",
+            "Pie": "/reports/chartjs/pie_chart/",
+            "Donut": "/reports/chartjs/donut_chart/",
+            "Polar": "/reports/chartjs/polar_chart/",
+            "Radar": "/reports/chartjs/radar_chart/",
+            "Scatter": "/reports/chartjs/scatter_chart/",
+            "Bubble": "/reports/chartjs/bubble_chart/",
+            "Combo": "/reports/chartjs/combo_chart/",
+            "Multi-axis": "/reports/chartjs/multi_axes/",
+            "Timeline": "/reports/chartjs/timeline/",
+            "Overlap Bar": "/reports/chartjs/overlap_barchart/",
+            "Color Scheme": "/reports/chartjs/color_scheme/"
         },
-		"<i class='fa fa-file-pdf-o'></i>Cloud Export":{
-            "Header Footer":"/reports/cloudexport/footer_header/",
-			"Page Break":"/reports/cloudexport/page_break/"
+        "<i class='fa fa-object-ungroup'></i>ChartTable<span class='badge badge-danger'>NEW</span>": {
+            "ChartTable": "/reports/charttable/charttable/"
         },
-        "<i class='fa fa-th'></i>DataGrid":{
-            "DataTables":"/reports/datagrid/datatables/",
-            "Table Paging":"/reports/datagrid/datatables_paging/",
-            "Table Searching":"/reports/datagrid/datatables_searching/",
-            "Table Sorting":"/reports/datagrid/datatables_sorting/",
-            "Column Reorder":"/reports/datagrid/datatables_colreorder/",
-            "Fixed Order Column":"/reports/datagrid/datatables_ordered_column/",
-            "Custom Type Sorting":"/reports/datagrid/custom_type_sorting/",
-            "Server Processing":"/reports/datagrid/server_processing/",
-            "Server Side Footer":"/reports/datagrid/server_side_footer/",
-            "Client Side Footer":"/reports/datagrid/client_side_footer/",
-            "Plugins":"/reports/datagrid/plugins/",
-            "Complex Headers":"/reports/datagrid/complex_headers/",
-            "Rowgroup":"/reports/datagrid/rowgroup/",
-            "Rowgroup Collapse":"/reports/datagrid/rowgroup_collapse/",
-            "Rowgroup Count Distinct":"/reports/datagrid/rowgroup_count_distinct/",
-            "Rowgroup Sort Aggregate":"/reports/datagrid/rowgroup_sort_aggregate/",
-            "Row Span":"/reports/datagrid/rowspan/",
-            "Row Group with Span":"/reports/datagrid/rowgroup_rowspan/",
-            "Fast Render":"/reports/datagrid/fast_render/",
-            "Row Detail":"/reports/datagrid/row_detail/",
-            "Row Detail Expand":"/reports/datagrid/row_detail_expand/"
+        "<i class='fa fa-file-pdf-o'></i>Cloud Export": {
+            "Header Footer": "/reports/cloudexport/footer_header/",
+            "Page Break": "/reports/cloudexport/page_break/"
         },
-        "<i class='fa fa-pie-chart'></i>D3":{
-            "Column Chart":"/reports/d3/column_chart/",
-            "Bar Chart":"/reports/d3/bar_chart/",
-            "Line Chart":"/reports/d3/line_chart/",
-            "Spline Chart":"/reports/d3/spline_chart/",
-            "Area Chart":"/reports/d3/area_chart/",
-            "Pie Chart":"/reports/d3/pie_chart/",
-            "Donut Chart":"/reports/d3/donut_chart/",
-            "Waterfall":"/reports/d3/waterfall/",
-            "Funnel Chart":"/reports/d3/funnel_chart/"
+        "<i class='fa fa-window-restore'></i>Dashboard<span class='badge badge-danger'>NEW</span>": {
+            "Demonstration": "/reports/dashboard/demo/"
         },
-		"<i class='fa fa-file-excel-o'></i>Excel":{
-            "CSV Exportable":"/reports/excel/csv_exportable/",
-            "CSV Footer":"/reports/excel/csv_footer/",
-            "Excel Template":"/reports/excel/excel_template/",
-            "Big Spreadsheet":"/reports/excel/big_spreadsheet/",
-            "Excel Chart":"/reports/excel/chart/",
-            "Excel PivotTable":"/reports/excel/pivottable/",
-            "Excel PivotTMatrix":"/reports/excel/pivotmatrix/",
-            "Excel Table":"/reports/excel/table/",
-            "Table Row Group":"/reports/excel/table_rowgroup/",
-            "Table Rowspan":"/reports/excel/table_rowspan/",
-            "Table Complex Header":"/reports/excel/table_complex_header/",
-            "Excel Text":"/reports/excel/text/"
+        "<i class='fa fa-th'></i>DataGrid": {
+            "DataTables": "/reports/datagrid/datatables/",
+            "Table Paging": "/reports/datagrid/datatables_paging/",
+            "Table Searching": "/reports/datagrid/datatables_searching/",
+            "Table Sorting": "/reports/datagrid/datatables_sorting/",
+            "Column Reorder": "/reports/datagrid/datatables_colreorder/",
+            "Fixed Order Column": "/reports/datagrid/datatables_ordered_column/",
+            "Custom Type Sorting": "/reports/datagrid/custom_type_sorting/",
+            "Server Processing": "/reports/datagrid/server_processing/",
+            "Server Side Footer": "/reports/datagrid/server_side_footer/",
+            "Client Side Footer": "/reports/datagrid/client_side_footer/",
+            "Plugins": "/reports/datagrid/plugins/",
+            "Complex Headers": "/reports/datagrid/complex_headers/",
+            "Rowgroup": "/reports/datagrid/rowgroup/",
+            "Rowgroup Collapse": "/reports/datagrid/rowgroup_collapse/",
+            "Rowgroup Count Distinct": "/reports/datagrid/rowgroup_count_distinct/",
+            "Rowgroup Sort Aggregate": "/reports/datagrid/rowgroup_sort_aggregate/",
+            "Row Span": "/reports/datagrid/rowspan/",
+            "Row Group with Span": "/reports/datagrid/rowgroup_rowspan/",
+            "Fast Render": "/reports/datagrid/fast_render/",
+            "Row Detail": "/reports/datagrid/row_detail/",
+            "Row Detail Expand": "/reports/datagrid/row_detail_expand/"
         },
-        "<i class='fa fa-file-pdf-o'></i>Export":{
-            "PDF Exporting":"/reports/export/sakila_rental/",
-            "Header / Footer":"/reports/export/header_footer/",
-            "Custom Header / Footer":"/reports/export/custom_header_footer/"
+        "<i class='fa fa-pie-chart'></i>D3": {
+            "Collection": "/reports/d3/collection/",
+            "Column Chart": "/reports/d3/column_chart/",
+            "Bar Chart": "/reports/d3/bar_chart/",
+            "Line Chart": "/reports/d3/line_chart/",
+            "Spline Chart": "/reports/d3/spline_chart/",
+            "Area Chart": "/reports/d3/area_chart/",
+            "Pie Chart": "/reports/d3/pie_chart/",
+            "Donut Chart": "/reports/d3/donut_chart/",
+            "Waterfall": "/reports/d3/waterfall/",
+            "Funnel Chart": "/reports/d3/funnel_chart/"
         },
-        "<i class='fa fa-sign-in'></i>Inputs":{
-            "Controls":"/reports/inputs/intro/",
-            "Order List":"/reports/inputs/order_list/"
+        "<i class='fa fa-file-excel-o'></i>Excel": {
+            "CSV Exportable": "/reports/excel/csv_exportable/",
+            "CSV Footer": "/reports/excel/csv_footer/",
+            "Excel Template": "/reports/excel/excel_template/",
+            "Big Spreadsheet": "/reports/excel/big_spreadsheet/",
+            "Chart": "/reports/excel/chart/",
+            "PivotTable": "/reports/excel/pivottable/",
+            "PivotMatrix": "/reports/excel/pivotmatrix/",
+            "Table": "/reports/excel/table/",
+            "Table Row Group": "/reports/excel/table_rowgroup/",
+            "Table Rowspan": "/reports/excel/table_rowspan/",
+            "Table Complex Header": "/reports/excel/table_complex_header/",
+            "Table Row Detail": "/reports/excel/table_row_detail/",
+            "Table Chart Column": "/reports/excel/table_column_chart/",
+            "Table Image Hyperlink": "/reports/excel/table_image_hyperlink/",
+            "Table Column Width Row Height": "/reports/excel/table_column_with_row_height/",
+            "Text": "/reports/excel/text/",
+            "Image": "/reports/excel/image/",
+            "Hyperlink": "/reports/excel/hyperlink/"
         },
-        "<i class='icon-arrow-down-circle'></i>DrillDown":{
-            "DrillDown":"/reports/drilldown/drilldown/",
-            "LegacyDrillDown":"/reports/drilldown/legacydrilldown/",
-            "CustomDrillDown":"/reports/drilldown/customdrilldown/",
-            "MultiView":"/reports/drilldown/multiview/"
+        "<i class='fa fa-file-pdf-o'></i>Export": {
+            "PDF Exporting": "/reports/export/sakila_rental/",
+            "Header / Footer": "/reports/export/header_footer/",
+            "Custom Header / Footer": "/reports/export/custom_header_footer/"
         },
-        "<i class='fa fa-bar-chart'></i>Morris Chart":{
-            "Area Chart":"/reports/morris_chart/area/",
-            "Bar Chart":"/reports/morris_chart/bar/",
-            "Line Chart":"/reports/morris_chart/line/",
-            "Donut Chart":"/reports/morris_chart/donut/",
-            "Hover Template":"/reports/morris_chart/hover_template/"
+        "<i class='fa fa-sign-in'></i>Inputs": {
+            "Controls": "/reports/inputs/intro/",
+            "Order List": "/reports/inputs/order_list/"
         },
-        "<i class='fa fa-bar-chart'></i>QueryBuilder":{
-            "Get Started":"/reports/querybuilder/basic/",
-            "Join Query":"/reports/querybuilder/join_query/"
-        },        
-        "<i class='fa fa-cubes'></i>Pivot":{
-            "Customers vs Products":"/reports/pivot/customers_categories_products/",
-            "Years vs Months":"/reports/pivot/years_months/",
-            "Customers vs Times":"/reports/pivot/years_months_customers_categories/",
-            "Pivot Extract":"/reports/pivot/pivot_extract/",
-            "PivotMaxtrix":"/reports/pivot/pivotmatrix/",
-            "Server Paging":"/reports/pivot/pivotmatrix_server_paging/",
-            "Bun Template":"/reports/pivot/bun_template/",
-            "Widget Options":"/reports/pivot/widget_options/",
-            "Widget Map":"/reports/pivot/widget_map/",
-            "Widget Field Order":"/reports/pivot/widget_field_order/",
-            "PivotSQL":"/reports/pivot/pivotsql/"
+        "<i class='icon-arrow-down-circle'></i>DrillDown": {
+            "DrillDown": "/reports/drilldown/drilldown/",
+            "LegacyDrillDown": "/reports/drilldown/legacydrilldown/",
+            "CustomDrillDown": "/reports/drilldown/customdrilldown/",
+            "MultiView": "/reports/drilldown/multiview/"
         },
-        "<i class='fa fa-area-chart'></i>Sparklines":{
-            "Introduction":"/reports/sparklines/introduction/",
-            "Sparklines in DataTables":"/reports/sparklines/datatables_sparklines/"
+        "<i class='fa fa-bar-chart'></i>Morris Chart": {
+            "Collection": "/reports/morris_chart/collection/",
+            "Area Chart": "/reports/morris_chart/area/",
+            "Bar Chart": "/reports/morris_chart/bar/",
+            "Line Chart": "/reports/morris_chart/line/",
+            "Donut Chart": "/reports/morris_chart/donut/",
+            "Hover Template": "/reports/morris_chart/hover_template/"
         },
-        "<i class='fa fa-database'></i>VisualQuery <span class='badge badge-danger'>NEW</span>":{
-            "VisualQuery":"/reports/visualquery/visualquery/"
+        "<i class='fa fa-building-o'></i>QueryBuilder": {
+            "Get Started": "/reports/querybuilder/basic/",
+            "Join Query": "/reports/querybuilder/join_query/"
+        },
+        "<i class='fa fa-cubes'></i>Pivot": {
+            "Customers vs Products": "/reports/pivot/customers_categories_products/",
+            "Years vs Months": "/reports/pivot/years_months/",
+            "Customers vs Times": "/reports/pivot/years_months_customers_categories/",
+            "Pivot Extract": "/reports/pivot/pivot_extract/",
+            "Aggregates Compurations": "/reports/pivot/aggregates_computations/",
+            "Dimensional Computations": "/reports/pivot/dimensional_computations/",
+            "PivotMaxtrix": "/reports/pivot/pivotmatrix/",
+            "Server Paging": "/reports/pivot/pivotmatrix_server_paging/",
+            "Bun Template": "/reports/pivot/bun_template/",
+            "Widget Options": "/reports/pivot/widget_options/",
+            "Widget Map": "/reports/pivot/widget_map/",
+            "Widget Field Order": "/reports/pivot/widget_field_order/",
+            "PivotSQL": "/reports/pivot/pivotsql/"
+        },
+        "<i class='fa fa-area-chart'></i>Sparklines": {
+            "Introduction": "/reports/sparklines/introduction/",
+            "Sparklines in DataTables": "/reports/sparklines/datatables_sparklines/"
+        },
+        "<i class='fa fa-database'></i>VisualQuery<span class='badge badge-danger'>NEW</span>": {
+            "VisualQuery": "/reports/visualquery/visualquery/"
         }
     },
-    "ADVANCED EXAMPLES":{
-        "Advanced":{
-            "Input &amp; Export":"/reports/advanced/input_and_export/",
-            "Multiple Data Filters":"/reports/advanced/multiple_data_filters/"
-        },
-        "SubReport":{
-            "Ajax Loading":"/reports/others/subreport_demo/",
-            "Async Loading":"/reports/others/async_loading/"
+    "ADVANCED EXAMPLES": {
+        "Input &amp; Export": "/reports/advanced/input_and_export/",
+        "Multiple Data Filters": "/reports/advanced/multiple_data_filters/",
+        "SubReport": {
+            "Ajax Loading": "/reports/others/subreport_demo/",
+            "Async Report Loading": "/reports/others/async_loading/"
         }
     }
 }

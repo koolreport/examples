@@ -1,5 +1,5 @@
 {
-    "title":"Awesome PivotMatrix",
+    "title":"How to use PivotMatrix with drag and drop field",
     "description":"PivotMatrix allows users to drag and drop dimension fields and measure fields to customize pivot",
     "keywords":[["pivot"]],
     "breadcrumb":{"Pivot":"javascript:void 0"},

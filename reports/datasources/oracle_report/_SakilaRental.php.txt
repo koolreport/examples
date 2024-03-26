@@ -15,9 +15,10 @@ class SakilaRental extends KoolReport
         return array(
             "dataSources"=>array(
                 "sakila_rental"=>array(
-                    "connectionString"=>"oci:dbname=127.0.0.1/sakila;charset=UTF8",
-                    "username"=>"username",
-                    "password"=>"password",
+                    'connectionString' => 'localhost:1521/ORCLCDB',
+                    'username' => 'root',
+                    'password' => '',
+                    'class' => "\koolreport\datasources\OracleDataSource",
                 ),
             )
         ); 

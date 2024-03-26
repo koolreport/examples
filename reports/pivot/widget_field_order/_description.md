@@ -1,4 +1,4 @@
-This example show how to customize the row header and column header of Pivot Table and PivotMatrix widget.
+This example shows how to customize the row header and column header of Pivot Table and PivotMatrix widget.
 
 Under the `"map"` property, you add `"rowHeader"` and `"columnHeader"` sub properties. Those properties are defined by a function that will receive row or column header text as parameters. You can add custom processes to transform the row and column headers to desired one and return it.
 

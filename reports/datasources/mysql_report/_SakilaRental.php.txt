@@ -15,11 +15,12 @@ class SakilaRental extends KoolReport
         return array(
             "dataSources"=>array(
                 "sakila_rental"=>array(
-                    "connectionString"=>"mysql:host=localhost;dbname=sakila",
-                    "username"=>"root",
-                    "password"=>"",
-                    "charset"=>"utf8"
-                ),
+                    'host' => 'localhost',
+                    'username' => 'root',
+                    'password' => '',
+                    'dbname' => 'sakila',
+                    'class' => '\koolreport\datasources\MySQLDataSource',
+                ),,
             )
         ); 
     }    

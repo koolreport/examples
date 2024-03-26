@@ -1,5 +1,5 @@
 {
-    "title":"Array Report",
+    "title":"How to build report from Array data source",
     "description":"This report show how to build report from Array data",
     "keywords":[["general"],"draw chart from array"],
     "breadcrumb":{"DataSources":"javascript:void 0"},

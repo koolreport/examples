@@ -16,7 +16,7 @@
         "columns"=>array(
             "payment_date"=>array(
                 "label"=>"Month",
-                "type"=>"datetime",
+                "type"=>"string",
                 "format"=>"Y-n",
                 "displayFormat"=>"F, Y",
             ),
