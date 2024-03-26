@@ -21,6 +21,13 @@ include "helpers/common.php";
     <script type="text/javascript" src="<?php echo $root_url; ?>/assets/theme/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo $root_url; ?>/assets/theme/js/bootstrap.bundle.min.js"></script>
 </head>
+<script>
+    function toggleExpandCollapse(i) {
+        // console.log('toggleExpandCollapse: ', i);
+        i.classList.toggle('fa-plus-square-o');
+        i.classList.toggle('fa-minus-square-o');
+    }
+</script>
 <body>
     <?php include "helpers/nav.php"; ?>
     <main class="container">
@@ -61,10 +68,14 @@ include "helpers/common.php";
                             }
                             else
                             {
+                                $idName = $sname;
+                                $idName = str_replace(" ", "", $idName);
+                                $idName = str_replace("/", "", $idName);
+                                $idName = str_replace("&", "", $idName);
                             ?>
                                 <li>
-                                    <strong><i class='fa fa-minus-square-o'></i> <?php echo $sname; ?></strong>
-                                    <ul class="list-unstyled">
+                                    <strong><i class='fa fa-plus-square-o' data-toggle="collapse" data-target="#<?php echo $idName; ?>" onclick="toggleExpandCollapse(this);"></i> <?php echo $sname; ?></strong>
+                                    <ul class="list-unstyled collapse" id="<?php echo $idName; ?>">
                                     <?php
                                     foreach($surl as $tname=>$turl)
                                     {
