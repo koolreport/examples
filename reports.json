@@ -459,8 +459,10 @@
         }
     },
     "ADVANCED EXAMPLES": {
-        "Input &amp; Export": "/reports/advanced/input_and_export/",
-        "Multiple Data Filters": "/reports/advanced/multiple_data_filters/",
+        "Advanced":{
+            "Input &amp; Export":"/reports/advanced/input_and_export/",
+            "Multiple Data Filters":"/reports/advanced/multiple_data_filters/"
+        },
         "SubReport": {
             "Ajax Loading": "/reports/others/subreport_demo/",
             "Async Report Loading": "/reports/others/async_loading/"
