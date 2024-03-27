@@ -21,6 +21,12 @@ include "helpers/common.php";
     <script type="text/javascript" src="<?php echo $root_url; ?>/assets/theme/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo $root_url; ?>/assets/theme/js/bootstrap.bundle.min.js"></script>
 </head>
+<style>
+    .fa-plus-square-o,
+    .fa-minus-square-o {
+        cursor: pointer;
+    }
+</style>
 <script>
     function toggleExpandCollapse(i) {
         // console.log('toggleExpandCollapse: ', i);
