@@ -350,9 +350,6 @@
             "Header Footer": "/reports/cloudexport/footer_header/",
             "Page Break": "/reports/cloudexport/page_break/"
         },
-        "<i class='fa fa-window-restore'></i>Dashboard<span class='badge badge-danger'>NEW</span>": {
-            "Demonstration": "/reports/dashboard/demo/"
-        },
         "<i class='fa fa-th'></i>DataGrid": {
             "DataTables": "/reports/datagrid/datatables/",
             "Table Paging": "/reports/datagrid/datatables_paging/",
