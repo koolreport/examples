@@ -1,0 +1,1 @@
+MorrisJS is one of the best Chart and Graph libraries. MorrisJS is known by its simplicity in making a cool charts. As stated in the moto of the MorrisJS "good-looking charts shouldn't be difficult", the authors stressed the difference between Morris and other chart libraries, the simplicity.

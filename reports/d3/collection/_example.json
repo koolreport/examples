@@ -1,0 +1,12 @@
+{
+    "title":"How to draw D3 charts",
+    "description":"The example show how to use multipe D3 chart types",
+    "keywords":[["charts"],["d3"],"d3 chart","php chart"],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","_MyReport.view.php"]
+    }
+}

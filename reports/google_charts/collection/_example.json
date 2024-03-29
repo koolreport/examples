@@ -1,0 +1,12 @@
+{
+    "title":"PHP Google Charts Collection",
+    "description":"Google Charts Collections",
+    "keywords":[["charts"],["googlecharts"],"php charts", "php charts and graphs"],
+    "breadcrumb":{"Google Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}
