@@ -1,0 +1,9 @@
+{
+    "title":"Dashboard Framework Demonstation",
+    "description":"A sleek framework to construct modern dashboard",
+    "keywords":[["dashboard"]],
+    "breadcrumb":{"Dashboard":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"]
+    }
+}

@@ -9,7 +9,7 @@ class MyReport extends \koolreport\KoolReport
     {
         return array(
             "dataSources"=>array(
-                "sakila_rental"=>array(
+                "automaker"=>array(
                     "connectionString"=>"mysql:host=localhost;dbname=automaker",
                     "username"=>"root",
                     "password"=>"",

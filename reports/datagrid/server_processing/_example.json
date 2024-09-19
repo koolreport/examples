@@ -1,5 +1,5 @@
 {
-    "title":"Server Processing",
+    "title":"How to use DataTables Server Processing feature",
     "description":"Displaying, paging and searching large datasets",
     "keywords":[["datagrid"]],
     "breadcrumb":{"DataGrid":"javascript:void 0"},

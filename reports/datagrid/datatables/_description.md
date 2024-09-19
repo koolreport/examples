@@ -1,6 +1,6 @@
-Having miriad of features including paging, grouping, seaching, `DataTables` is one of the best widgets to represent data in tabular format.
+Having myriad of features including paging, grouping, searching, `DataTables` is one of the best widgets to represent data in tabular format.
 
-This example show the minimum settings to get DataTables working.
+This example shows the minimum settings to get DataTables working.
 
 ```
 <?php 
@@ -10,7 +10,7 @@ This example show the minimum settings to get DataTables working.
 ?>
 ```
 
-In above example, DataTables use DataStore as the source of data, beside the DataStore which is most used, DataTables like any other KoolReport's widget can recieve data from array or direct SQL query.
+In above example, DataTables use DataStore as the source of data, beside the DataStore which is most used, DataTables like any other KoolReport's widget can receive data from array or direct SQL query.
 
 __Use array as datasource__
 

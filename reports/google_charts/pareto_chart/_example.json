@@ -1,6 +1,6 @@
 {
-    "title":"Create Pareto Chart",
-    "description":"This example show how create Pareto Chart",
+    "title":"How to draw Google Pareto Chart with PHP",
+    "description":"This example shows how create Pareto Chart",
     "keywords":[["charts"],["googlecharts"],"google combo chart","pareto chart","php pareto chart"],
     "breadcrumb":{"Google Charts":"javascript:void 0"},
     "meta":{

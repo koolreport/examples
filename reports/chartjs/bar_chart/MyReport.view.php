@@ -37,7 +37,6 @@
     ));
     ?>
     </div>
-    
     <div style="margin-bottom:50px;">
     <?php
     BarChart::create(array(

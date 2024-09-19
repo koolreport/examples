@@ -18,7 +18,7 @@
 
     <div style="margin-bottom:50px;">
     <?php
-        $data1 = [
+    $data1 = [
         ["timelineLabel" => "Cool Graph", "itemLabel" => "Unknown", "start" => "2018-01-22T16:00:00.000Z", "end" => "2018-01-23T05:40:44.626Z"],
         ["timelineLabel" => "Heater", "itemLabel" => "On", "start" => "2018-01-22T16:00:00.000Z", "end" => "2018-01-22T20:00:00.000Z"],
         ["timelineLabel" => "Heater", "itemLabel" => "Off", "start" => "2018-01-22T22:00:00.000Z", "end" => "2018-01-23T03:57:55.437Z"],

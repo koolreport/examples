@@ -27,26 +27,12 @@
         </p>
     </div>
 
-    <pre style="font-weight:bold"><code>
-DataTables::create(array(
-    ...
-    "dataSource" => function() {
-        return $this->src('employees')
-        ->query('select * from employees_salaries');
-    },
-    "serverSide"=>true,
-    // "method"=>'post', //default method = 'get'
-    ...
-));</code></pre>
-    <i class="fa fa-arrow-down" style="font-size:24px;"></i>
-    <div style="margin-top:20px;">
-
     <?php
     DataTables::create(array(
         'name' => 'DataTable1',
         'dataSource' => function() {
             return $this->src('employees')
-            ->query('select * from salaries');
+            ->query('select * from employees_salaries');
             // ->query("select concat(e.first_name, ' ', e.last_name) as emp_name,
             // s.* from salaries s left join employees e on s.emp_no = e.emp_no");
         },
@@ -54,12 +40,13 @@ DataTables::create(array(
         "options" => array(
             "searching" => true,
             "paging" => true,
+            "pagingType" => "input",
             "colReorder" => true,
             "order" => [],
             "ordering" => false,
             "pageLength" => 25,
-            "pagingType" => "input",
-            "dom" => '<"top"ipfl<"clear">>rt<"bottom"ipfl<"clear">>'
+            //"pagingType" => "input",
+            //"dom" => '<"top"ipfl<"clear">>rt<"bottom"ipfl<"clear">>'
             // "dom" => '<"top"iflp<"clear">>rt<"bottom"ip<"clear">>'
         ),
         // "columns"=>array(
@@ -69,7 +56,10 @@ DataTables::create(array(
         // ),
         "showFooter"=>true,
         "serverSide"=>true,
-        // "method"=>'post', //default method = 'get'
+        "themeBase"=>"bs4",
+        "method"=>'post', //default method = 'get'
+        "searchOnEnter" => true,
+        "searchMode" => "or"
     ));
     ?>
 </div>

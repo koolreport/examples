@@ -5,7 +5,7 @@
     <div class="text-center">
         <h1>Table Paging</h1>
         <p class="lead">
-        This eaxmple show how to turn on paging feature of DataTables
+        This example shows how to turn on paging feature of DataTables
         </p>
     </div>
     

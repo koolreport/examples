@@ -1,0 +1,12 @@
+{
+    "title":"Other charts: Polar area",
+    "description":"This example shows how to create basic PolarChart of Chartjs",
+    "keywords":[["charts"],["chartjs"]],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

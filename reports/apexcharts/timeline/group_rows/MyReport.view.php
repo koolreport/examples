@@ -110,83 +110,112 @@
                 "1809/3/3"
             ]
         ];
-        \koolreport\apexcharts\TimeLineChart::create(array(
-            "dataSource" => $data,
-            "columns" => [
-                'name' => [
-                    'seriesGroup' => true,
-                ],
-                'position',
-                'term' => [
-                    'combination' => [
-                        'date_start',
-                        'date_end',
-                    ],
-                    'label' => '',
-                ],
-            ],
-            "options" => [
-                'plotOptions | bar' => [
-                    'barHeight' => '50%',
-                    'rangeBarGroupRows' => true
-                ],
-                'xaxis | type' => 'datetime',
-                'legend | position' => 'right',
-                'tooltip | custom' => "function(opts) {
-                    const fromYear = new Date(opts.y1).getFullYear()
-                    const toYear = new Date(opts.y2).getFullYear()
-                
-                    const w = opts.ctx.w
-                    let ylabel = w.globals.labels[opts.dataPointIndex]
-                    let seriesName = w.config.series[opts.seriesIndex].name
-                        ? w.config.series[opts.seriesIndex].name
-                        : ''
-                    const color = w.globals.colors[opts.seriesIndex]
-                
-                    return (
-                        '<div class=\"apexcharts-tooltip-rangebar\">' +
-                        '<div> <span class=\"series-name\" style=\"color: ' +
-                        color +
-                        '\">' +
-                        (seriesName ? seriesName : '') +
-                        '</span></div>' +
-                        '<div> <span class=\"category\">' +
-                        ylabel +
-                        ' </span> <span class=\"value start-value\">' +
-                        fromYear +
-                        '</span> <span class=\"separator\">-</span> <span class=\"value end-value\">' +
-                        toYear +
-                        '</span></div>' +
-                        '</div>'
-                    )
-                }"
-            ],
-            "uniqueCategories" => true,
-            'colors' => [
-                '#008FFB',
-                '#00E396',
-                '#FEB019',
-                '#FF4560',
-                '#775DD0',
-                '#3F51B5',
-                '#546E7A',
-                '#D4526E',
-                '#8D5B4C',
-                '#F86624',
-                '#D7263D',
-                '#1B998B',
-                '#2E294E',
-                '#F46036',
-                '#E2C044'
-            ],
-            'fillType' => 'solid',
-            // "showLegend" => false,
-            // "showLabel" => true,
-            // "height" => "600px",
-            // "width" => "85%",
-            "maxWidth" => "800px",
-        ));
+        // \koolreport\core\Utility::prettyPrint2(array_slice($data, 0, 20));
+        \koolreport\widgets\koolphp\Table::create([
+            'dataSource' => $data,
+            'paging' => true,
+        ]);
         ?>
+<i class="fa fa-arrow-down" style="font-size:24px;"></i>
+<pre style="font-weight:bold"><code>
+\koolreport\apexcharts\TimeLineChart::create(array(
+    "dataSource" => $data,
+    "columns" => [
+        'name' => [
+            'seriesGroup' => true,
+        ],
+        'position',
+        'term' => [
+            'combination' => [
+                'date_start',
+                'date_end',
+            ],
+            'label' => '',
+        ],
+    ]
+));
+</code></pre>
+<i class="fa fa-arrow-down" style="font-size:24px;"></i>
+        <div>
+            <?php
+            \koolreport\apexcharts\TimeLineChart::create(array(
+                "dataSource" => $data,
+                "columns" => [
+                    'name' => [
+                        'seriesGroup' => true,
+                    ],
+                    'position',
+                    'term' => [
+                        'combination' => [
+                            'date_start',
+                            'date_end',
+                        ],
+                        'label' => '',
+                    ],
+                ],
+                "options" => [
+                    'plotOptions | bar' => [
+                        'barHeight' => '50%',
+                        'rangeBarGroupRows' => true
+                    ],
+                    'xaxis | type' => 'datetime',
+                    'legend | position' => 'right',
+                    'tooltip | custom' => "function(opts) {
+                        const fromYear = new Date(opts.y1).getFullYear()
+                        const toYear = new Date(opts.y2).getFullYear()
+                    
+                        const w = opts.ctx.w
+                        let ylabel = w.globals.labels[opts.dataPointIndex]
+                        let seriesName = w.config.series[opts.seriesIndex].name
+                            ? w.config.series[opts.seriesIndex].name
+                            : ''
+                        const color = w.globals.colors[opts.seriesIndex]
+                    
+                        return (
+                            '<div class=\"apexcharts-tooltip-rangebar\">' +
+                            '<div> <span class=\"series-name\" style=\"color: ' +
+                            color +
+                            '\">' +
+                            (seriesName ? seriesName : '') +
+                            '</span></div>' +
+                            '<div> <span class=\"category\">' +
+                            ylabel +
+                            ' </span> <span class=\"value start-value\">' +
+                            fromYear +
+                            '</span> <span class=\"separator\">-</span> <span class=\"value end-value\">' +
+                            toYear +
+                            '</span></div>' +
+                            '</div>'
+                        )
+                    }"
+                ],
+                "uniqueCategories" => true,
+                'colors' => [
+                    '#008FFB',
+                    '#00E396',
+                    '#FEB019',
+                    '#FF4560',
+                    '#775DD0',
+                    '#3F51B5',
+                    '#546E7A',
+                    '#D4526E',
+                    '#8D5B4C',
+                    '#F86624',
+                    '#D7263D',
+                    '#1B998B',
+                    '#2E294E',
+                    '#F46036',
+                    '#E2C044'
+                ],
+                'fillType' => 'solid',
+                // "showLegend" => false,
+                // "showLabel" => true,
+                // "height" => "600px",
+                // "width" => "85%",
+                "maxWidth" => "800px",
+            ));
+            ?>
+        </div>
     </div>
 
 </div>

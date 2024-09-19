@@ -5,7 +5,7 @@
     <div class="text-center">
         <h1>DataTables Searching</h1>
         <p class="lead">
-        The example show how to turn on the searching feature of DataTables.
+        This example shows how to turn on the searching feature of DataTables.
         </p>
     </div>
     
@@ -13,8 +13,10 @@
     DataTables::create(array(
         "dataSource"=>$this->dataStore("employees"),
         "options"=>array(
-            "searching"=>true
-        )
+            "searching"=>true,
+        ),
+        "searchOnEnter" => true,
+        "searchMode" => "or"
     ));
     ?>
 </div>

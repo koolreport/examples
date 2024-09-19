@@ -1,5 +1,5 @@
 {
-    "title":"DataTables Column Reorder",
+    "title":"How to use DataTables Column Reorder",
     "description":"The example shows how to ket user reoder column by dragging",
     "keywords":[["datagrid"],"datatables colreorder"],
     "breadcrumb":{"DataGrid":"javascript:void 0"},

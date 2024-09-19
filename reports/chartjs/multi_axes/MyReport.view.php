@@ -76,7 +76,7 @@
         ),
         "colorTheme" => ["#3366CC", "#DC3912"]
     ));
-    echo "<p>";
+    echo '</div><div style="margin-bottom:50px;">';
 
     ColumnChart::create(array(
         "title" => "Multi-axis Column Chart",
@@ -132,7 +132,7 @@
         ),
         "colorTheme" => ["#3366CC", "#DC3912"]
     ));
-    echo "<p>";
+    echo '</div><div style="margin-bottom:50px;">';
 
     LineChart::create(array(
         "title" => "Multi-axis Line Chart",
@@ -198,7 +198,7 @@
         ),
         "colorTheme" => ["#3366CC", "#DC3912"]
     ));
-    echo "<p>";
+    echo '</div><div style="margin-bottom:50px;">';
 
     ComboChart::create(array(
         "title" => "Multi-axis Combo Chart",

@@ -1,0 +1,12 @@
+{
+    "title":"Other charts: Scatter-Multi axis",
+    "description":"This example shows how to create ScatterChart of Chartjs with multi axis",
+    "keywords":[["charts"],["chartjs"]],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

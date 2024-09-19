@@ -31,13 +31,13 @@
         "columns"=>array(
             "category",
             "sale"=>array("label"=>"Sale","type"=>"number","prefix"=>"$"),
-            "saleAnno1" => array(
+            "saleAnnotation1" => array(
                 "role" => "annotation",
                 "formatValue" => function($value, $row) {
                     return $row["sale"];
                 },
             ),
-            "saleAnno2" => array(
+            "saleAnnotation2" => array(
                 "role" => "annotation",
                 "formatValue" => function($value, $row) {
                     return $row["category"] . ":";

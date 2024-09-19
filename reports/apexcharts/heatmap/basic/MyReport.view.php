@@ -15,8 +15,8 @@
         $data = [
             [
                 'Metric_name',
-                'Metrix_x',
-                'Metrix_y',
+                'Metric_x',
+                'Metric_y',
             ],
             [
                 "Metric1",
@@ -829,30 +829,59 @@
                 0
             ]
         ];
-        \koolreport\apexcharts\HeatMapChart::create(array(
-            "title" => "HeatMap Chart (Single color)",
-            "dataSource" => $data,
-            "columns" => array(
-                "Metric_name" => [
-                    "seriesGroup" => true,
-                ],
-                "Metrix_x" => [
-                    'categoryType' => 'category',
-                ],
-                "Metrix_y" => [
-                    'label' => ''
-                ],
-            ),
-            "options" => [],
-            "colors" => ["#008FFB"],
-            'widthHeightAutoRatio' => 1.8,
-            // "showLegend" => false,
-            // "showLabel" => true,
-            // "height" => "400px",
-            // "width" => "85%",
-            "maxWidth" => "800px",
-        ));
+        // \koolreport\core\Utility::prettyPrint2(array_slice($data, 0, 20));
+        \koolreport\widgets\koolphp\Table::create([
+            'dataSource' => $data,
+            'paging' => true,
+        ]);
         ?>
+        
+<i class="fa fa-arrow-down" style="font-size:24px;"></i>
+<pre style="font-weight:bold"><code>
+\koolreport\apexcharts\HeatMapChart::create(array(
+    "dataSource" => $data,
+    "columns" => array(
+        "Metric_name" => [
+            "seriesGroup" => true,
+        ],
+        "Metric_x" => [
+            'categoryType' => 'category',
+        ],
+        "Metric_y" => [
+            'label' => ''
+        ],
+    )
+));
+</code></pre>
+<i class="fa fa-arrow-down" style="font-size:24px;"></i>
+        <div>
+            <?php
+            \koolreport\apexcharts\HeatMapChart::create(array(
+                "title" => "HeatMap Chart (Single color)",
+                "dataSource" => $data,
+                "columns" => array(
+                    "Metric_name" => [
+                        "seriesGroup" => true,
+                    ],
+                    "Metric_x" => [
+                        'categoryType' => 'category',
+                    ],
+                    "Metric_y" => [
+                        'label' => ''
+                    ],
+                ),
+                "options" => [],
+                "colors" => ["#008FFB"],
+                'widthHeightAutoRatio' => 1.8,
+                // "showLegend" => false,
+                // "showLabel" => true,
+                // "height" => "400px",
+                // "width" => "85%",
+                "maxWidth" => "800px",
+            ));
+            ?>
+        </div>
     </div>
+
 
 </div>

@@ -1,5 +1,5 @@
 {
-    "title":"Sankey Diagrams",
+    "title":"How to draw Google Sankey Diagrams with PHP",
     "description":"The example shows how to use Sankey Diagram",
     "keywords":[["charts"],["googlecharts"],"google sankey diagram","google sankey"],
     "breadcrumb":{"Google Charts":"javascript:void 0"},

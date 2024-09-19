@@ -1,0 +1,12 @@
+{
+    "title":"Other charts: Doughnut",
+    "description":"This example shows how to create basic DonutChart of Chartjs",
+    "keywords":[["charts"],["chartjs"]],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

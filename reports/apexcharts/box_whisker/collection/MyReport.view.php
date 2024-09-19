@@ -1,5 +1,5 @@
 <div id="hidden" style="display: none">
-    <div class="col-div col-lg-6" style="padding: 25px"></div>
+    <div class="col-div col-md-6" style="padding: 25px"></div>
     <?php
     $chartExamples = [
         "basic",

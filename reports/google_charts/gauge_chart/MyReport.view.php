@@ -11,11 +11,16 @@
         
     <?php
     Gauge::create(array(
-        "title"=>"Sale Report on Stack",
         "dataSource"=>array(
             array("label"=>"Memory","value"=>80),
             array("label"=>"CPU","value"=>55),
             array("label"=>"Nework","value"=>68),
+        ),
+        "columns"=>array(
+            "label",
+            "value"=>array(
+                "suffix"=>"%",
+            )
         )
     ));
     ?>

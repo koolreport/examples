@@ -20,7 +20,7 @@ class MyReport extends \koolreport\KoolReport
     {
         $this->src('automaker')
         ->query('select * from customer_product_dollarsales2')
-        ->pipe(new \koolreport\processes\Limit(array(50, 0)))
+        ->pipe(new \koolreport\processes\Limit(array(200, 0)))
         ->pipe($this->dataStore("sales"));
     } 
 

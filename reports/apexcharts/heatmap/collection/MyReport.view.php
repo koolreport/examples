@@ -1,8 +1,10 @@
 <div id="hidden" style="display: none">
-    <div class="col-div col-lg-6" style="padding: 25px"></div>
+    <div class="col-div col-md-6" style="padding: 25px"></div>
     <?php
     $chartExamples = [
         "basic",
+        "basic_data_rows_to_columns",
+        "basic_transpose",
         "multi_color",
         "multi_color_flipped",
         "color_range",
@@ -33,11 +35,14 @@
         var exampleDivs = document.querySelectorAll("#hidden .chart-example");
         exampleDivs.forEach(function(exampleDiv) {
             var exampleName = exampleDiv.getAttribute('example-name');
-            var krwidgets = exampleDiv.querySelectorAll("#hidden krwidget");
+            var krwidgets = exampleDiv.querySelectorAll("#hidden krwidget[widget-type='koolreport/apexcharts/HeatMapChart']");
             krwidgets.forEach(function(krwidget) {
                 var colDivClone = colDiv.cloneNode();
                 colDivClone.appendChild(krwidget.parentElement);
-                colDivClone.innerHTML += "<h6 class='text-center'>" + exampleName + "</h6>";
+                var h6 = document.createElement('h6');
+                h6.className = 'text-center';
+                h6.textContent = exampleName;
+                colDivClone.appendChild(h6);
                 allChartDivs.push(colDivClone);
             });
         });

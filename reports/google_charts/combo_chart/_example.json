@@ -1,6 +1,6 @@
 {
-    "title":"ComboChart",
-    "description":"This example show how to build beautiful ComboChart",
+    "title":"How to draw Google ComboChart with PHP",
+    "description":"This example shows how to build beautiful ComboChart",
     "keywords":[["charts"],["googlecharts"],"google combo chart"],
     "breadcrumb":{"Google Charts":"javascript:void 0"},
     "meta":{

@@ -71,7 +71,7 @@
     ?>
     </div>
     
-
+    <div style="margin-bottom:50px;">
     <?php
     PieChart::create(array(
         "title"=>"Sale Of Category",
@@ -92,5 +92,6 @@
         )
     ));
     ?>
+    </div>
 
 </div>

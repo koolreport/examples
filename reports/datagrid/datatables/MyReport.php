@@ -21,6 +21,10 @@ class MyReport extends \koolreport\KoolReport
         $this->src('automaker')
         ->query("SELECT employeeNumber, firstName,lastName,jobTitle, extension from employees")
         ->pipe($this->dataStore("employees"));
+
+        $this->src("automaker")
+            ->query("select * from customer_product_dollarsales2 limit 10")
+            ->pipe($this->dataStore("sales"));
     } 
 
 }

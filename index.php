@@ -64,6 +64,7 @@ include "helpers/common.php";
                         <h5><?php echo (strpos($group_name,"</i>")>0)?$group_name:"<i class='icon-layers'></i>$group_name"; ?></h5>
                         <ul class="list-unstyled">
                         <?php
+                        // echo "group: "; print_r($group);
                         foreach($group as $sname=>$surl)
                         {
                             if(is_string($surl))

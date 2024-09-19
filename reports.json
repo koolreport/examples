@@ -218,6 +218,7 @@
                 "Multi Series": "/reports/apexcharts/timeline/multi_series/",
                 "Multiple Ranges": "/reports/apexcharts/timeline/multi_ranges/",
                 "Group Rows": "/reports/apexcharts/timeline/group_rows/",
+                "Group Rows - data rows to columns": "/reports/apexcharts/timeline/group_rows_data_rows_to_columns/",
                 "Dumbbel Horizontal": "/reports/apexcharts/timeline/dumbbel_horizontal/"
             },
             "Funnel": {
@@ -284,6 +285,8 @@
             "HeatMap": {
                 "Collection": "/reports/apexcharts/heatmap/collection/",
                 "Basic": "/reports/apexcharts/heatmap/basic/",
+                "Basic - data rows to columns": "/reports/apexcharts/heatmap/basic_data_rows_to_columns/",
+                "Basic - transpose": "/reports/apexcharts/heatmap/basic_transpose/",
                 "Multi-Color": "/reports/apexcharts/heatmap/multi_color/",
                 "Multi-Color Flipped": "/reports/apexcharts/heatmap/multi_color_flipped/",
                 "Color Range": "/reports/apexcharts/heatmap/color_range/",
@@ -327,21 +330,103 @@
         },
         "<i class='fa fa-line-chart'></i>ChartJs": {
             "Collection": "/reports/chartjs/collection/",
-            "Column": "/reports/chartjs/column_chart/",
-            "Bar": "/reports/chartjs/bar_chart/",
-            "Area": "/reports/chartjs/area_chart/",
-            "Line": "/reports/chartjs/line_chart/",
-            "Pie": "/reports/chartjs/pie_chart/",
-            "Donut": "/reports/chartjs/donut_chart/",
-            "Polar": "/reports/chartjs/polar_chart/",
-            "Radar": "/reports/chartjs/radar_chart/",
-            "Scatter": "/reports/chartjs/scatter_chart/",
-            "Bubble": "/reports/chartjs/bubble_chart/",
-            "Combo": "/reports/chartjs/combo_chart/",
-            "Multi-axis": "/reports/chartjs/multi_axes/",
-            "Timeline": "/reports/chartjs/timeline/",
-            "Overlap Bar": "/reports/chartjs/overlap_barchart/",
-            "Color Scheme": "/reports/chartjs/color_scheme/"
+            "Types" : {
+                "Column": "/reports/chartjs/column_chart/",
+                "Bar": "/reports/chartjs/bar_chart/",
+                "Area": "/reports/chartjs/area_chart/",
+                "Line": "/reports/chartjs/line_chart/",
+                "Pie": "/reports/chartjs/pie_chart/",
+                "Donut": "/reports/chartjs/donut_chart/",
+                "Polar": "/reports/chartjs/polar_chart/",
+                "Radar": "/reports/chartjs/radar_chart/",
+                "Scatter": "/reports/chartjs/scatter_chart/",
+                "Bubble": "/reports/chartjs/bubble_chart/",
+                "Combo": "/reports/chartjs/combo_chart/",
+                "Multi-axis": "/reports/chartjs/multi_axes/",
+                "Timeline": "/reports/chartjs/timeline/",
+                "Overlap Bar": "/reports/chartjs/overlap_barchart/",
+                "Color Scheme": "/reports/chartjs/color_scheme/"
+            },
+            "Bar": {
+                "Vertical": "/reports/chartjs/Bar_Chart_Vertical/",
+                "Horizontal": "/reports/chartjs/Bar_Chart_Horizontal/",
+                "Multi axis": "/reports/chartjs/Bar_Chart_Multi_Axis/",
+                "Stacked": "/reports/chartjs/Bar_Chart_Stacked/",
+                "Stacked groups": "/reports/chartjs/Bar_Chart_Stacked_Groups/"                
+            },
+            "Line": {
+                "Basic": "/reports/chartjs/line_chart_basic/",
+                "Mutli axis": "/reports/chartjs/Line_Chart_Multi_Axis/",
+                "Stepped": "/reports/chartjs/Line_Chart_Stepped/",
+                "Interpolation": "/reports/chartjs/Line_Chart_Interpolation/",
+                "Line styles": "/reports/chartjs/Line_Chart_Line_Styles/",
+                "Point styles": "/reports/chartjs/Line_Chart_Point_Styles/",
+                "Point sizes": "/reports/chartjs/Line_Chart_Point_Sizes/"
+            },
+            "Area": {
+                "Boundaries": "/reports/chartjs/Area_Chart_Boundaries(line)/",
+                "Datasets": "/reports/chartjs/Area_Chart_Datasets(line)/",
+                "Stacked": "/reports/chartjs/Area_Chart_Stacked(line)/",
+                "Radar": "/reports/chartjs/Area_Chart_Radar/"
+            },
+            "Others": {
+                "Scatter": "/reports/chartjs/Other_Chart_Scatter/",
+                "Scatter - Multi axis": "/reports/chartjs/Other_Chart_Scatter_Multi_Axis/",
+                "Doughnut": "/reports/chartjs/Other_Chart_Doughnut/",
+                "Pie": "/reports/chartjs/Other_Chart_Pie/",
+                "Polar area": "/reports/chartjs/Other_Chart_Polar_Area/",
+                "Radar": "/reports/chartjs/Other_Chart_Radar/",
+                "Combo bar/line": "/reports/chartjs/Other_Chart_Combo_Bar_Line/"
+            },
+            "Linear Scale": {
+                "Step size": "/reports/chartjs/Linear_Scale_Step_Size/",
+                "Min & max": "/reports/chartjs/Linear_Scale_Min&Max/",
+                "Min & max (suggested)": "/reports/chartjs/Linear_Scale_Min&Max(suggested)/"
+            },
+            "Logarithmic Scale": {
+                "Line": "/reports/chartjs/Logarithmic_Scale_Line/",
+                "Scatter": "/reports/chartjs/Logarithmic_Scale_Scatter/"
+            },
+            "Time Scale": {
+                "Line": "/reports/chartjs/Time_Scale_Line/",
+                "Line (point data)": "/reports/chartjs/Time_Scale_Line(point_data)/",
+                "Time Series": "/reports/chartjs/Time_Scale_Time_Series/",
+                "Combo": "/reports/chartjs/Time_Scale_Combo/"
+            },
+            "Scale Options": {
+                "Grid lines display": "/reports/chartjs/Scale_Options_Grid_Lines_Display/",
+                "Grid lines style": "/reports/chartjs/Scale_Options_Grid_Lines_Style/",
+                "Multiline labels": "/reports/chartjs/Scale_Options_Multiline_Labels/",
+                "Filtering Labels": "/reports/chartjs/Scale_Options_Filtering_Labels/",
+                "Non numeric Y Axis": "/reports/chartjs/Scale_Options_Non_Numeric_Y_Axis/",
+                "Toggle Scale Type": "/reports/chartjs/Scale_Options_Toggle_Scale_Type/"
+            },
+            "Legend": {
+                "Positioning": "/reports/chartjs/Legend_Positioning/",
+                "Point style": "/reports/chartjs/Legend_Point_Style/",
+                "Callbacks": "/reports/chartjs/Legend_Callbacks/"
+            },
+            "Tooltip": {
+                "Positioning": "/reports/chartjs/Tooltip_Positioning/",
+                "Interactions": "/reports/chartjs/Tooltip_Interactions/",
+                "Callbacks": "/reports/chartjs/Tooltip_Callbacks/",
+                "Border": "/reports/chartjs/Tooltip_Border/",
+                "HTML tooltips (line)": "/reports/chartjs/Tooltip_HTML_Tooltips(line)/",
+                "HTML tooltips (pie)": "/reports/chartjs/Tooltip_HTML_Tooltips(pie)/",
+                "HTML tooltips (points)": "/reports/chartjs/Tooltip_HTML_Tooltips(points)/"
+            },
+            "Scriptable": {
+                "Bar Chart": "/reports/chartjs/Scriptable_Bar_Chart/",
+                "Bubble Chart": "/reports/chartjs/Scriptable_Bubble_Chart/",
+                "Pie Chart": "/reports/chartjs/Scriptable_Pie_Chart/",
+                "Line Chart": "/reports/chartjs/Scriptable_Line_Chart/",
+                "Polar Area Chart": "/reports/chartjs/Scriptable_Polar_Area_Chart/",
+                "Radar Chart": "/reports/chartjs/Scriptable_Radar_Chart/"
+            },
+            "Advanced": {
+                "Progress bar": "/reports/chartjs/Advanced_Progress_Bar/",
+                "Content Security Policy": "/reports/chartjs/Advanced_Content_Security_Policy/"
+            }
         },
         "<i class='fa fa-object-ungroup'></i>ChartTable<span class='badge badge-danger'>NEW</span>": {
             "ChartTable": "/reports/charttable/charttable/"
@@ -349,6 +434,9 @@
         "<i class='fa fa-file-pdf-o'></i>Cloud Export": {
             "Header Footer": "/reports/cloudexport/footer_header/",
             "Page Break": "/reports/cloudexport/page_break/"
+        },
+        "<i class='fa fa-window-restore'></i>Dashboard<span class='badge badge-danger'>NEW</span>": {
+            "Demonstration": "/reports/dashboard/demo/"
         },
         "<i class='fa fa-th'></i>DataGrid": {
             "DataTables": "/reports/datagrid/datatables/",

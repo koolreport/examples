@@ -1,0 +1,7 @@
+#### Create Beautiful Charts with PHP & MySQL
+
+KoolReport's integration with the Google Chart library is a game-changer. With over 30 types of charts pre-wrapped, including LineChart, BarChart, and PieChart, etc.. developers can easily create visually stunning graphs without ever touching the underlying JavaScript. Simply plug your data from any sources including MySQL, excel, CSV.. into our chart-wrapped classes, and we'll handle the rest. By leveraging our framework, you can save precious time and resources while effectively communicating insights to stakeholders.
+
+With our powerful PHP-based wrapper, even novice developers can quickly create dynamic charts that bring data to life. Check out our PHP code to see how easy it is to create the most common chart types. And if Google Charts isn't your thing, we offer other powerful visualization libraries like D3, ChartJS, and Morris Chart. Best of all, KoolReport is released under the MIT license, so you can download it for free and start visualizing your data right away. With KoolReport, the power of data visualization is now in your hands.
+
+[__Get started with KoolReport and Google Charts__](https://www.koolreport.com/getting-started)

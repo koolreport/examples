@@ -1,0 +1,12 @@
+{
+    "title":"Tooltip: Interactions",
+    "description":"This example shows how to create LineChart of Chartjs with different interactions",
+    "keywords":[["charts"],["chartjs"]],
+    "breadcrumb":{"ChartJs":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

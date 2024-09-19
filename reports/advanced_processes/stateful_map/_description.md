@@ -1,8 +1,0 @@
-This example shows how to use mapstate of `Map` process KoolReport. The mapstate will let you remember state of your calculation. The mapState will be extremely useful when you use `Map` process to calculate aggregated values. 
-
-This process is advanced way to transform your data. Using `Map` process, you can controls both meta data of data flow as well as the values. Virtually you can do all most everything with this process. So instead of driving your data through various processes, you may just use `Map` with custom code to reach same result. Of course, since it is more powerful and flexible, it is a little more difficult to use in comparing to other processes. In return, it will make your code shorter and faster and do exactly what you want to do.
-
-In the `"{value}"` property, you define a custom function which recieved `$row` as parameters. Each row of data will be sent to your function before it comes back to the mainstream. Note that the function return an array of rows. If you want to add more rows to data stream, you can do so.
-
-The `"{meta}"` is property which is basically a function that received old meta data. You may process meta data then return a new meta data. Or if there is no change in meta data, you will return exactly the old meta there.
-

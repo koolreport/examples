@@ -1,6 +1,6 @@
 {
-    "title":"DonutChart",
-    "description":"This example show how to create stunning DonutChart",
+    "title":"How to draw Google DonutChart with PHP",
+    "description":"This example shows how to create stunning DonutChart",
     "keywords":[["charts"],["googlecharts"],"google donut chart"],
     "breadcrumb":{"Google Charts":"javascript:void 0"},
     "meta":{

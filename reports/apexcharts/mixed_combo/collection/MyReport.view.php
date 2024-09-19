@@ -1,5 +1,5 @@
 <div id="hidden" style="display: none">
-    <div class="col-div col-lg-6" style="padding: 25px"></div>
+    <div class="col-div col-md-6" style="padding: 25px"></div>
     <?php
     $chartExamples = [
         "line_column",
@@ -37,7 +37,10 @@
             krwidgets.forEach(function(krwidget) {
                 var colDivClone = colDiv.cloneNode();
                 colDivClone.appendChild(krwidget.parentElement);
-                colDivClone.innerHTML += "<h6 class='text-center'>" + exampleName + "</h6>";
+                var h6 = document.createElement('h6');
+                h6.className = 'text-center';
+                h6.textContent = exampleName;
+                colDivClone.appendChild(h6);
                 allChartDivs.push(colDivClone);
             });
         });

@@ -40,6 +40,7 @@
                 "config"=>array(
                     "type"=>"line",//Line chart is draw
                     "borderWidth"=>3,
+                    "backgroundColor" => "rgba(0, 0, 0, 0)",
                 )
             ),
         ),

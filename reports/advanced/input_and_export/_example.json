@@ -1,6 +1,6 @@
 {
-    "title":"Sample",
-    "description":"Sample report",
+    "title":"Inputs and Export",
+    "description":"The example show how to use inputs package to query data and export result to pdf",
     "keywords":[["inputs"],["export"]],
     "meta":{
         "Description":["md","_description.md"],

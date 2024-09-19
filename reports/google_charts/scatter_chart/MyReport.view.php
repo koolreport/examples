@@ -13,7 +13,7 @@
         array(166,77,55),
         array(153,50,77),
         array(166,44,155),
-    )
+    );
 ?>
 <div class="report-content">
     <div class="text-center">

@@ -1,6 +1,6 @@
 {
-    "title":"DonutChart",
-    "description":"This example show how to create stunning DonutChart",
+    "title":"How to draw ChartJs DonutChart",
+    "description":"This example shows how to create stunning DonutChart",
     "keywords":[["charts"],["chartjs"],"php donut chart"],
     "breadcrumb":{"ChartJs":"javascript:void 0"},
     "meta":{
