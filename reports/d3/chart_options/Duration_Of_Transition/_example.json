@@ -1,0 +1,12 @@
+{
+    "title":"D3: Duration Of Transition",
+    "description":"The example show how to create LineChart of D3 with duration of transition",
+    "keywords":[["charts"],["d3"]],
+    "breadcrumb":{"D3 Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

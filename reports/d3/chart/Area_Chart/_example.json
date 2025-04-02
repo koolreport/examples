@@ -1,0 +1,12 @@
+{
+    "title":"D3: Area Chart",
+    "description":"The example show how to create basic AreaChart of D3",
+    "keywords":[["charts"],["d3"],"d3 area chart","php area chart"],
+    "breadcrumb":{"D3 Charts":"javascript:void 0"},
+    "meta":{
+        "Description":["md","_description.md"],
+        "index.php":["php","run.php"],
+        "MyReport.php":["php","MyReport.php"],
+        "MyReport.view.php":["html","MyReport.view.php"]
+    }
+}

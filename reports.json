@@ -113,24 +113,96 @@
         },
         "<i class='fa fa-pie-chart'></i>Google Charts": {
             "Collection": "/reports/google_charts/collection/",
-            "Column Chart": "/reports/google_charts/column_chart/",
-            "Bar Chart": "/reports/google_charts/bar_chart/",
-            "Pie Chart": "/reports/google_charts/pie_chart/",
-            "Donut Chart": "/reports/google_charts/donut_chart/",
-            "Area Chart": "/reports/google_charts/area_chart/",
-            "Stepped Area Chart": "/reports/google_charts/stepped_area_chart/",
-            "Line Chart": "/reports/google_charts/line_chart/",
-            "Geo Chart": "/reports/google_charts/geo_chart/",
-            "Gauge Chart": "/reports/google_charts/gauge_chart/",
-            "Histogram Chart": "/reports/google_charts/histogram_chart/",
-            "Timeline Chart": "/reports/google_charts/timeline_chart/",
-            "Combo Chart": "/reports/google_charts/combo_chart/",
-            "Pareto Chart": "/reports/google_charts/pareto_chart/",
-            "Sankey": "/reports/google_charts/sankey/",
-            "Scatter Chart": "/reports/google_charts/scatter_chart/",
-            "TreeMap": "/reports/google_charts/treemap/",
-            "Color Scheme": "/reports/google_charts/color_scheme/",
-            "Multi Annotation": "/reports/google_charts/multi_annotation/"
+            "Types": {
+                "Column Chart": "/reports/google_charts/column_chart/",
+                "Bar Chart": "/reports/google_charts/bar_chart/",
+                "Pie Chart": "/reports/google_charts/pie_chart/",
+                "Donut Chart": "/reports/google_charts/donut_chart/",
+                "Area Chart": "/reports/google_charts/area_chart/",
+                "Stepped Area Chart": "/reports/google_charts/stepped_area_chart/",
+                "Line Chart": "/reports/google_charts/line_chart/",
+                "Geo Chart": "/reports/google_charts/geo_chart/",
+                "Gauge Chart": "/reports/google_charts/gauge_chart/",
+                "Histogram Chart": "/reports/google_charts/histogram_chart/",
+                "Timeline Chart": "/reports/google_charts/timeline_chart/",
+                "Combo Chart": "/reports/google_charts/combo_chart/",
+                "Pareto Chart": "/reports/google_charts/pareto_chart/",
+                "Sankey": "/reports/google_charts/sankey/",
+                "Scatter Chart": "/reports/google_charts/scatter_chart/",
+                "TreeMap": "/reports/google_charts/treemap/",
+                "Color Scheme": "/reports/google_charts/color_scheme/"
+            },
+            "Column Chart": {
+                "Basic": "/reports/google_charts/column_chart/basic",
+                "Custom Colors": "/reports/google_charts/column_chart/custom_colors",
+                "Custom Axis": "/reports/google_charts/column_chart/custom_axis",
+                "Stacked Columns": "/reports/google_charts/column_chart/stacked_columns",
+                "Trendlines": "/reports/google_charts/column_chart/trendlines"
+            },
+            "Bar Chart": {
+                "Basic": "/reports/google_charts/bar_chart/basic",
+                "Custom Colors": "/reports/google_charts/bar_chart/custom_colors",
+                "Custom Axis": "/reports/google_charts/bar_chart/custom_axis",
+                "Stacked Bars": "/reports/google_charts/bar_chart/stacked_bars"
+            },
+            "Pie Chart": {
+                "Basic": "/reports/google_charts/pie_chart/basic",
+                "Making a 3D": "/reports/google_charts/pie_chart/making_a_3d",
+                "Rotating": "/reports/google_charts/pie_chart/rotating",
+                "Exploding a Slice": "/reports/google_charts/pie_chart/exploding_a_slice",
+                "Slice Visibility Threshold": "/reports/google_charts/pie_chart/slice_visibility_threshold"
+            },
+            "Donut Chart": {
+                "Basic": "/reports/google_charts/donut_chart/basic"
+            },
+            "Area Chart": {
+                "Basic": "/reports/google_charts/area_chart/basic",
+                "Stacked Areas": "/reports/google_charts/area_chart/stacked_areas"
+            },
+            "Stepped Area Chart": {
+                "Basic": "/reports/google_charts/stepped_area_chart/basic",
+                "Stacked": "/reports/google_charts/stepped_area_chart/stacked",
+                "Some Common Options": "/reports/google_charts/stepped_area_chart/some_common_options"
+            },
+            "Line Chart": {
+                "Basic": "/reports/google_charts/line_chart/basic",
+                "Curving": "/reports/google_charts/line_chart/curving",
+                "Custom Background Colors": "/reports/google_charts/line_chart/custom_background_colors",
+                "Custom Axis": "/reports/google_charts/line_chart/custom_axis",
+                "Crosshairs": "/reports/google_charts/line_chart/crosshairs",
+                "Trendlines": "/reports/google_charts/line_chart/trendlines",
+                "Custom Line Styles": "/reports/google_charts/line_chart/custom_line_styles"
+            },
+            "Geo Chart": {
+                "Region": "/reports/google_charts/geo_chart/region"
+            },
+            "Histogram Chart": {
+                "Basic": "/reports/google_charts/histogram_chart/basic"
+            },
+            "Timeline Chart": {
+                "Basic": "/reports/google_charts/timeline_chart/basic",
+                "Labeling the bars": "/reports/google_charts/timeline_chart/labeling_the_bars"
+            },
+            "Sankey": {
+                "Basic": "/reports/google_charts/sankey/basic",
+                "Multilevel": "/reports/google_charts/sankey/multilevel",
+                "Controlling Colors": "/reports/google_charts/sankey/controlling_colors",
+                "Custom Labels": "/reports/google_charts/sankey/custom_labels",
+                "Adjusting Nodes": "/reports/google_charts/sankey/adjusting_nodes"
+            },
+            "Scatter Chart": {
+                "Basic": "/reports/google_charts/scatter_chart/basic",
+                "Custom Points": "/reports/google_charts/scatter_chart/custom_points",
+                "Linear Trendlines": "/reports/google_charts/scatter_chart/linear_trendlines"
+            },
+            "Bubble Chart": {
+                "Basic": "/reports/google_charts/bubble_chart/basic",
+                "Color By Number": "/reports/google_charts/bubble_chart/color_by_numbers",
+                "Custom Labels": "/reports/google_charts/bubble_chart/custom_labels"
+            },
+            "Advanced": {
+                "Multi Annotation": "/reports/google_charts/multi_annotation/"
+            }
         }
     },
     "EXTENDED PACKAGES": {
@@ -462,16 +534,122 @@
             "Row Detail Expand": "/reports/datagrid/row_detail_expand/"
         },
         "<i class='fa fa-pie-chart'></i>D3": {
-            "Collection": "/reports/d3/collection/",
-            "Column Chart": "/reports/d3/column_chart/",
-            "Bar Chart": "/reports/d3/bar_chart/",
-            "Line Chart": "/reports/d3/line_chart/",
-            "Spline Chart": "/reports/d3/spline_chart/",
-            "Area Chart": "/reports/d3/area_chart/",
-            "Pie Chart": "/reports/d3/pie_chart/",
-            "Donut Chart": "/reports/d3/donut_chart/",
-            "Waterfall": "/reports/d3/waterfall/",
-            "Funnel Chart": "/reports/d3/funnel_chart/"
+            "Basic": {
+                "Collection": "/reports/d3/collection/",
+                "Column Chart": "/reports/d3/column_chart/",
+                "Bar Chart": "/reports/d3/bar_chart/",
+                "Line Chart": "/reports/d3/line_chart/",
+                "Spline Chart": "/reports/d3/spline_chart/",
+                "Area Chart": "/reports/d3/area_chart/",
+                "Pie Chart": "/reports/d3/pie_chart/",
+                "Donut Chart": "/reports/d3/donut_chart/",
+                "Waterfall": "/reports/d3/waterfall/",
+                "Funnel Chart": "/reports/d3/funnel_chart/"
+            },
+            "Further": {
+                "Line Chart": "/reports/d3/chart/Line_Chart/",
+                "Timeseries Chart": "/reports/d3/chart/Timeseries_Chart/",
+                "Spline Chart": "/reports/d3/chart/Spline_Chart",
+                "Simple XY Line Chart": "/reports/d3/chart/Simple_XY_Line_Chart",
+                "Multiple XY Line Chart": "/reports/d3/chart/Multiple_XY_Line_Chart",
+                "Line Chart with Regions": "/reports/d3/chart/Line_Chart_With_Regions",
+                "Step Chart": "/reports/d3/chart/Step_Chart",
+                "Area Chart": "/reports/d3/chart/Area_Chart",
+                "Stacked Area Chart": "/reports/d3/chart/Stacked_Area_Chart",
+                "Bar Chart": "/reports/d3/chart/Bar_Chart",
+                "Stacked Bar Chart": "/reports/d3/chart/Stacked_Bar_Chart",
+                "Scatter Plot": "/reports/d3/chart/Scatter_Plot",
+                "Pie Chart": "/reports/d3/chart/Pie_Chart",
+                "Donut Chart": "/reports/d3/chart/Donut_Chart",
+                "Gauge Chart": "/reports/d3/chart/Gauge_Chart",
+                "Combination Chart": "/reports/d3/chart/Combination_Chart"
+            },
+            "Axis": {
+                "Category Axis": "/reports/d3/axis/Category_Axis",
+                "Rotated Axis": "/reports/d3/axis/Rotated_Axis",
+                "Additional Y Axis": "/reports/d3/axis/Additional_Y_Axis",
+                "X Axis Tick Format": "/reports/d3/axis/X_Axis_Tick_Format",
+                "X Axis Tick Count": "/reports/d3/axis/X_Axis_Tick_Count",
+                "X Axis Tick Values": "/reports/d3/axis/X_Axis_Tick_Values",
+                "X Axis Tick Culling": "/reports/d3/axis/X_Axis_Tick_Culling",
+                "X Axis Tick Fitting": "/reports/d3/axis/X_Axis_Tick_Fitting",
+                "X Axis Timezone": "/reports/d3/axis/X_Axis_Timezone",
+                "Rotate X Axis Tick Text": "/reports/d3/axis/Rotate_X_Axis_Tick_Text",
+                "Y Axis Tick Format": "/reports/d3/axis/Y_Axis_Tick_Format",
+                "Padding for Y Axis": "/reports/d3/axis/Padding_For_Y_Axis",
+                "Range for Y Axis": "/reports/d3/axis/Range_For_Y_Axis",
+                "Axis Label": "/reports/d3/axis/Axis_Label",
+                "Axis Label Position": "/reports/d3/axis/Axis_Label_Position"
+            },
+            "Data": {
+                "Column Oriented Data": "/reports/d3/data/Column_Oriented_Data",
+                "Row Oriented Data": "/reports/d3/data/Row_Oriented_Data",
+                "Data from URL": "/reports/d3/data/Data_From_URL",
+                "Category Data": "/reports/d3/data/Category_Data",
+                "Load Data": "/reports/d3/data/Load_Data",
+                "Data Name": "/reports/d3/data/Data_Name",
+                "Data Color": "/reports/d3/data/Data_Color",
+                "Data Order": "/reports/d3/data/Data_Order",
+                "Data Label": "/reports/d3/data/Data_Label",
+                "Data Label Format": "/reports/d3/data/Data_Label_Format",
+                "Number Format Localization": "/reports/d3/data/Number_Format_Localization"
+            },
+            "Grid": {
+                "Grid Lines": "/reports/d3/grid/Grid_Lines",
+                "Optional X Grid Lines": "/reports/d3/grid/Optional_X_Grid_Lines",
+                "Optional Y Grid Lines": "/reports/d3/grid/Optional_Y_Grid_Lines"
+            },
+            "Region": {
+                "Region": "/reports/d3/region/Region",
+                "Region with Timeseries": "/reports/d3/region/Region_With_Timeseries"
+            },
+            "Interaction": {
+                "Sub Chart": "/reports/d3/interaction/Sub_Chart",
+                "Zoom": "/reports/d3/interaction/Zoom"
+            },
+            "Legend": {
+                "Hide Legend": "/reports/d3/legend/Hide_Legend",
+                "Legend Position": "/reports/d3/legend/Legend_Position"
+            },
+            "Tooltip": {
+                "Hide Tooltip": "/reports/d3/tooltip/Hide_Tooltip",
+                "Tooltip Grouping": "/reports/d3/tooltip/Tooltip_Grouping",
+                "Tooltip Format": "/reports/d3/tooltip/Tooltip_Format"
+            },
+            "Chart Options": {
+                "Chart Size": "/reports/d3/chart_options/Chart_Size",
+                "Padding": "/reports/d3/chart_options/Padding",
+                "Color Pattern": "/reports/d3/chart_options/Color_Pattern",
+                "Duration of Transition": "/reports/d3/chart_options/Duration_Of_Transition"
+            },
+            "Line Chart Options": {
+                "Hide Points": "/reports/d3/line_chart_options/Hide_Points"
+            },
+            "Pie Chart Options": {
+                "Pie Label Format": "/reports/d3/pie_chart_options/Pie_Label_Format"
+            },
+            "API": {
+                "Flow": "/reports/d3/api/Flow",
+                "Data Name": "/reports/d3/api/Data_Name",
+                "Data Color": "/reports/d3/api/Data_Color",
+                "Axis Label": "/reports/d3/api/Axis_Label",
+                "Axis Range": "/reports/d3/api/Axis_Range",
+                "Resize": "/reports/d3/api/Resize",
+                "X Grid": "/reports/d3/api/X_Grid"
+            },
+            "Transform": {
+                "To Line Chart": "/reports/d3/transform/To_Line_Chart",
+                "To Spline Chart": "/reports/d3/transform/To_Spline_Chart",
+                "To Bar Chart": "/reports/d3/transform/To_Bar_Chart",
+                "To Area Chart": "/reports/d3/transform/To_Area_Chart",
+                "To Area Spline Chart": "/reports/d3/transform/To_Area_Spline_Chart",
+                "To Pie Chart": "/reports/d3/transform/To_Pie_Chart",
+                "To Donut Chart": "/reports/d3/transform/To_Donut_Chart"
+            },
+            "Style": {
+                "Style for Region": "/reports/d3/style/Style_For_Region",
+                "Style for Grid": "/reports/d3/style/Style_For_Grid"
+            }
         },
         "<i class='fa fa-file-excel-o'></i>Excel": {
             "CSV Exportable": "/reports/excel/csv_exportable/",

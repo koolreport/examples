@@ -61,7 +61,7 @@ include "helpers/common.php";
                 {
                 ?>
                     <div class="col-md-3 example-group col-sm-6">
-                        <h5><?php echo (strpos($group_name,"</i>")>0)?$group_name:"<i class='icon-layers'></i>$group_name"; ?></h5>
+                        <h5><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"><?php echo (strpos($group_name,"</i>")>0)?$group_name:"<i class='icon-layers'></i>$group_name"; ?></h5>
                         <ul class="list-unstyled">
                         <?php
                         // echo "group: "; print_r($group);
@@ -70,6 +70,7 @@ include "helpers/common.php";
                             if(is_string($surl))
                             {
                             ?>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <li><a href="<?php echo $root_url.$surl; ?>"><?php echo $sname; ?></a></li>
                             <?php
                             }
@@ -81,12 +82,13 @@ include "helpers/common.php";
                                 $idName = str_replace("&", "", $idName);
                             ?>
                                 <li>
-                                    <strong><i class='fa fa-plus-square-o' data-toggle="collapse" data-target="#<?php echo $idName; ?>" onclick="toggleExpandCollapse(this);"></i> <?php echo $sname; ?></strong>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"><strong><i class='fa fa-plus-square-o' data-toggle="collapse" data-target="#<?php echo $idName; ?>" onclick="toggleExpandCollapse(this);"></i> <?php echo $sname; ?></strong>
                                     <ul class="list-unstyled collapse" id="<?php echo $idName; ?>">
                                     <?php
                                     foreach($surl as $tname=>$turl)
                                     {
                                     ?>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                         <li><a href="<?php echo $root_url.$turl; ?>"><?php echo $tname; ?></a></li>
                                     <?php    
                                     }
