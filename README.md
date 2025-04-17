@@ -2,15 +2,9 @@
 
 These examples demonstrate the usage of KoolReport Framework and its extended packages.
 
-## About KoolReport
+Demo: [https://www.koolreport.com/examples-all](https://www.koolreport.com/examples-all)
 
-KoolReport is an intuitive and flexible Open-Source PHP Reporting Framework for faster and easier report delivery. It gives you full control of data process as well as data visualization. It is fast, simple and can be extended in many ways.
-
-KoolReport is free and open source released under MIT license.
-
-* Website: [https://www.koolreport.com](https://www.koolreport.com/)
-* Documentation: [https://www.koolreport.com/docs](https://www.koolreport.com/docs)  
-* Online Examples: [https://www.koolreport.com/examples](https://www.koolreport.com/examples/)
+![examples-all](examples-all.png)
 
 ## How to install example
 
@@ -34,6 +28,16 @@ The simplest way to get example running is to download the [KoolReport & Example
 ## Notes
 
 Since the example is for both KoolReport core and extended packages. The examples for extended packages may not work because extended package has not been installed. If example requires a package to run, you may look for the package in our [Extended Packages](https://www.koolreport.com/packages).
+
+## About KoolReport
+
+KoolReport is an intuitive and flexible Open-Source PHP Reporting Framework for faster and easier report delivery. It gives you full control of data process as well as data visualization. It is fast, simple and can be extended in many ways.
+
+KoolReport is free and open source released under MIT license.
+
+* Website: [https://www.koolreport.com](https://www.koolreport.com/)
+* Documentation: [https://www.koolreport.com/docs](https://www.koolreport.com/docs)  
+* Online Examples: [https://www.koolreport.com/examples](https://www.koolreport.com/examples/)
 
 ## Support
 
