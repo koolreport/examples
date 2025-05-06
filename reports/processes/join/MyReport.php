@@ -4,6 +4,11 @@ require_once "../../../load.koolreport.php";
 
 use \koolreport\processes\ColumnMeta;
 use \koolreport\processes\Join;
+use \koolreport\processes\InnerJoin;
+use \koolreport\processes\LeftJoin;
+use \koolreport\processes\RightJoin;
+use \koolreport\processes\OuterJoin;
+use \koolreport\processes\FullJoin;
 
 //Step 2: Creating Report class
 class MyReport extends \koolreport\KoolReport
@@ -17,10 +22,11 @@ class MyReport extends \koolreport\KoolReport
                     "dataFormat"=>"table",
                     "data"=>array(
                         array("first_id","name"),
-                        array(1,"John"),
-                        array(2,"Marry"),
-                        array(3,"Peter"),
-                        array(4,"Donald"),
+                        array("key_1","John"),
+                        // array("key_2","Marry"),
+                        array("key_3","Peter"),
+                        // array("key_4","Donald"),
+                        array("key_5","May"),
                     )
                 ),
                 "second"=>array(
@@ -28,10 +34,11 @@ class MyReport extends \koolreport\KoolReport
                     "dataFormat"=>"table",
                     "data"=>array(
                         array("second_id","income"),
-                        array(1,50000),
-                        array(2,60000),
-                        array(3,100000),
-                        array(4,80000),
+                        array("key_1",50000),
+                        array("key_2",60000),
+                        // array("key_3",100000),
+                        array("key_4",80000),
+                        array("key_5",90000),
                     )
                 ),
             )
@@ -46,9 +53,18 @@ class MyReport extends \koolreport\KoolReport
         $first->pipe($this->dataStore("first"));
         $second->pipe($this->dataStore("second"));
 
-        //Save orginal data
         $join = new Join($first,$second,array("first_id"=>"second_id"));
-        
-        $join->pipe($this->dataStore("result"));
+        $join->pipe($this->dataStore("join_result"));
+
+        // $join = new InnerJoin($first,$second,array("first_id"=>"second_id"));
+        $leftjoin = new LeftJoin($first,$second,array("first_id"=>"second_id"));
+        $leftjoin->pipe($this->dataStore("leftjoin_result"));
+
+        $rightjoin = new RightJoin($first,$second,array("first_id"=>"second_id"));
+        $rightjoin->pipe($this->dataStore("rightjoin_result"));
+
+        // $join = new OuterJoin($first,$second,array("first_id"=>"second_id"));
+        $fulljoin = new FullJoin($first,$second,array("first_id"=>"second_id"));
+        $fulljoin->pipe($this->dataStore("fulljoin_result"));
     }
 }

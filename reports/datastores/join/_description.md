@@ -1,1 +1,1 @@
-The `join()` method of DataStore can help to datastore to join with another on matching keys and produce a new datastore which is join of this two datastores.
+The `join()`, `leftJoin()`, `rightJoin()`, `fullJoin()` methods of DataStore can help to datastore to join with another on matching keys and produce a new datastore which is a combination of this two datastores.

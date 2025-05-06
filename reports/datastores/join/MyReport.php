@@ -17,10 +17,11 @@ class MyReport extends \koolreport\KoolReport
                     "dataFormat"=>"table",
                     "data"=>array(
                         array("first_id","name"),
-                        array(1,"John"),
-                        array(2,"Marry"),
-                        array(3,"Peter"),
-                        array(4,"Donald"),
+                        array("key_1","John"),
+                        // array("key_2","Marry"),
+                        array("key_3","Peter"),
+                        // array("key_4","Donald"),
+                        array("key_5","May"),
                     )
                 ),
                 "second"=>array(
@@ -28,10 +29,11 @@ class MyReport extends \koolreport\KoolReport
                     "dataFormat"=>"table",
                     "data"=>array(
                         array("second_id","income"),
-                        array(1,50000),
-                        array(2,60000),
-                        array(3,100000),
-                        array(4,80000),
+                        array("key_1",50000),
+                        array("key_2",60000),
+                        // array("key_3",100000),
+                        array("key_4",80000),
+                        array("key_5",90000),
                     )
                 ),
             )

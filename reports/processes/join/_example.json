@@ -1,6 +1,6 @@
 {
     "title":"How to use Join process",
-    "description":"The example show you how to use the Join process",
+    "description":"The example show you how to use the Join, LeftJoin, RightJoin, FullJoin processes",
     "keywords":[["general"],"join table","data joining"],
     "breadcrumb":{"Processes":"javascript:void 0"},
     "meta":{

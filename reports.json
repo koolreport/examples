@@ -89,13 +89,13 @@
             "Others": {
                 "Custom": "/reports/processes/custom/",
                 "Group": "/reports/processes/group/",
-                "Join": "/reports/processes/join/"
+                "Join processes": "/reports/processes/join/"
             }
         },
         "<i class='fa fa-archive'></i>DataStores": {
-            "Aggregated Methods": "/reports/datastores/aggregated_methods/",
-            "Filter Methods": "/reports/datastores/filter_methods/",
-            "Join Method": "/reports/datastores/join/"
+            "Aggregated methods": "/reports/datastores/aggregated_methods/",
+            "Filter methods": "/reports/datastores/filter_methods/",
+            "Join methods": "/reports/datastores/join/"
         },
         "<i class='icon-grid'></i>Card": {
             "Card": "/reports/koolphp_card/card/"
