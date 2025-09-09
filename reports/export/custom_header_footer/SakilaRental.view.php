@@ -31,7 +31,7 @@
     ));
     ?>
     <?php
-        PieChart::create(array(
+    PieChart::create(array(
         "title"=>"Sale Report",
         "dataStore"=>$this->dataStore('sale_by_month'),  
         "columns"=>array(

@@ -106,7 +106,7 @@ include "helpers/common.php";
                             }
                             else
                             {
-                                $idName = $sname;
+                                $idName = strip_tags($section_name) . '_' . strip_tags($group_name) . '_' . $sname;
                                 $idName = str_replace(" ", "", $idName);
                                 $idName = str_replace("/", "", $idName);
                                 $idName = str_replace("&", "", $idName);

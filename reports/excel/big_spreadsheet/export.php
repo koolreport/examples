@@ -12,6 +12,6 @@ if ($type === 'XLSX') {
     $report->exportToODS('MyReportSpreadsheet')
     ->toBrowser("MyReport.ods");
 } elseif ($type === 'CSV') {
-    $report->exportToCSV('MyReportSpreadsheet')
+    $report->exportToBigCSV('MyReportSpreadsheet')
     ->toBrowser("MyReport.csv");
 }

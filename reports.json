@@ -534,8 +534,8 @@
             "Row Detail Expand": "/reports/datagrid/row_detail_expand/"
         },
         "<i class='fa fa-pie-chart'></i>D3": {
+            "Collection": "/reports/d3/collection/",
             "Basic": {
-                "Collection": "/reports/d3/collection/",
                 "Column Chart": "/reports/d3/column_chart/",
                 "Bar Chart": "/reports/d3/bar_chart/",
                 "Line Chart": "/reports/d3/line_chart/",
@@ -712,6 +712,9 @@
             "Widget Map": "/reports/pivot/widget_map/",
             "Widget Field Order": "/reports/pivot/widget_field_order/",
             "PivotSQL": "/reports/pivot/pivotsql/"
+        },
+        "<i class='fa fa-file-pdf-o'></i>Printpdf": {
+            "Header / Footer": "/reports/printpdf/header_footer/"
         },
         "<i class='fa fa-area-chart'></i>Sparklines": {
             "Introduction": "/reports/sparklines/introduction/",

@@ -7,6 +7,10 @@ class MyReport extends \koolreport\KoolReport
 {
     use \koolreport\visualquery\Bindable;
 
+    protected $queryStr;
+    protected $paramQuery;
+    protected $sqlParams;
+
     public function defineSchemas()
     {
         return [
